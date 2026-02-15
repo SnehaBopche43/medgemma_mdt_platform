@@ -1,0 +1,26 @@
+{
+  "request_id": "6e432585",
+  "recommendation_type": "imaging_analysis",
+  "recommendation_data": {
+    "case_id": "CRC-003",
+    "analysis_type": "imaging_analysis",
+    "result": {
+      "modality": "CT Abdomen/Pelvis with Contrast + Colonoscopy",
+      "findings": [
+        "Circumferential mass in sigmoid colon, 5 cm in length",
+        "Bowel wall thickening with luminal narrowing",
+        "Multiple enlarged pericolic lymph nodes (largest 1.5 cm)",
+        "Liver: 3 hypodense lesions in right lobe (largest 2.8 cm), suspicious for metastases",
+        "No peritoneal carcinomatosis or ascites",
+        "Lungs clear, no pulmonary metastases"
+      ],
+      "ai_analysis": "1.  **Key Imaging Features for Staging:**\n    *   **Sigmoid Colon Mass:** The size (5 cm) and location are important for assessing the extent of the primary tumor.\n    *   **Bowel Wall Thickening and Luminal Narrowing:** Suggests a significant impact of the tumor on the bowel wall and lumen.\n    *   **Pericolic Lymph Node Enlargement:** Indicates regional lymph node involvement.  The size of the largest lymph node (1.5 cm) provides information about the extent of nodal spread.\n    *   **Liver Metastases:**  The presence of multiple hypodense lesions in the liver confirms distant metastasis.  The size of the largest lesion (2.8 cm) is relevant for assessing the overall burden of metastatic disease.\n\n2.  **Evidence of Local Invasion or Metastasis:**\n    *   **Local Invasion:** Bowel wall thickening and luminal narrowing strongly suggest local invasion of the tumor into the bowel wall and lumen. The 5 cm mass size indicates a significant local extent.\n    *   **Metastasis:** The presence of multiple liver metastases definitively confirms distant metastasis.\n\n3.  **Recommended Additional Imaging if Needed:**\n    *   **Consider MRI of the Liver:** While the CT findings are suggestive of metastases, MRI can provide more detailed information regarding the characteristics of the liver lesions, including their signal characteristics and enhancement patterns. This can help differentiate between benign and malignant lesions.",
+      "impression": "Sigmoid colon mass with regional lymphadenopathy and liver metastases, clinical Stage IV"
+    }
+  },
+  "status": "approved",
+  "created_at": "2026-02-15T16:20:17.003657",
+  "clinician_id": "AUTO_SYSTEM",
+  "approval_notes": "Auto-approved for demo purposes",
+  "approved_at": "2026-02-15T16:20:17.016435"
+}

@@ -1,0 +1,50 @@
+{
+  "request_id": "40a371bc",
+  "timestamp": "2026-02-15T10:47:34.935149",
+  "recommendation_type": "breast_cancer_imaging_analysis",
+  "case_id": "BC-001",
+  "ai_recommendation": {
+    "case_id": "BC-001",
+    "cancer_type": "breast_cancer",
+    "analysis_type": "imaging_analysis",
+    "result": {
+      "modality": "CT Chest with Contrast",
+      "findings": [
+        "3.2 cm irregular mass in upper outer quadrant of right breast",
+        "Spiculated margins suggesting malignancy",
+        "Enlarged right axillary lymph nodes (largest 1.8 cm)",
+        "No evidence of distant metastasis in chest"
+      ],
+      "ai_analysis": "1. **Key imaging features for staging:**\n\n   *   **Size and Location of Primary Tumor:** 3.2 cm mass in upper outer quadrant. This is important for determining the TNM stage.\n   *   **Margins:** Spiculated margins. This suggests that the tumor is infiltrating surrounding tissue, indicating local invasion.\n   *   **Axillary Lymph Node Involvement:** Enlarged right axillary lymph nodes (largest 1.8 cm). Axillary lymph node involvement is a critical indicator of regional spread.\n   *   **Calcifications:** Presence and characteristics of calcifications within the mass. Can be helpful in determining the type of breast cancer.\n   *   **Presence of Skin Changes:** Skin dimpling, retraction, or edema, which can indicate involvement of the skin.\n   *   **Chest CT findings:** No evidence of distant metastasis in the chest.\n   *   **Mediastinal Lymph Nodes:** Evaluation of mediastinal lymph nodes for enlargement or suspicious findings.\n\n2. **Evidence of local invasion or metastasis:**\n\n   *   **Spiculated margins:** Strong evidence of local invasion.\n   *   **Enlarged axillary lymph nodes:** Evidence of regional lymph node involvement.\n   *   **No distant metastasis in chest CT:** This is good, indicating no evidence of metastasis to the lungs at the time of this imaging. However, it doesn't rule out distant metastasis elsewhere in the body.\n\n3",
+      "impression": "Suspicious for invasive breast carcinoma with lymph node involvement"
+    },
+    "references": [
+      {
+        "type": "guideline",
+        "citation": "National Comprehensive Cancer Network. NCCN Clinical Practice Guidelines in Oncology: Breast Cancer. Version 1.2025.",
+        "url": "https://www.nccn.org/guidelines/category_1",
+        "evidence_level": "1A"
+      },
+      {
+        "type": "clinical_trial",
+        "citation": "Trastuzumab Emtansine for Residual Invasive HER2-Positive Breast Cancer. New England Journal of Medicine, 2019. PMID: 30345905",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30345905/",
+        "key_finding": "T-DM1 improved invasive disease-free survival in HER2+ breast cancer with residual disease after neoadjuvant therapy",
+        "evidence_level": "1B"
+      },
+      {
+        "type": "clinical_trial",
+        "citation": "Abemaciclib Combined With Endocrine Therapy for HR+/HER2- Early Breast Cancer. Journal of Clinical Oncology, 2021. PMID: 34097453",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34097453/",
+        "key_finding": "Abemaciclib + endocrine therapy improved invasive disease-free survival in high-risk HR+/HER2- early breast cancer",
+        "evidence_level": "1B"
+      }
+    ]
+  },
+  "status": "approved",
+  "clinician_decision": "approved",
+  "clinician_notes": "Auto-approved for demo purposes",
+  "edited_recommendation": null,
+  "decision_timestamp": "2026-02-15T10:47:34.945694",
+  "clinician_id": "AUTO_SYSTEM"
+}

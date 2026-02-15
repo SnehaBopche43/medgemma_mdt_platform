@@ -1,0 +1,38 @@
+{
+  "request_id": "72c7d831",
+  "timestamp": "2026-02-15T10:56:37.585212",
+  "recommendation_type": "colorectal_cancer_imaging_analysis",
+  "case_id": "CRC-003",
+  "ai_recommendation": {
+    "case_id": "CRC-003",
+    "cancer_type": "colorectal_cancer",
+    "analysis_type": "imaging_analysis",
+    "result": {
+      "modality": "CT Abdomen/Pelvis with Contrast + Colonoscopy",
+      "findings": [
+        "Circumferential mass in sigmoid colon, 5 cm in length",
+        "Bowel wall thickening with luminal narrowing",
+        "Multiple enlarged pericolic lymph nodes (largest 1.5 cm)",
+        "Liver: 3 hypodense lesions in right lobe (largest 2.8 cm), suspicious for metastases",
+        "No peritoneal carcinomatosis or ascites",
+        "Lungs clear, no pulmonary metastases"
+      ],
+      "ai_analysis": "1.  **Key imaging features for staging:**\n    *   **Colorectal Mass:** Size (5 cm) and location (sigmoid colon).\n    *   **Pericolic Lymphadenopathy:** Enlarged lymph nodes are a key indicator of regional spread, and size is important to assess the extent of the disease.\n    *   **Liver Metastases:** Found in the right lobe, with the largest lesion being 2.8 cm.\n    *   **Bowel Wall Thickening and Luminal Narrowing:** Suggests local invasion.\n\n2.  **Evidence of local invasion or metastasis:**\n\n    *   **Evidence of Local Invasion:** Bowel wall thickening and luminal narrowing in the sigmoid colon.\n    *   **Evidence of Metastasis:** Multiple enlarged pericolic lymph nodes (likely regional lymph node involvement) and liver metastases.\n\n3.  **Recommended additional imaging if needed:**\n\n    *   **MRI Abdomen/Pelvis with Contrast:** If the CT findings are equivocal, MRI can provide more detailed assessment of the liver metastases.\n    *   **PET/CT Scan:** A PET/CT scan could be helpful to further assess the extent of the disease, including assessing for distant metastases or metabolic activity in the liver lesions. This would provide a more comprehensive assessment of the staging. This is especially important if the patient is to proceed to surgery.\n\n    *   **Consideration of Endoscopic Ultrasound (EUS):**",
+      "impression": "Sigmoid colon mass with regional lymphadenopathy and liver metastases, clinical Stage IV"
+    },
+    "references": [
+      {
+        "type": "guideline",
+        "citation": "National Comprehensive Cancer Network. NCCN Clinical Practice Guidelines in Oncology: Colon Cancer. Version 1.2025.",
+        "url": "https://www.nccn.org/guidelines/category_1",
+        "evidence_level": "1A"
+      }
+    ]
+  },
+  "status": "approved",
+  "clinician_decision": "approved",
+  "clinician_notes": "Auto-approved for demo purposes",
+  "edited_recommendation": null,
+  "decision_timestamp": "2026-02-15T10:56:37.593532",
+  "clinician_id": "AUTO_SYSTEM"
+}

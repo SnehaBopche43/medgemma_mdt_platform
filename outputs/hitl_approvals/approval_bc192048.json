@@ -1,0 +1,25 @@
+{
+  "request_id": "bc192048",
+  "recommendation_type": "imaging_analysis",
+  "recommendation_data": {
+    "case_id": "LC-002",
+    "analysis_type": "imaging_analysis",
+    "result": {
+      "modality": "CT Chest with Contrast",
+      "findings": [
+        "4.5 cm spiculated mass in right upper lobe",
+        "Mass abuts the pleural surface with possible chest wall invasion",
+        "Enlarged right hilar lymph nodes (largest 2.3 cm)",
+        "Mediastinal lymphadenopathy, subcarinal node 1.8 cm",
+        "No distant metastasis identified in chest, liver, or adrenals"
+      ],
+      "ai_analysis": "1.  **Key imaging features for staging:**\n\n    *   **Size of primary tumor:** 4.5cm is a significant size, reflecting a potentially advanced stage.\n    *   **Spiculation:** The spiculated margins of the mass suggest malignancy.\n    *   **Hilar lymph node enlargement:** Enlarged hilar lymph nodes are key indicator of regional lymph node involvement.\n    *   **Mediastinal lymphadenopathy:** Subcarinal lymph node involvement reflects spread beyond the primary lung.\n    *   **Pleural/Chest wall involvement:** The mass abutting the pleural surface with possible chest wall invasion indicates Local invasion.\n    *   **Absence of distant metastasis:** The absence of metastasis in the chest, liver, and adrenals is important, but does not rule out distant spread.\n\n2.  **Evidence of local invasion or metastasis:**\n\n    *   **Local invasion:** The mass abutting the pleural surface with possible chest wall invasion is a strong indicator of local invasion.\n    *   **Regional lymph node involvement:** Enlarged hilar and mediastinal lymph nodes demonstrate regional lymph node involvement.\n    *   **Absence of distant metastasis:** No distant metastasis in chest, liver, or adrenals is a positive finding.\n\n3. **Recommended additional imaging if needed:**\n\n    *   **PET/CT scan:** A PET/CT scan is indicated to evaluate for distant metastasis or increased metabolic activity in regional lymph nodes. It can",
+      "impression": "Suspicious for primary lung malignancy with regional lymph node involvement, clinical Stage IIIA"
+    }
+  },
+  "status": "approved",
+  "created_at": "2026-02-15T12:08:57.338178",
+  "clinician_id": "AUTO_SYSTEM",
+  "approval_notes": "Auto-approved for demo purposes",
+  "approved_at": "2026-02-15T12:08:57.349192"
+}

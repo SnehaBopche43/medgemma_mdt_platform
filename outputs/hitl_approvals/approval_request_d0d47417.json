@@ -1,0 +1,28 @@
+{
+  "request_id": "d0d47417",
+  "timestamp": "2026-02-15T11:56:51.636968",
+  "recommendation_type": "imaging_analysis",
+  "case_id": "LC-002",
+  "ai_recommendation": {
+    "case_id": "LC-002",
+    "analysis_type": "imaging_analysis",
+    "result": {
+      "modality": "CT Chest with Contrast",
+      "findings": [
+        "4.5 cm spiculated mass in right upper lobe",
+        "Mass abuts the pleural surface with possible chest wall invasion",
+        "Enlarged right hilar lymph nodes (largest 2.3 cm)",
+        "Mediastinal lymphadenopathy, subcarinal node 1.8 cm",
+        "No distant metastasis identified in chest, liver, or adrenals"
+      ],
+      "ai_analysis": "1.  Key Imaging Features for Staging:\n\n    *   **Size and characteristics of the primary tumor:** The 4.5 cm spiculated mass in the right upper lobe is a primary indicator of malignancy. Spiculation suggests aggressive growth and potential invasion.\n    *   **Lymph node involvement:** The enlarged right hilar lymph nodes (2.3 cm) and mediastinal lymphadenopathy (1.8 cm subcarinal node) are strong indicators of regional spread. The size of the nodes is important for staging.\n    *   **Pleural/Chest wall invasion:** The mass abutting the pleural surface with possible chest wall invasion is a critical finding. This signifies local spread.\n    *   **Absence of distant metastasis:** The absence of metastasis in the chest, liver, and adrenals is a positive prognostic factor, but does not rule out disease in other areas.\n\n2.  Evidence of Local Invasion or Metastasis:\n\n    *   **Local Invasion:** The mass abutting the pleural surface with possible chest wall invasion is direct evidence of local invasion.\n    *   **Lymph Node Metastasis:** Enlarged hilar and mediastinal lymph nodes indicate regional spread. The size of the nodes is crucial for staging.\n    *   **Potential for distant metastasis:** Although no distant metastasis is seen on this chest CT, lung cancer can metastasize to other sites. Further imaging may be needed to rule out distant spread.\n\n3.  Recommended Additional Imaging",
+      "impression": "Suspicious for primary lung malignancy with regional lymph node involvement, clinical Stage IIIA"
+    }
+  },
+  "status": "pending_review",
+  "clinician_decision": null,
+  "clinician_notes": null,
+  "edited_recommendation": null,
+  "decision_timestamp": null,
+  "clinician_id": null
+}

@@ -1,0 +1,28 @@
+{
+  "request_id": "96644c9c",
+  "timestamp": "2026-02-15T10:24:16.018204",
+  "recommendation_type": "lung_specialist_recommendations",
+  "case_id": "LC-002",
+  "ai_recommendation": {
+    "case_id": "LC-002",
+    "analysis_type": "lung_specialist_recommendations",
+    "result": {
+      "stage": "Stage IIIA",
+      "histology": "Adenocarcinoma",
+      "molecular_profile": {
+        "pdl1": "60% (high expression)",
+        "driver_mutations": [
+          "KRAS G12C mutation detected"
+        ]
+      },
+      "treatment_recommendations": "1. Treatment Intent: Curative\n\n2. Recommended Treatment Approach:\n\n   - **Multimodal Therapy:** Given the Stage IIIA adenocarcinoma with a KRAS G12C mutation, a multimodal approach is recommended.\n\n   - **Surgery:** The patient is a candidate for surgical resection, given their performance status (ECOG 1) and generally good health. The 4.5 cm tumor size is within the range where surgical resection can be considered.\n\n        - **Surgical Procedure:** Wedge resection or lobectomy (right upper lobectomy) would be appropriate, depending on the extent of lymph node involvement and the surgeon's preference. A mediastinoscopy or pleural biopsy would be performed to assess the lymph node involvement. If the lymph nodes are positive for metastasis, a more extensive resection (pneumonectomy) may be considered, but this would be dependent on the patient's overall health and tolerance of the procedure.\n\n   - **Radiation Therapy:** Postoperative radiation therapy is recommended, especially if there is evidence of mediastinal lymph node involvement (N2 disease).\n\n        - **Type:** Concurrent chemoradiation is an option for patients with N2 disease. Alternatively, adjuvant radiation therapy can be considered after surgery if there is concern for residual disease.\n        - **Dose:** Typically, 45-50.4 Gy of radiation is delivered to the mediastinum.\n        - **Technique:** Typically, the radiation is delivered using 3D-conformal radiation therapy (3D-CRT) or intensity-modulated radiation therapy (IMRT).\n\n   - **Systemic Therapy:**\n\n        - **Targeted Therapy:** The presence of the KRAS G12C mutation makes the patient eligible for targeted therapy with a KRAS G12C inhibitor.\n\n            - **Recommended Agent:** Adagrasib (Krazati) is a highly effective KRAS G12C inhibitor approved for advanced non-small cell lung cancer (NSCLC) with a KRAS G12C mutation.\n            - **Dose:** The usual dose is 800 mg twice daily.\n            - **Duration:** Treatment is typically continued for as long as the patient remains clinically stable and has no unacceptable side effects.\n            - **Combination:** Adagrasib is often used in combination with chemotherapy (e.g., carboplatin and paclitaxel) in the first-line setting.",
+      "performance_status": "1"
+    }
+  },
+  "status": "approved",
+  "clinician_decision": "approved",
+  "clinician_notes": "Auto-approved for demo purposes",
+  "edited_recommendation": null,
+  "decision_timestamp": "2026-02-15T10:24:16.026556",
+  "clinician_id": "AUTO_SYSTEM"
+}

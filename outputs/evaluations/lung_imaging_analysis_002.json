@@ -1,0 +1,12 @@
+{
+  "modality": "CT Chest with Contrast",
+  "findings": [
+    "4.5 cm spiculated mass in right upper lobe",
+    "Mass abuts the pleural surface with possible chest wall invasion",
+    "Enlarged right hilar lymph nodes (largest 2.3 cm)",
+    "Mediastinal lymphadenopathy, subcarinal node 1.8 cm",
+    "No distant metastasis identified in chest, liver, or adrenals"
+  ],
+  "ai_analysis": "1.  Primary tumor characteristics:\n    *   Size: 4.5 cm\n    *   Location: Right upper lobe\n    *   Growth pattern: Spiculated\n\n2.  Lymph node involvement and mediastinal assessment:\n    *   Right hilar lymph nodes: Enlarged, largest 2.3 cm\n    *   Subcarinal node: 1.8 cm\n\n3.  Evidence of local invasion:\n    *   Mass abuts the pleural surface.\n    *   Possible chest wall invasion.\n\n4.  Metastatic disease evaluation:\n    *   No distant metastasis identified in chest, liver, or adrenals.\n\n5.  TNM staging assessment based on imaging:\n    *   T: T2 (Based on size and local invasion)\n    *   N: N2 (Based on hilar and subcarinal lymph node involvement, with at least one node > 3 cm)\n    *   M: M0 (No distant metastasis)\n    *   Clinical Stage: IIIA\n\n6.  Recommended additional imaging if needed:\n    *   Brain MRI: To rule out brain metastasis given the advanced stage.\n    *   PET-CT: To further evaluate for distant metastases, particularly in the adrenal glands and other areas not adequately visualized on chest CT.\n\nFinal Answer:\n\n1.  Primary tumor characteristics:\n    *   Size: 4.5 cm\n    *   Location: Right upper lobe\n    *   Growth pattern: Spiculated\n\n2.  Lymph node involvement and mediastinal assessment:\n    *   Right hilar lymph nodes: Enlarged, largest 2.3 cm\n    *   Subcarinal node: 1.8 cm\n    *   Mediastinal lymphadenopathy, subcarinal node 1.8 cm\n\n3.  Evidence of local invasion:\n    *   Mass abuts the pleural surface",
+  "impression": "Suspicious for primary lung malignancy with regional lymph node involvement, clinical Stage IIIA"
+}

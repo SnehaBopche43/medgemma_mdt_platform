@@ -1,0 +1,59 @@
+{
+  "request_id": "5c1e12c9",
+  "timestamp": "2026-02-15T10:50:15.247132",
+  "recommendation_type": "breast_cancer_specialist_recommendations",
+  "case_id": "BC-001",
+  "ai_recommendation": {
+    "case_id": "BC-001",
+    "cancer_type": "breast_cancer",
+    "analysis_type": "specialist_recommendations",
+    "result": {
+      "specialty": "Medical Oncology",
+      "case_summary": {
+        "cancer_type": "Breast Cancer",
+        "stage": "Stage IIB",
+        "receptors": {
+          "ER": "Positive (90%)",
+          "PR": "Positive (70%)",
+          "HER2": "Negative"
+        }
+      },
+      "recommendation": "**1. Treatment Strategy:**\n\nGiven the Stage IIB breast cancer with positive ER and PR receptors, negative HER2, and Ki-67 of 25%, the recommended treatment strategy is a combination of neoadjuvant chemotherapy followed by hormonal therapy and potentially radiation therapy.\n\n*   **Recommended Systemic Therapy Approach:**\n    *   **Neoadjuvant Chemotherapy:** This is the preferred approach for Stage IIB breast cancer. It aims to reduce the tumor burden, improve resectability, and potentially improve survival outcomes.\n    *   **Hormonal Therapy:** Once the chemotherapy is completed, hormonal therapy is initiated to block estrogen receptors and prevent the growth of hormone-sensitive cancer cells.\n    *   **Radiation Therapy:** This is recommended to address the locally advanced disease.\n\n*   **Specific Chemotherapy Regimen:**\n    *   **AC (Adriamycin/Cyclophosphamide):** This is a standard regimen for neoadjuvant chemotherapy in breast cancer. It can be administered as 4 cycles, often with a 2-week interval between cycles.\n    *   **TC (Docetaxel/Cyclophosphamide):** This regimen is also effective and may be preferred in some cases, particularly if there are concerns about cardiotoxicity with AC.\n    *   **Docetaxel/Doxorubicin:** This is an alternative regimen that has shown good efficacy.\n\n*   **Hormonal Therapy Recommendations:**\n    *   **Aromatase Inhibitor (AI):** Letrozole, anastrozole, or exemestane are typically used as first-line hormonal therapy. The choice of AI will depend on patient-specific factors such as comorbidities, potential side effects, and cost.\n    *   **Tamoxifen:** This is an option for patients who are not candidates for AIs, for example, if they have a contraindication like a history of thromboembolism.\n\n*   **Target",
+      "recommendation_with_citations": "**1. Treatment Strategy:**\n\nGiven the Stage IIB breast cancer with positive ER and PR receptors, negative HER2, and Ki-67 of 25%, the recommended treatment strategy is a combination of neoadjuvant chemotherapy followed by hormonal therapy and potentially radiation therapy.\n\n*   **Recommended Systemic Therapy Approach:**\n    *   **Neoadjuvant Chemotherapy:** This is the preferred approach for Stage IIB breast cancer. It aims to reduce the tumor burden, improve resectability, and potentially improve survival outcomes.\n    *   **Hormonal Therapy:** Once the chemotherapy is completed, hormonal therapy is initiated to block estrogen receptors and prevent the growth of hormone-sensitive cancer cells.\n    *   **Radiation Therapy:** This is recommended to address the locally advanced disease.\n\n*   **Specific Chemotherapy Regimen:**\n    *   **AC (Adriamycin/Cyclophosphamide):** This is a standard regimen for neoadjuvant chemotherapy in breast cancer. It can be administered as 4 cycles, often with a 2-week interval between cycles.\n    *   **TC (Docetaxel/Cyclophosphamide):** This regimen is also effective and may be preferred in some cases, particularly if there are concerns about cardiotoxicity with AC.\n    *   **Docetaxel/Doxorubicin:** This is an alternative regimen that has shown good efficacy.\n\n*   **Hormonal Therapy Recommendations:**\n    *   **Aromatase Inhibitor (AI):** Letrozole, anastrozole, or exemestane are typically used as first-line hormonal therapy. The choice of AI will depend on patient-specific factors such as comorbidities, potential side effects, and cost.\n    *   **Tamoxifen:** This is an option for patients who are not candidates for AIs, for example, if they have a contraindication like a history of thromboembolism.\n\n*   **Target\n\n================================================================================\nREFERENCES\n================================================================================\n\n[1] National Comprehensive Cancer Network. NCCN Clinical Practice Guidelines in Oncology: Breast Cancer. Version 1.2025.\n    URL: https://www.nccn.org/guidelines/category_1\n    Evidence Level: 1A\n\n[2] Trastuzumab Emtansine for Residual Invasive HER2-Positive Breast Cancer. New England Journal of Medicine, 2019. PMID: 30345905\n    URL: https://pubmed.ncbi.nlm.nih.gov/30345905/\n    Key Finding: T-DM1 improved invasive disease-free survival in HER2+ breast cancer with residual disease after neoadjuvant therapy\n    Evidence Level: 1B\n\n[3] Abemaciclib Combined With Endocrine Therapy for HR+/HER2- Early Breast Cancer. Journal of Clinical Oncology, 2021. PMID: 34097453\n    URL: https://pubmed.ncbi.nlm.nih.gov/34097453/\n    Key Finding: Abemaciclib + endocrine therapy improved invasive disease-free survival in high-risk HR+/HER2- early breast cancer\n    Evidence Level: 1B\n\n[4] American Society of Clinical Oncology. ASCO Guidelines for Breast Cancer Treatment. 2024 Update.\n    URL: https://www.asco.org/practice-patients/guidelines\n    Evidence Level: 1A\n\n",
+      "references": [
+        {
+          "type": "guideline",
+          "citation": "National Comprehensive Cancer Network. NCCN Clinical Practice Guidelines in Oncology: Breast Cancer. Version 1.2025.",
+          "url": "https://www.nccn.org/guidelines/category_1",
+          "evidence_level": "1A"
+        },
+        {
+          "type": "clinical_trial",
+          "citation": "Trastuzumab Emtansine for Residual Invasive HER2-Positive Breast Cancer. New England Journal of Medicine, 2019. PMID: 30345905",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30345905/",
+          "key_finding": "T-DM1 improved invasive disease-free survival in HER2+ breast cancer with residual disease after neoadjuvant therapy",
+          "evidence_level": "1B"
+        },
+        {
+          "type": "clinical_trial",
+          "citation": "Abemaciclib Combined With Endocrine Therapy for HR+/HER2- Early Breast Cancer. Journal of Clinical Oncology, 2021. PMID: 34097453",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34097453/",
+          "key_finding": "Abemaciclib + endocrine therapy improved invasive disease-free survival in high-risk HR+/HER2- early breast cancer",
+          "evidence_level": "1B"
+        },
+        {
+          "type": "guideline",
+          "citation": "American Society of Clinical Oncology. ASCO Guidelines for Breast Cancer Treatment. 2024 Update.",
+          "url": "https://www.asco.org/practice-patients/guidelines",
+          "evidence_level": "1A"
+        }
+      ]
+    }
+  },
+  "status": "approved",
+  "clinician_decision": "approved",
+  "clinician_notes": "Auto-approved for demo purposes",
+  "edited_recommendation": null,
+  "decision_timestamp": "2026-02-15T10:50:15.253776",
+  "clinician_id": "AUTO_SYSTEM"
+}

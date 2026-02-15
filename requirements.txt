@@ -1,0 +1,21 @@
+# Core MedGemma Dependencies
+google-generativeai>=0.3.0
+pillow>=10.0.0
+pandas>=2.0.0
+python-dateutil>=2.8.2
+
+# MedASR Voice Intelligence
+transformers>=5.0.0
+torch>=2.0.0
+librosa>=0.11.0
+soundfile>=0.13.0
+
+# Web Interface (optional)
+streamlit>=1.28.0
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+pyyaml>=6.0

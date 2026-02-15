@@ -1,0 +1,24 @@
+{
+  "request_id": "dec46bf3",
+  "recommendation_type": "imaging_analysis",
+  "recommendation_data": {
+    "case_id": "BC-001",
+    "analysis_type": "imaging_analysis",
+    "result": {
+      "modality": "CT Chest with Contrast",
+      "findings": [
+        "3.2 cm irregular mass in upper outer quadrant of right breast",
+        "Spiculated margins suggesting malignancy",
+        "Enlarged right axillary lymph nodes (largest 1.8 cm)",
+        "No evidence of distant metastasis in chest"
+      ],
+      "ai_analysis": "1.  **Key imaging features for staging:**\n    *   **Size and characteristics of the primary tumor:** The 3.2 cm irregular mass with spiculated margins is highly suspicious for malignancy.\n    *   **Axillary lymph node involvement:** Enlarged axillary lymph nodes, particularly the largest one measuring 1.8 cm, strongly suggest regional lymph node metastasis.\n    *   **Presence of skin or chest wall involvement:** The report doesn't specifically mention any skin or chest wall involvement, but this should be assessed.\n    *   **Bone marrow involvement:** The report doesn't mention bone marrow involvement.\n    *   **Liver or lung metastases:** The report doesn't mention liver or lung metastases.\n\n2.  **Evidence of local invasion or metastasis:**\n    *   **Local invasion:** The irregular mass with spiculated margins and the presence of enlarged axillary lymph nodes are indicative of local invasion and regional lymph node metastasis.\n    *   **Metastasis:** The presence of enlarged axillary lymph nodes suggests regional lymph node metastasis. The report does not mention distant metastasis.\n\n3.  **Recommended additional imaging if needed:**\n    *   **MRI Breast:** MRI is useful for further characterizing the primary tumor (size, shape, borders, internal architecture) and can also assess for involvement of the chest wall and skin.\n    *   **PET/CT Scan:** A PET/CT scan can help identify distant metastases",
+      "impression": "Suspicious for invasive breast carcinoma with lymph node involvement"
+    }
+  },
+  "status": "approved",
+  "created_at": "2026-02-15T12:05:20.089537",
+  "clinician_id": "AUTO_SYSTEM",
+  "approval_notes": "Auto-approved for demo purposes",
+  "approved_at": "2026-02-15T12:05:20.100305"
+}

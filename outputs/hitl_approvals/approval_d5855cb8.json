@@ -1,0 +1,26 @@
+{
+  "request_id": "d5855cb8",
+  "recommendation_type": "imaging_analysis",
+  "recommendation_data": {
+    "case_id": "CRC-003",
+    "analysis_type": "imaging_analysis",
+    "result": {
+      "modality": "CT Abdomen/Pelvis with Contrast + Colonoscopy",
+      "findings": [
+        "Circumferential mass in sigmoid colon, 5 cm in length",
+        "Bowel wall thickening with luminal narrowing",
+        "Multiple enlarged pericolic lymph nodes (largest 1.5 cm)",
+        "Liver: 3 hypodense lesions in right lobe (largest 2.8 cm), suspicious for metastases",
+        "No peritoneal carcinomatosis or ascites",
+        "Lungs clear, no pulmonary metastases"
+      ],
+      "ai_analysis": "1.  **Key imaging features for staging:**\n\n    *   **Sigmoid Colon Mass:** Size (5 cm) and location are crucial for staging.\n    *   **Pericolic Lymphadenopathy:** Enlarged lymph nodes indicate regional spread. Size of the largest lymph node (1.5 cm) is important.\n    *   **Liver Metastases:** Presence of multiple hypodense lesions in the liver confirms distant metastasis to the liver. Size of the largest lesion (2.8 cm) is important.\n    *   **Bowel wall thickening and luminal narrowing:** Suggests local invasion/obstruction.\n    *   **No Peritoneal Carcinomatosis or Ascites:** This is a positive finding, indicating no widespread peritoneal disease.\n\n2.  **Evidence of local invasion or metastasis:**\n\n    *   **Local Invasion:** Bowel wall thickening and luminal narrowing suggest local invasion of the colon wall by the mass.\n    *   **Metastasis:** Liver metastases are definitive evidence of distant metastasis.\n\n3.  **Recommended additional imaging if needed:**\n\n    *   **CT Chest/Abdomen/Pelvis with contrast:** To assess for any other potential sites of metastasis.\n    *   **Bone Scan/MRI:** To evaluate for bone metastases, especially if there is any concern for bone involvement.\n    *   **PET/CT Scan:** For better assessment of lymph node involvement and distant metastases.\n\nBased on",
+      "impression": "Sigmoid colon mass with regional lymphadenopathy and liver metastases, clinical Stage IV"
+    }
+  },
+  "status": "approved",
+  "created_at": "2026-02-15T13:09:22.013831",
+  "clinician_id": "AUTO_SYSTEM",
+  "approval_notes": "Auto-approved for demo purposes",
+  "approved_at": "2026-02-15T13:09:22.031562"
+}

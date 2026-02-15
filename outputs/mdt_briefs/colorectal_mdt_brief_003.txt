@@ -1,0 +1,45 @@
+============================================================
+COLORECTAL CANCER MDT CASE BRIEF
+============================================================
+
+Case ID: CRC-003
+Patient: 58-year-old Female with Stage IV Adenocarcinoma
+Stage: Stage IV
+Histology: Adenocarcinoma
+
+------------------------------------------------------------
+MDT BRIEF
+------------------------------------------------------------
+
+**1. Case Summary:**
+A 58-year-old female presents with a diagnosis of Stage IV adenocarcinoma of the sigmoid colon, characterized by a 5 cm primary tumor involving the bowel wall and regional lymph node involvement.  The patient has distant metastases to the liver (3 lesions) and no evidence of lung or peritoneal metastases.
+
+**2. Key Clinical and Pathological Features:**
+*   Age: 58 years old
+*   Gender: Female
+*   Primary Site: Sigmoid Colon
+*   Tumor Size: 5 cm
+*   Tumor Location: Sigmoid Colon
+*   Cancer Type: Adenocarcinoma
+*   Stage: IV
+*   Lymph Node Involvement: N2 (Multiple enlarged pericolic lymph nodes)
+*   Metastasis: M1 (Liver metastases)
+
+**3. Imaging Highlights:**
+*   **Primary Tumor:** 5 cm sigmoid colon tumor, circumferential, likely involving the bowel wall and potentially extending into the mesentery.
+*   **Lymph Nodes:** Multiple enlarged pericolic lymph nodes, largest measuring 1.5 cm.
+*   **Liver:** 3 hypodense lesions, suspicious for metastases.
+*   **Lung:** No evidence of pulmonary metastases.
+*   **Peritoneum:** No evidence of peritoneal carcinomatosis.
+
+**4. Molecular Profile and Treatment Implications:**
+The information provided does not include the molecular profile of the tumor. However, based on the stage and location, the following considerations apply:
+*   **RAS/BRAF/KRAS Status:** The absence of information regarding these mutations means we cannot rule out the possibility of a BRAF V600E mutation. If the tumor is BRAF V600E positive, anti-EGFR therapy (e.g., cetuximab, panitumumab) would be considered in combination with chemotherapy.
+*   **VEGF Status:** The absence of information regarding VEGF status means we cannot rule out the possibility of VEGF-R2 overexpression. If the tumor is VEGF-R2 overexpressed, bevacizumab could potentially be considered in combination with chemotherapy.
+
+**5. Proposed Treatment Plan with Rationale:**
+Given the Stage IV diagnosis and the presence of liver metastases, the treatment intent is palliative. The goal is to control the disease, alleviate symptoms, and improve quality of life, rather than aiming for a cure at this stage.
+
+*   **Chemotherapy:**
+    *   **Regimen:** The standard first-line chemotherapy regimen for metastatic colorectal cancer with a wild-type RAS/BRAF/KRAS profile is **FOLFOX (5-Fluorouracil, Leucovorin, Oxaliplatin)**. FOLFIRI (5-Fluorouracil, Leucovorin, Irinotecan) is an alternative, particularly if there's concern for potential resistance or intolerance to oxaliplatin. Both regimens are
+

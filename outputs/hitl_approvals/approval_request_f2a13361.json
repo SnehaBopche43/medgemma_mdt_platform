@@ -1,0 +1,29 @@
+{
+  "request_id": "f2a13361",
+  "timestamp": "2026-02-15T09:59:30.104945",
+  "recommendation_type": "specialist_recommendations",
+  "case_id": "BC-001",
+  "ai_recommendation": {
+    "case_id": "BC-001",
+    "analysis_type": "specialist_recommendations",
+    "result": {
+      "specialty": "Medical Oncology",
+      "case_summary": {
+        "cancer_type": "Breast Cancer",
+        "stage": "Stage IIB",
+        "receptors": {
+          "ER": "Positive (90%)",
+          "PR": "Positive (70%)",
+          "HER2": "Negative"
+        }
+      },
+      "recommendation": "1.  Treatment Strategy:\n\n    *   **Recommended Systemic Therapy Approach:** Given the Stage IIB breast cancer with a moderately differentiated tumor, positive hormone receptors (ER and PR), negative HER2 status, and a Ki-67 of 25%, the recommended systemic therapy approach is **neoadjuvant chemotherapy followed by hormonal therapy**.\n\n    *   **Specific Chemotherapy Regimen:** A standard regimen for Stage IIB HER2-negative breast cancer is **AC (Adriamycin/Doxorubicin) plus Cyclophosphamide**. This regimen has been shown to be effective in reducing tumor size and improving outcomes. The standard dose is often AC 6 cycles.\n\n    *   **Hormonal Therapy Recommendations:** Once the chemotherapy regimen is completed, **endocrine therapy (either tamoxifen or an aromatase inhibitor) should be initiated**. Given the patient's age (52), **an aromatase inhibitor (AI)** is generally preferred over tamoxifen, as it has been shown to have a higher risk of endometrial cancer and a lower risk of thromboembolic events. Common AI options include letrozole, anastrozole, or exemestane.\n\n    *   **Targeted Therapy Considerations:** As the patient has a negative HER2 status, there are no targeted therapies specifically indicated for this patient.\n\n2.  Treatment Sequencing:\n\n    *   **Neoadjuvant vs. Adjuvant Approach:** A **neoadjuvant chemotherapy approach** is recommended. The rationale is that neoadjuvant chemotherapy can reduce the tumor size, potentially making surgery easier and improving local control. It can also provide valuable information about the tumor's response to treatment, which can be helpful in guiding subsequent therapy.\n\n    *   **Timing Relative to Surgery/Radiation:** The neoadjuvant chemotherapy should be followed by surgery, typically **breast-conserving surgery (BCS) if feasible** and followed by **whole-breast radiation therapy (WBRT"
+    }
+  },
+  "status": "approved",
+  "clinician_decision": "approved",
+  "clinician_notes": "Auto-approved for demo purposes",
+  "edited_recommendation": null,
+  "decision_timestamp": "2026-02-15T09:59:30.114960",
+  "clinician_id": "AUTO_SYSTEM"
+}

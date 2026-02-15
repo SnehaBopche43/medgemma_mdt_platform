@@ -1,0 +1,28 @@
+{
+  "request_id": "c5d21328",
+  "timestamp": "2026-02-15T10:21:20.952388",
+  "recommendation_type": "lung_imaging_analysis",
+  "case_id": "LC-002",
+  "ai_recommendation": {
+    "case_id": "LC-002",
+    "analysis_type": "lung_imaging_analysis",
+    "result": {
+      "modality": "CT Chest with Contrast",
+      "findings": [
+        "4.5 cm spiculated mass in right upper lobe",
+        "Mass abuts the pleural surface with possible chest wall invasion",
+        "Enlarged right hilar lymph nodes (largest 2.3 cm)",
+        "Mediastinal lymphadenopathy, subcarinal node 1.8 cm",
+        "No distant metastasis identified in chest, liver, or adrenals"
+      ],
+      "ai_analysis": "1. Primary Tumor Characteristics:\n   * **Size:** 4.5 cm\n   * **Location:** Right upper lobe\n   * **Growth Pattern:** Spiculated\n\n2. Lymph Node Involvement and Mediastinal Assessment:\n   * **Right Hilar Lymph Nodes:** Enlarged, largest 2.3 cm\n   * **Mediastinal Lymph Nodes:** Subcarinal node 1.8 cm, mediastinal lymphadenopathy.\n\n3. Evidence of Local Invasion:\n   * **Pleural Surface:** Mass abuts pleural surface.\n   * **Chest Wall:** Possible chest wall invasion.\n\n4. Metastatic Disease Evaluation:\n   * No distant metastasis identified in chest, liver, or adrenals.\n\n5. TNM Staging Assessment Based on Imaging:\n   * **Tumor (T):** T2 (based on size and possible invasion)\n   * **Nodes (N):** N2 (based on hilar and mediastinal lymph node involvement)\n   * **Metastasis (M):** M0 (no distant metastasis identified)\n   * **Stage:** IIIA (T2N2M0)\n\n6. Recommended Additional Imaging if Needed:\n   * The lack of distant metastases is positive. However, based on the size and location of the tumor and lymph node involvement, further evaluation is recommended.\n   * **Brain MRI:** To rule out intracranial metastasis, particularly given the stage.\n   * **PET-CT:** To assess for distant metastasis not seen on the CT scan, especially in the regional lymph nodes. The PET-CT can also help assess the metabolic activity of the primary tumor and lymph nodes, which can provide additional prognostic information.\n\nFinal Answer:\n\n1.  **Primary tumor characteristics:** 4.5 cm spiculated mass in the right upper lobe.\n2.  **Lymph node involvement:** Enlarged right hilar lymph nodes (largest 2.",
+      "impression": "Suspicious for primary lung malignancy with regional lymph node involvement, clinical Stage IIIA"
+    }
+  },
+  "status": "approved",
+  "clinician_decision": "approved",
+  "clinician_notes": "Auto-approved for demo purposes",
+  "edited_recommendation": null,
+  "decision_timestamp": "2026-02-15T10:21:20.959521",
+  "clinician_id": "AUTO_SYSTEM"
+}

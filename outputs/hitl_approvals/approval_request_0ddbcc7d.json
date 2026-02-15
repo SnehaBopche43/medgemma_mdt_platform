@@ -1,0 +1,56 @@
+{
+  "request_id": "0ddbcc7d",
+  "timestamp": "2026-02-15T10:54:30.496321",
+  "recommendation_type": "lung_cancer_specialist_recommendations",
+  "case_id": "LC-002",
+  "ai_recommendation": {
+    "case_id": "LC-002",
+    "cancer_type": "lung_cancer",
+    "analysis_type": "specialist_recommendations",
+    "result": {
+      "specialty": "Medical Oncology",
+      "case_summary": {
+        "cancer_type": "Lung Cancer (Non-Small Cell)",
+        "stage": "Unknown",
+        "receptors": {}
+      },
+      "recommendation": "**1. Treatment Strategy:**\n\nGiven the limited information, I would recommend an initial approach to identify the stage of the lung cancer and determine the appropriate treatment strategy.  The following steps are crucial:\n\n   *   **Staging:** Obtain a comprehensive staging workup, including:\n        *   CT scan of the chest, abdomen, and pelvis (with contrast)\n        *   PET-CT scan\n        *   Brain MRI (if neurological symptoms are present or if the patient has a high risk of brain metastases)\n        *   Bone scan (if there is suspicion of bone metastases or the patient has a high risk)\n        *   Mediastinal lymph node biopsy (if the PET-CT shows suspicious mediastinal nodes)\n        *   Pleural effusion analysis (if present)\n        *   Consider serum tumor markers (CEA, CYFRA 21-1, NSE)\n\n   *   **Based on staging, I would formulate a treatment strategy.  The general approach is as follows:**\n\n        *   **Non-Small Cell Lung Cancer (NSCLC) - Stage IV (Advanced):**\n            *   **Systemic Therapy:** The primary treatment is systemic therapy (chemotherapy, immunotherapy, or targeted therapy) to control the cancer and improve quality of life.\n            *   **First-line Treatment:** The choice of first-line therapy depends on the presence or absence of driver mutations, PD-L1 expression, and performance status.\n                *   **NSCLC with EGFR, ALK, ROS1, BRAF, or RET mutations:** Targeted therapy with an appropriate tyrosine kinase inhibitor (TKI) is the preferred first-line treatment.  Examples include EGFR TKIs (e.g., osimertinib, gefitinib, erlotinib), ALK TKIs (e.g., alectinib, brigatinib, lorlatinib), ROS1 TKIs (e.g., ent",
+      "recommendation_with_citations": "**1. Treatment Strategy:**\n\nGiven the limited information, I would recommend an initial approach to identify the stage of the lung cancer and determine the appropriate treatment strategy.  The following steps are crucial:\n\n   *   **Staging:** Obtain a comprehensive staging workup, including:\n        *   CT scan of the chest, abdomen, and pelvis (with contrast)\n        *   PET-CT scan\n        *   Brain MRI (if neurological symptoms are present or if the patient has a high risk of brain metastases)\n        *   Bone scan (if there is suspicion of bone metastases or the patient has a high risk)\n        *   Mediastinal lymph node biopsy (if the PET-CT shows suspicious mediastinal nodes)\n        *   Pleural effusion analysis (if present)\n        *   Consider serum tumor markers (CEA, CYFRA 21-1, NSE)\n\n   *   **Based on staging, I would formulate a treatment strategy.  The general approach is as follows:**\n\n        *   **Non-Small Cell Lung Cancer (NSCLC) - Stage IV (Advanced):**\n            *   **Systemic Therapy:** The primary treatment is systemic therapy (chemotherapy, immunotherapy, or targeted therapy) to control the cancer and improve quality of life.\n            *   **First-line Treatment:** The choice of first-line therapy depends on the presence or absence of driver mutations, PD-L1 expression, and performance status.\n                *   **NSCLC with EGFR, ALK, ROS1, BRAF, or RET mutations:** Targeted therapy with an appropriate tyrosine kinase inhibitor (TKI) is the preferred first-line treatment.  Examples include EGFR TKIs (e.g., osimertinib, gefitinib, erlotinib), ALK TKIs (e.g., alectinib, brigatinib, lorlatinib), ROS1 TKIs (e.g., ent\n\n================================================================================\nREFERENCES\n================================================================================\n\n[1] National Comprehensive Cancer Network. NCCN Clinical Practice Guidelines in Oncology: Non-Small Cell Lung Cancer. Version 2.2025.\n    URL: https://www.nccn.org/guidelines/category_1\n    Evidence Level: 1A\n\n[2] Durvalumab after Chemoradiotherapy in Stage III Non-Small-Cell Lung Cancer. New England Journal of Medicine, 2017. PMID: 28885881\n    URL: https://pubmed.ncbi.nlm.nih.gov/28885881/\n    Key Finding: Durvalumab consolidation after chemoradiation significantly improved PFS and OS in stage III NSCLC\n    Evidence Level: 1A\n\n[3] Pembrolizumab plus Chemotherapy in Metastatic Non-Small-Cell Lung Cancer. New England Journal of Medicine, 2018. PMID: 29658856\n    URL: https://pubmed.ncbi.nlm.nih.gov/29658856/\n    Key Finding: Pembrolizumab + chemotherapy improved OS in metastatic nonsquamous NSCLC\n    Evidence Level: 1A\n\n[4] Sotorasib for KRAS G12C-Mutated Advanced Non-Small-Cell Lung Cancer. New England Journal of Medicine, 2021. PMID: 34096690\n    URL: https://pubmed.ncbi.nlm.nih.gov/34096690/\n    Key Finding: Sotorasib showed clinical benefit in KRAS G12C-mutated NSCLC\n    Evidence Level: 2A\n\n",
+      "references": [
+        {
+          "type": "guideline",
+          "citation": "National Comprehensive Cancer Network. NCCN Clinical Practice Guidelines in Oncology: Non-Small Cell Lung Cancer. Version 2.2025.",
+          "url": "https://www.nccn.org/guidelines/category_1",
+          "evidence_level": "1A"
+        },
+        {
+          "type": "clinical_trial",
+          "citation": "Durvalumab after Chemoradiotherapy in Stage III Non-Small-Cell Lung Cancer. New England Journal of Medicine, 2017. PMID: 28885881",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28885881/",
+          "key_finding": "Durvalumab consolidation after chemoradiation significantly improved PFS and OS in stage III NSCLC",
+          "evidence_level": "1A"
+        },
+        {
+          "type": "clinical_trial",
+          "citation": "Pembrolizumab plus Chemotherapy in Metastatic Non-Small-Cell Lung Cancer. New England Journal of Medicine, 2018. PMID: 29658856",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29658856/",
+          "key_finding": "Pembrolizumab + chemotherapy improved OS in metastatic nonsquamous NSCLC",
+          "evidence_level": "1A"
+        },
+        {
+          "type": "clinical_trial",
+          "citation": "Sotorasib for KRAS G12C-Mutated Advanced Non-Small-Cell Lung Cancer. New England Journal of Medicine, 2021. PMID: 34096690",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34096690/",
+          "key_finding": "Sotorasib showed clinical benefit in KRAS G12C-mutated NSCLC",
+          "evidence_level": "2A"
+        }
+      ]
+    }
+  },
+  "status": "approved",
+  "clinician_decision": "approved",
+  "clinician_notes": "Auto-approved for demo purposes",
+  "edited_recommendation": null,
+  "decision_timestamp": "2026-02-15T10:54:30.506279",
+  "clinician_id": "AUTO_SYSTEM"
+}

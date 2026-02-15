@@ -1,0 +1,25 @@
+{
+  "request_id": "81f8db71",
+  "recommendation_type": "imaging_analysis",
+  "recommendation_data": {
+    "case_id": "LC-002",
+    "analysis_type": "imaging_analysis",
+    "result": {
+      "modality": "CT Chest with Contrast",
+      "findings": [
+        "4.5 cm spiculated mass in right upper lobe",
+        "Mass abuts the pleural surface with possible chest wall invasion",
+        "Enlarged right hilar lymph nodes (largest 2.3 cm)",
+        "Mediastinal lymphadenopathy, subcarinal node 1.8 cm",
+        "No distant metastasis identified in chest, liver, or adrenals"
+      ],
+      "ai_analysis": "1.  **Key imaging features for staging:**\n    *   **Size and Spiculation of the primary mass:** The 4.5 cm size and spiculated appearance are concerning for malignancy.\n    *   **Hilar Lymph Node Enlargement:** Enlarged hilar lymph nodes (2.3 cm) signify regional lymph node involvement.\n    *   **Mediastinal Lymphadenopathy:** Subcarinal lymph node (1.8 cm) indicates mediastinal lymph node involvement.\n    *   **Pleural Surface Adherence:** The mass abutting the pleural surface is suggestive of local invasion.\n    *   **Possible Chest Wall Invasion:** This finding is concerning for local invasion and needs to be confirmed.\n    *   **Absence of Distant Metastasis:** The absence of metastasis in the chest, liver, or adrenals is positive for staging.\n\n2.  **Evidence of local invasion or metastasis:**\n    *   **Local invasion:**\n        *   Mass abutting the pleural surface.\n        *   Possible chest wall invasion.\n    *   **Metastasis:**\n        *   No distant metastasis identified in chest, liver, or adrenals.\n\n3.  **Recommended additional imaging if needed:**\n    *   **PET/CT Scan:** A PET/CT scan is highly recommended to assess for distant metastasis and to further characterize the primary tumor and lymph nodes. This can help refine the staging and guide treatment decisions.",
+      "impression": "Suspicious for primary lung malignancy with regional lymph node involvement, clinical Stage IIIA"
+    }
+  },
+  "status": "approved",
+  "created_at": "2026-02-15T13:01:06.775595",
+  "clinician_id": "AUTO_SYSTEM",
+  "approval_notes": "Auto-approved for demo purposes",
+  "approved_at": "2026-02-15T13:01:06.785347"
+}

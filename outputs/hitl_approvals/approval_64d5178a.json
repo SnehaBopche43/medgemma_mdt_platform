@@ -1,0 +1,25 @@
+{
+  "request_id": "64d5178a",
+  "recommendation_type": "imaging_analysis",
+  "recommendation_data": {
+    "case_id": "LC-002",
+    "analysis_type": "imaging_analysis",
+    "result": {
+      "modality": "CT Chest with Contrast",
+      "findings": [
+        "4.5 cm spiculated mass in right upper lobe",
+        "Mass abuts the pleural surface with possible chest wall invasion",
+        "Enlarged right hilar lymph nodes (largest 2.3 cm)",
+        "Mediastinal lymphadenopathy, subcarinal node 1.8 cm",
+        "No distant metastasis identified in chest, liver, or adrenals"
+      ],
+      "ai_analysis": "1.  Key Imaging Features for Staging:\n    *   4.5 cm spiculated mass in right upper lobe: This indicates a concerning primary tumor.\n    *   Enlarged right hilar lymph nodes (largest 2.3 cm): This suggests regional lymph node involvement.\n    *   Mediastinal lymphadenopathy, subcarinal node 1.8 cm: This supports the presence of mediastinal lymph node involvement.\n    *   Possible chest wall invasion: This is a significant finding indicating local invasion.\n\n2.  Evidence of Local Invasion or Metastasis:\n    *   Possible chest wall invasion: This is a key finding indicating local invasion.\n    *   No distant metastasis identified in chest, liver, or adrenals: This is positive for staging, but the imaging may need to be reviewed for distant metastasis.\n\n3.  Recommended Additional Imaging if Needed:\n    *   PET/CT: A PET/CT scan would be helpful to further assess the extent of the primary tumor, lymph node involvement, and any potential distant metastases. It can also provide information on the metabolic activity of the tumor and lymph nodes, which can assist in treatment planning and prognosis.\n    *   MRI Chest: If there is concern for invasion of the chest wall or involvement of structures such as the brachial plexus, an MRI Chest may be helpful for further evaluation.\n    *   Bone Scan: A bone scan may be considered to evaluate for bone",
+      "impression": "Suspicious for primary lung malignancy with regional lymph node involvement, clinical Stage IIIA"
+    }
+  },
+  "status": "approved",
+  "created_at": "2026-02-15T16:12:05.594015",
+  "clinician_id": "AUTO_SYSTEM",
+  "approval_notes": "Auto-approved for demo purposes",
+  "approved_at": "2026-02-15T16:12:05.604949"
+}

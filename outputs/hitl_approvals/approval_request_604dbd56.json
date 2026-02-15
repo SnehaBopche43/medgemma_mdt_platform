@@ -1,0 +1,29 @@
+{
+  "request_id": "604dbd56",
+  "timestamp": "2026-02-15T09:49:40.234948",
+  "recommendation_type": "specialist_recommendations",
+  "case_id": "BC-001",
+  "ai_recommendation": {
+    "case_id": "BC-001",
+    "analysis_type": "specialist_recommendations",
+    "result": {
+      "specialty": "Medical Oncology",
+      "case_summary": {
+        "cancer_type": "Breast Cancer",
+        "stage": "Stage IIB",
+        "receptors": {
+          "ER": "Positive (90%)",
+          "PR": "Positive (70%)",
+          "HER2": "Negative"
+        }
+      },
+      "recommendation": "1. **Treatment Strategy:**\n\n   Given the Stage IIB, ER+, PR+, HER2- breast cancer with a Grade 2, a neoadjuvant chemotherapy followed by endocrine therapy (hormonal therapy) is the recommended approach. This strategy aims to achieve downstaging, improve local control, and enhance the effectiveness of hormone therapy.\n\n   - **Recommended Systemic Therapy Approach:** Neoadjuvant chemotherapy followed by endocrine therapy.\n\n   - **Chemotherapy Regimen:**\n     - **First-line Chemotherapy:** The standard regimen for patients with ER+/HER2- breast cancer is AC (Adriamycin/Doxorubicin and Cyclophosphamide) or Taxanes (Paclitaxel or Docetaxel). AC is often favored due to its efficacy and lower cost, but Taxanes can be considered, especially in patients who have contraindications to Anthracyclines (e.g., cardiac issues).\n        - *Example: AC (Adriamycin/Doxorubicin and Cyclophosphamide)*\n\n   - **Hormonal Therapy:**\n     - **After completion of chemotherapy, hormonal therapy is initiated.** The standard choice is an aromatase inhibitor (AI) such as Letrozole, Anastrozole, or Exemestane. These are preferred over tamoxifen in postmenopausal women due to their superior efficacy. The choice of AI will depend on patient factors, such as menopausal status, comorbidities, and potential side effects.\n        - *Example: Letrozole (most common choice for postmenopausal women)*\n\n   - **Targeted Therapy Considerations:**\n     - Given the negative HER2 status, there is no specific targeted therapy indicated.\n\n2. **Treatment Sequencing:**\n\n   - **Neoadjuvant vs Adjuvant:** The neoadjuvant approach (chemotherapy before surgery) is the preferred strategy for Stage IIB breast cancer.\n   - **Timing:** Chemotherapy should be initiated after a thorough discussion of the"
+    }
+  },
+  "status": "approved",
+  "clinician_decision": "approved",
+  "clinician_notes": "Auto-approved for demo purposes",
+  "edited_recommendation": null,
+  "decision_timestamp": "2026-02-15T09:49:40.243878",
+  "clinician_id": "AUTO_SYSTEM"
+}

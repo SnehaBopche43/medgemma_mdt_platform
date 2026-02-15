@@ -1,0 +1,24 @@
+{
+  "case_id": "INTEGRATED_MDT_001",
+  "cancer_type": "breast",
+  "timestamp": "2026-02-15T17:03:16.488299",
+  "audio_file": "data/audio/mdt_meeting.wav",
+  "transcription": {
+    "original": "\nGood morning. This is the MDT meeting for breast cancer case.\nPatient is 58-year-old female with stage IIB invasive ductal carcinoma of left breast.\nMammography showed 3.2 cm irregular mass. Biopsy confirmed ER positive, PR positive, HER2 negative.\nRecommend neoadjuvant chemotherapy with AC-T regimen: doxorubicin, cyclophosphamide, then paclitaxel.\nFollowed by surgery, radiation therapy, and adjuvant endocrine therapy with tamoxifen.\nPatient is agreeable to treatment plan.\n",
+    "redacted": "\nGood morning. This is the MDT meeting for breast cancer case.\nPatient is 58-year-old female with stage IIB invasive ductal carcinoma of left breast.\nMammography showed 3.2 cm irregular mass. Biopsy confirmed ER positive, PR positive, HER2 negative.\nRecommend neoadjuvant chemotherapy with AC-T regimen: doxorubicin, cyclophosphamide, then paclitaxel.\nFollowed by surgery, radiation therapy, and adjuvant endocrine therapy with tamoxifen.\nPatient is agreeable to treatment plan.\n",
+    "word_count": 65,
+    "phi_redacted": 0
+  },
+  "clinical_analysis": {
+    "diagnosis": "Stage IIB invasive ductal carcinoma of left breast",
+    "staging": "T2 N1 M0, Clinical Stage IIB",
+    "treatment_plan": "Neoadjuvant chemotherapy (AC-T regimen), followed by surgery, radiation, and adjuvant endocrine therapy",
+    "recommendations": "Proceed with neoadjuvant chemotherapy, consider breast-conserving surgery if good response",
+    "action_items": "Schedule chemotherapy, arrange pre-treatment workup, surgical consultation after chemo completion"
+  },
+  "safety_checks": {
+    "phi_protected": true,
+    "transcription_complete": true,
+    "clinical_analysis_complete": true
+  }
+}

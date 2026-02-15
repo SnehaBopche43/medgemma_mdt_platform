@@ -1,0 +1,22 @@
+{
+  "request_id": "83e3a940",
+  "timestamp": "2026-02-15T08:20:53.803174",
+  "recommendation_type": "treatment_plan",
+  "case_id": "BC-001",
+  "ai_recommendation": {
+    "case_id": "BC-001",
+    "recommendation_type": "treatment_plan",
+    "treatment_recommendations": "Neoadjuvant chemotherapy with AC-T regimen followed by surgery",
+    "confidence_score": 0.87,
+    "supporting_evidence": [
+      "NCCN Guidelines 2025",
+      "NEJM 2024 study on neoadjuvant therapy"
+    ]
+  },
+  "status": "approved",
+  "clinician_decision": "approved",
+  "clinician_notes": "Recommendation aligns with current guidelines. Approved for implementation.",
+  "edited_recommendation": null,
+  "decision_timestamp": "2026-02-15T08:20:53.803174",
+  "clinician_id": "DR_SMITH"
+}

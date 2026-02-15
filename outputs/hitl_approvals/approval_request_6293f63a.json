@@ -1,0 +1,27 @@
+{
+  "request_id": "6293f63a",
+  "timestamp": "2026-02-15T09:35:35.706496",
+  "recommendation_type": "imaging_analysis",
+  "case_id": "BC-001",
+  "ai_recommendation": {
+    "case_id": "BC-001",
+    "analysis_type": "imaging_analysis",
+    "result": {
+      "modality": "CT Chest with Contrast",
+      "findings": [
+        "3.2 cm irregular mass in upper outer quadrant of right breast",
+        "Spiculated margins suggesting malignancy",
+        "Enlarged right axillary lymph nodes (largest 1.8 cm)",
+        "No evidence of distant metastasis in chest"
+      ],
+      "ai_analysis": "1.  **Key imaging features for staging:**\n    *   **Mass:** Size and location of the primary mass.\n    *   **Margins:** Spiculated margins are a strong indicator of malignancy.\n    *   **Lymph Nodes:** Enlarged axillary lymph nodes, with a specific size, are a key feature of regional lymph node involvement.\n    *   **Additional imaging features:**\n        *   **Calcifications:** Presence, type, and location of calcifications in the mass.\n        *   **Enhancement Pattern:** Characteristics of enhancement within the mass and lymph nodes on contrast-enhanced imaging (e.g., irregular, homogeneous, delayed washout).\n        *   **Presence of skin changes:** Any skin dimpling, redness, or ulceration.\n\n2.  **Evidence of local invasion or metastasis:**\n    *   **Local Invasion:** The irregular mass with spiculated margins, and the presence of enlarged axillary lymph nodes strongly suggest local invasion or spread.\n    *   **Metastasis:** The findings in the right axillary lymph nodes are suggestive of regional lymph node metastasis. The absence of distant metastasis in the chest significantly reduces the likelihood of distant metastasis to the lungs.\n\n3.  **Recommended additional imaging if needed:**\n    *   **MRI Breast:** This modality can provide additional information about the extent of the primary tumor and lymph node involvement, assess for potential MRI-positive lesions, and evaluate for contralateral breast cancer",
+      "impression": "Suspicious for invasive breast carcinoma with lymph node involvement"
+    }
+  },
+  "status": "approved",
+  "clinician_decision": "approved",
+  "clinician_notes": "Auto-approved for demo purposes",
+  "edited_recommendation": null,
+  "decision_timestamp": "2026-02-15T09:35:35.719005",
+  "clinician_id": "AUTO_SYSTEM"
+}

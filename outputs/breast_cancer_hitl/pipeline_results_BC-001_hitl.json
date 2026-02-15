@@ -1,0 +1,56 @@
+{
+  "case_id": "BC-001",
+  "imaging_analysis": {
+    "modality": "CT Chest with Contrast",
+    "findings": [
+      "3.2 cm irregular mass in upper outer quadrant of right breast",
+      "Spiculated margins suggesting malignancy",
+      "Enlarged right axillary lymph nodes (largest 1.8 cm)",
+      "No evidence of distant metastasis in chest"
+    ],
+    "ai_analysis": "1.  **Key imaging features for staging:**\n    *   **Size and location of the primary tumor:** This is a critical factor in determining the stage.\n    *   **Spiculated margins:** Suggests infiltration into surrounding tissues, indicating local invasion.\n    *   **Axillary lymph node involvement:** Enlarged lymph nodes are a hallmark of regional spread. The size of the nodes is important for staging.\n    *   **Presence of calcifications:** Calcifications can indicate benign lesions, but in the context of a suspicious mass, they may also suggest malignancy.\n    *   **Presence of skin changes:** Skin thickening or ulceration can be indicative of advanced disease.\n\n2.  **Evidence of local invasion or metastasis:**\n    *   **Spiculated margins:** Indicate local invasion into the surrounding breast tissue.\n    *   **Enlarged right axillary lymph nodes (largest 1.8 cm):** Suggests regional lymph node involvement.\n    *   **The CT chest with contrast does not show evidence of distant metastasis.**\n\n3.  **Recommended additional imaging if needed:**\n    *   **MRI Breast:** MRI can provide more detailed information about the tumor's characteristics, including its extent of invasion and the presence of micro-metastases, especially in the axilla. It is particularly useful when the size and characteristics of the mass are not clearly defined on CT.\n    *   **Mammogram:** A mamm",
+    "impression": "Suspicious for invasive breast carcinoma with lymph node involvement"
+  },
+  "specialist_recommendations": {
+    "specialty": "Medical Oncology",
+    "case_summary": {
+      "cancer_type": "Breast Cancer",
+      "stage": "Stage IIB",
+      "receptors": {
+        "ER": "Positive (90%)",
+        "PR": "Positive (70%)",
+        "HER2": "Negative"
+      }
+    },
+    "recommendation": "1.  Treatment Strategy:\n\n    *   **Recommended Systemic Therapy Approach:** Given the Stage IIB breast cancer with a moderately differentiated tumor, positive hormone receptors (ER and PR), negative HER2 status, and a Ki-67 of 25%, the recommended systemic therapy approach is **neoadjuvant chemotherapy followed by hormonal therapy**.\n\n    *   **Specific Chemotherapy Regimen:** A standard regimen for Stage IIB HER2-negative breast cancer is **AC (Adriamycin/Doxorubicin) plus Cyclophosphamide**. This regimen has been shown to be effective in reducing tumor size and improving outcomes. The standard dose is often AC 6 cycles.\n\n    *   **Hormonal Therapy Recommendations:** Once the chemotherapy regimen is completed, **endocrine therapy (either tamoxifen or an aromatase inhibitor) should be initiated**. Given the patient's age (52), **an aromatase inhibitor (AI)** is generally preferred over tamoxifen, as it has been shown to have a higher risk of endometrial cancer and a lower risk of thromboembolic events. Common AI options include letrozole, anastrozole, or exemestane.\n\n    *   **Targeted Therapy Considerations:** As the patient has a negative HER2 status, there are no targeted therapies specifically indicated for this patient.\n\n2.  Treatment Sequencing:\n\n    *   **Neoadjuvant vs. Adjuvant Approach:** A **neoadjuvant chemotherapy approach** is recommended. The rationale is that neoadjuvant chemotherapy can reduce the tumor size, potentially making surgery easier and improving local control. It can also provide valuable information about the tumor's response to treatment, which can be helpful in guiding subsequent therapy.\n\n    *   **Timing Relative to Surgery/Radiation:** The neoadjuvant chemotherapy should be followed by surgery, typically **breast-conserving surgery (BCS) if feasible** and followed by **whole-breast radiation therapy (WBRT"
+  },
+  "mdt_brief": {
+    "case_id": "BC-001",
+    "cancer_type": "Breast Cancer",
+    "brief_content": "# MDT Case Brief\n\n**Date:** 2026-02-15  \n**Patient ID:** BC-001  \n**Cancer Type:** Breast Cancer\n\n---\n\n## Patient Demographics\n\n- Age: 52\n- Sex: Female\n- Medical History: Hypertension, no prior cancer history\n\n---\n\n## Clinical Summary\n\n**Stage:** Stage IIB (T2 (tumor 2-5 cm), N1 (1-3 axillary lymph nodes), M0 (no distant metastasis))\n\n**Pathology:**\n- Diagnosis: Invasive Ductal Carcinoma\n- Grade: Grade 2 (moderately differentiated)\n- Receptors: {'ER': 'Positive (90%)', 'PR': 'Positive (70%)', 'HER2': 'Negative'}\n\n---\n\n## Imaging Analysis\n\n1.  **Key imaging features for staging:**\n    *   **Size and location of the primary tumor:** This is a critical factor in determining the stage.\n    *   **Spiculated margins:** Suggests infiltration into surrounding tissues, indicating local invasion.\n    *   **Axillary lymph node involvement:** Enlarged lymph nodes are a hallmark of regional spread. The size of the nodes is important for staging.\n    *   **Presence of calcifications:** Calcifications can indicate benign lesions, but in the context of a suspicious mass, they may also suggest malignancy.\n    *   **Presence of skin changes:** Skin thickening or ulceration can be indicative of advanced disease.\n\n2.  **Evidence of local invasion or metastasis:**\n    *   **Spiculated margins:** Indicate local invasion into the surrounding breast tissue.\n    *   **Enlarged right axillary lymph nodes (largest 1.8 cm):** Suggests regional lymph node involvement.\n    *   **The CT chest with contrast does not show evidence of distant metastasis.**\n\n3.  **Recommended additional imaging if needed:**\n    *   **MRI Breast:** MRI can provide more detailed information about the tumor's characteristics, including its extent of invasion and the presence of micro-metastases, especially in the axilla. It is particularly useful when the size and characteristics of the mass are not clearly defined on CT.\n    *   **Mammogram:** A mamm\n\n---\n\n## Medical Oncology Recommendations\n\n1.  Treatment Strategy:\n\n    *   **Recommended Systemic Therapy Approach:** Given the Stage IIB breast cancer with a moderately differentiated tumor, positive hormone receptors (ER and PR), negative HER2 status, and a Ki-67 of 25%, the recommended systemic therapy approach is **neoadjuvant chemotherapy followed by hormonal therapy**.\n\n    *   **Specific Chemotherapy Regimen:** A standard regimen for Stage IIB HER2-negative breast cancer is **AC (Adriamycin/Doxorubicin) plus Cyclophosphamide**. This regimen has been shown to be effective in reducing tumor size and improving outcomes. The standard dose is often AC 6 cycles.\n\n    *   **Hormonal Therapy Recommendations:** Once the chemotherapy regimen is completed, **endocrine therapy (either tamoxifen or an aromatase inhibitor) should be initiated**. Given the patient's age (52), **an aromatase inhibitor (AI)** is generally preferred over tamoxifen, as it has been shown to have a higher risk of endometrial cancer and a lower risk of thromboembolic events. Common AI options include letrozole, anastrozole, or exemestane.\n\n    *   **Targeted Therapy Considerations:** As the patient has a negative HER2 status, there are no targeted therapies specifically indicated for this patient.\n\n2.  Treatment Sequencing:\n\n    *   **Neoadjuvant vs. Adjuvant Approach:** A **neoadjuvant chemotherapy approach** is recommended. The rationale is that neoadjuvant chemotherapy can reduce the tumor size, potentially making surgery easier and improving local control. It can also provide valuable information about the tumor's response to treatment, which can be helpful in guiding subsequent therapy.\n\n    *   **Timing Relative to Surgery/Radiation:** The neoadjuvant chemotherapy should be followed by surgery, typically **breast-conserving surgery (BCS) if feasible** and followed by **whole-breast radiation therapy (WBRT\n\n---\n\n## MDT Discussion Points\n\n1. **Treatment Intent:** Curative vs Palliative\n2. **Sequencing:** Neoadjuvant vs Adjuvant approach\n3. **Clinical Trial Eligibility:** Consider available trials\n4. **Supportive Care:** Psychosocial and symptom management needs\n\n---\n\n## Consensus Recommendation\n\n**Recommended Approach:**\n- Multidisciplinary treatment plan based on stage and biomarkers\n- Regular monitoring and response assessment\n- Patient-centered care with shared decision making\n\n---\n\n**Generated:** 2026-02-15 09:59:30\n",
+    "executive_summary": "Breast Cancer - Stage Stage IIB",
+    "key_discussion_points": [
+      "Treatment sequencing",
+      "Clinical trial eligibility",
+      "Supportive care needs"
+    ],
+    "consensus_recommendation": "Multidisciplinary treatment plan recommended"
+  },
+  "hitl_approvals": [
+    {
+      "step": "imaging_analysis",
+      "request_id": "52ad1976",
+      "status": "approved"
+    },
+    {
+      "step": "specialist_recommendations",
+      "request_id": "f2a13361",
+      "status": "approved"
+    },
+    {
+      "step": "mdt_brief",
+      "request_id": "806246ef",
+      "status": "approved"
+    }
+  ]
+}

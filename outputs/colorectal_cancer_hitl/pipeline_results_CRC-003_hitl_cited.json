@@ -1,0 +1,78 @@
+{
+  "case_id": "CRC-003",
+  "cancer_type": "colorectal_cancer",
+  "imaging_analysis": {
+    "modality": "CT Abdomen/Pelvis with Contrast + Colonoscopy",
+    "findings": [
+      "Circumferential mass in sigmoid colon, 5 cm in length",
+      "Bowel wall thickening with luminal narrowing",
+      "Multiple enlarged pericolic lymph nodes (largest 1.5 cm)",
+      "Liver: 3 hypodense lesions in right lobe (largest 2.8 cm), suspicious for metastases",
+      "No peritoneal carcinomatosis or ascites",
+      "Lungs clear, no pulmonary metastases"
+    ],
+    "ai_analysis": "1.  **Key imaging features for staging:**\n    *   **Colorectal Mass:** Size (5 cm) and location (sigmoid colon).\n    *   **Pericolic Lymphadenopathy:** Enlarged lymph nodes are a key indicator of regional spread, and size is important to assess the extent of the disease.\n    *   **Liver Metastases:** Found in the right lobe, with the largest lesion being 2.8 cm.\n    *   **Bowel Wall Thickening and Luminal Narrowing:** Suggests local invasion.\n\n2.  **Evidence of local invasion or metastasis:**\n\n    *   **Evidence of Local Invasion:** Bowel wall thickening and luminal narrowing in the sigmoid colon.\n    *   **Evidence of Metastasis:** Multiple enlarged pericolic lymph nodes (likely regional lymph node involvement) and liver metastases.\n\n3.  **Recommended additional imaging if needed:**\n\n    *   **MRI Abdomen/Pelvis with Contrast:** If the CT findings are equivocal, MRI can provide more detailed assessment of the liver metastases.\n    *   **PET/CT Scan:** A PET/CT scan could be helpful to further assess the extent of the disease, including assessing for distant metastases or metabolic activity in the liver lesions. This would provide a more comprehensive assessment of the staging. This is especially important if the patient is to proceed to surgery.\n\n    *   **Consideration of Endoscopic Ultrasound (EUS):**",
+    "impression": "Sigmoid colon mass with regional lymphadenopathy and liver metastases, clinical Stage IV"
+  },
+  "specialist_recommendations": {
+    "specialty": "Medical Oncology",
+    "case_summary": {
+      "cancer_type": "Colorectal Cancer",
+      "stage": "Stage IV",
+      "receptors": {}
+    },
+    "recommendation": "**1. Treatment Strategy:**\n\nGiven the Stage IV nature of the colorectal cancer, the treatment strategy should focus on systemic therapy to control the disease and potentially achieve long-term remission. The specific approach will depend on the patient's overall health, performance status, comorbidities, and the results of the pathology report.\n\n*   **Recommended systemic therapy approach:**\n    *   **First-line systemic therapy:** The standard first-line treatment for metastatic colorectal cancer is typically a combination of chemotherapy and immunotherapy.\n        *   **Chemotherapy:** A common regimen is FOLFOX (5-Fluorouracil, Leucovorin, Oxaliplatin) or FOLFIRI (5-Fluorouracil, Leucovorin, Irinotecan). The choice depends on the patient's tolerance and specific tumor characteristics.\n        *   **Immunotherapy:** Pembrolizumab (Keytruda) is often used in combination with chemotherapy, especially if the tumor has high PD-L1 expression.\n    *   **Alternative first-line regimens:** Other options may include combinations of chemotherapy and immunotherapy based on the latest guidelines and clinical trial data.\n\n*   **Specific chemotherapy regimen if indicated:**\n    *   Based on the pathology report, the choice of chemotherapy regimen (FOLFOX vs. FOLFIRI) will be determined.\n    *   The dose of chemotherapy will be adjusted based on the patient's performance status and renal function.\n\n*   **Hormonal therapy recommendations:**\n    *   Hormonal therapy (e.g., LHRH agonists, CDK4/6 inhibitors) is generally considered for patients with hormone receptor-positive (HR+) colorectal cancer. The presence of ER and PR will determine the need for hormonal therapy.\n\n*   **Targeted therapy considerations:**\n    *   The presence of HER2 overexpression will determine the need for targeted therapy (e.g., Trastuzumab, Pertuzumab).",
+    "recommendation_with_citations": "**1. Treatment Strategy:**\n\nGiven the Stage IV nature of the colorectal cancer, the treatment strategy should focus on systemic therapy to control the disease and potentially achieve long-term remission. The specific approach will depend on the patient's overall health, performance status, comorbidities, and the results of the pathology report.\n\n*   **Recommended systemic therapy approach:**\n    *   **First-line systemic therapy:** The standard first-line treatment for metastatic colorectal cancer is typically a combination of chemotherapy and immunotherapy.\n        *   **Chemotherapy:** A common regimen is FOLFOX (5-Fluorouracil, Leucovorin, Oxaliplatin) or FOLFIRI (5-Fluorouracil, Leucovorin, Irinotecan). The choice depends on the patient's tolerance and specific tumor characteristics.\n        *   **Immunotherapy:** Pembrolizumab (Keytruda) is often used in combination with chemotherapy, especially if the tumor has high PD-L1 expression.\n    *   **Alternative first-line regimens:** Other options may include combinations of chemotherapy and immunotherapy based on the latest guidelines and clinical trial data.\n\n*   **Specific chemotherapy regimen if indicated:**\n    *   Based on the pathology report, the choice of chemotherapy regimen (FOLFOX vs. FOLFIRI) will be determined.\n    *   The dose of chemotherapy will be adjusted based on the patient's performance status and renal function.\n\n*   **Hormonal therapy recommendations:**\n    *   Hormonal therapy (e.g., LHRH agonists, CDK4/6 inhibitors) is generally considered for patients with hormone receptor-positive (HR+) colorectal cancer. The presence of ER and PR will determine the need for hormonal therapy.\n\n*   **Targeted therapy considerations:**\n    *   The presence of HER2 overexpression will determine the need for targeted therapy (e.g., Trastuzumab, Pertuzumab).\n\n================================================================================\nREFERENCES\n================================================================================\n\n[1] National Comprehensive Cancer Network. NCCN Clinical Practice Guidelines in Oncology: Colon Cancer. Version 1.2025.\n    URL: https://www.nccn.org/guidelines/category_1\n    Evidence Level: 1A\n\n",
+    "references": [
+      {
+        "type": "guideline",
+        "citation": "National Comprehensive Cancer Network. NCCN Clinical Practice Guidelines in Oncology: Colon Cancer. Version 1.2025.",
+        "url": "https://www.nccn.org/guidelines/category_1",
+        "evidence_level": "1A"
+      }
+    ]
+  },
+  "mdt_brief": {
+    "case_id": "CRC-003",
+    "cancer_type": "Colorectal Cancer",
+    "brief_content": "# MDT Case Brief\n\n**Date:** 2026-02-15  \n**Patient ID:** CRC-003  \n**Cancer Type:** Colorectal Cancer\n\n---\n\n## Patient Demographics\n\n- Age: 58\n- Sex: Female\n- Medical History: Type 2 diabetes, obesity (BMI 32), no prior cancer history\n\n---\n\n## Clinical Summary\n\n**Stage:** Stage IV (Unknown, Unknown, Unknown)\n\n**Pathology:**\n- Diagnosis: Unknown\n- Grade: Moderately differentiated (Grade 2)\n- Receptors: {}\n\n---\n\n## Imaging Analysis\n\n1.  **Key imaging features for staging:**\n    *   **Colorectal Mass:** Size (5 cm) and location (sigmoid colon).\n    *   **Pericolic Lymphadenopathy:** Enlarged lymph nodes are a key indicator of regional spread, and size is important to assess the extent of the disease.\n    *   **Liver Metastases:** Found in the right lobe, with the largest lesion being 2.8 cm.\n    *   **Bowel Wall Thickening and Luminal Narrowing:** Suggests local invasion.\n\n2.  **Evidence of local invasion or metastasis:**\n\n    *   **Evidence of Local Invasion:** Bowel wall thickening and luminal narrowing in the sigmoid colon.\n    *   **Evidence of Metastasis:** Multiple enlarged pericolic lymph nodes (likely regional lymph node involvement) and liver metastases.\n\n3.  **Recommended additional imaging if needed:**\n\n    *   **MRI Abdomen/Pelvis with Contrast:** If the CT findings are equivocal, MRI can provide more detailed assessment of the liver metastases.\n    *   **PET/CT Scan:** A PET/CT scan could be helpful to further assess the extent of the disease, including assessing for distant metastases or metabolic activity in the liver lesions. This would provide a more comprehensive assessment of the staging. This is especially important if the patient is to proceed to surgery.\n\n    *   **Consideration of Endoscopic Ultrasound (EUS):**\n\n---\n\n## Medical Oncology Recommendations\n\n**1. Treatment Strategy:**\n\nGiven the Stage IV nature of the colorectal cancer, the treatment strategy should focus on systemic therapy to control the disease and potentially achieve long-term remission. The specific approach will depend on the patient's overall health, performance status, comorbidities, and the results of the pathology report.\n\n*   **Recommended systemic therapy approach:**\n    *   **First-line systemic therapy:** The standard first-line treatment for metastatic colorectal cancer is typically a combination of chemotherapy and immunotherapy.\n        *   **Chemotherapy:** A common regimen is FOLFOX (5-Fluorouracil, Leucovorin, Oxaliplatin) or FOLFIRI (5-Fluorouracil, Leucovorin, Irinotecan). The choice depends on the patient's tolerance and specific tumor characteristics.\n        *   **Immunotherapy:** Pembrolizumab (Keytruda) is often used in combination with chemotherapy, especially if the tumor has high PD-L1 expression.\n    *   **Alternative first-line regimens:** Other options may include combinations of chemotherapy and immunotherapy based on the latest guidelines and clinical trial data.\n\n*   **Specific chemotherapy regimen if indicated:**\n    *   Based on the pathology report, the choice of chemotherapy regimen (FOLFOX vs. FOLFIRI) will be determined.\n    *   The dose of chemotherapy will be adjusted based on the patient's performance status and renal function.\n\n*   **Hormonal therapy recommendations:**\n    *   Hormonal therapy (e.g., LHRH agonists, CDK4/6 inhibitors) is generally considered for patients with hormone receptor-positive (HR+) colorectal cancer. The presence of ER and PR will determine the need for hormonal therapy.\n\n*   **Targeted therapy considerations:**\n    *   The presence of HER2 overexpression will determine the need for targeted therapy (e.g., Trastuzumab, Pertuzumab).\n\n---\n\n## MDT Discussion Points\n\n1. **Treatment Intent:** Curative vs Palliative\n2. **Sequencing:** Neoadjuvant vs Adjuvant approach\n3. **Clinical Trial Eligibility:** Consider available trials\n4. **Supportive Care:** Psychosocial and symptom management needs\n\n---\n\n## Consensus Recommendation\n\n**Recommended Approach:**\n- Multidisciplinary treatment plan based on stage and biomarkers\n- Regular monitoring and response assessment\n- Patient-centered care with shared decision making\n\n---\n\n**Generated:** 2026-02-15 10:59:09\n",
+    "executive_summary": "Colorectal Cancer - Stage Stage IV",
+    "key_discussion_points": [
+      "Treatment sequencing",
+      "Clinical trial eligibility",
+      "Supportive care needs"
+    ],
+    "consensus_recommendation": "Multidisciplinary treatment plan recommended"
+  },
+  "hitl_approvals": [
+    {
+      "step": "imaging_analysis",
+      "request_id": "72c7d831",
+      "status": "approved"
+    },
+    {
+      "step": "specialist_recommendations",
+      "request_id": "0afa51e4",
+      "status": "approved"
+    },
+    {
+      "step": "mdt_brief",
+      "request_id": "3d6ccd32",
+      "status": "approved"
+    }
+  ],
+  "references": [
+    {
+      "type": "guideline",
+      "citation": "National Comprehensive Cancer Network. NCCN Clinical Practice Guidelines in Oncology: Colon Cancer. Version 1.2025.",
+      "url": "https://www.nccn.org/guidelines/category_1",
+      "evidence_level": "1A"
+    },
+    {
+      "type": "guideline",
+      "citation": "National Comprehensive Cancer Network. NCCN Clinical Practice Guidelines in Oncology: Colon Cancer. Version 1.2025.",
+      "url": "https://www.nccn.org/guidelines/category_1",
+      "evidence_level": "1A"
+    }
+  ]
+}

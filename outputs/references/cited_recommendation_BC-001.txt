@@ -1,0 +1,39 @@
+
+TREATMENT RECOMMENDATION:
+
+For this 52-year-old woman with Stage IIB (T2N1M0) ER+/PR+/HER2- invasive ductal carcinoma:
+
+1. NEOADJUVANT CHEMOTHERAPY:
+   - AC-T regimen (Doxorubicin/Cyclophosphamide followed by Paclitaxel)
+   - 4 cycles AC followed by 12 weeks Paclitaxel
+   
+2. SURGERY:
+   - Breast-conserving surgery or mastectomy based on tumor response
+   - Sentinel lymph node biopsy or axillary dissection
+   
+3. ADJUVANT HORMONAL THERAPY:
+   - Tamoxifen or Aromatase Inhibitor for 5-10 years
+   - Consider CDK4/6 inhibitor (Abemaciclib) given high-risk features
+   
+4. RADIATION THERAPY:
+   - Post-surgical radiation to breast/chest wall and regional nodes
+
+
+================================================================================
+REFERENCES
+================================================================================
+
+[1] National Comprehensive Cancer Network. NCCN Clinical Practice Guidelines in Oncology: Breast Cancer. Version 1.2025.
+    URL: https://www.nccn.org/guidelines/category_1
+    Evidence Level: 1A
+
+[2] Trastuzumab Emtansine for Residual Invasive HER2-Positive Breast Cancer. New England Journal of Medicine, 2019. PMID: 30345905
+    URL: https://pubmed.ncbi.nlm.nih.gov/30345905/
+    Key Finding: T-DM1 improved invasive disease-free survival in HER2+ breast cancer with residual disease after neoadjuvant therapy
+    Evidence Level: 1B
+
+[3] Abemaciclib Combined With Endocrine Therapy for HR+/HER2- Early Breast Cancer. Journal of Clinical Oncology, 2021. PMID: 34097453
+    URL: https://pubmed.ncbi.nlm.nih.gov/34097453/
+    Key Finding: Abemaciclib + endocrine therapy improved invasive disease-free survival in high-risk HR+/HER2- early breast cancer
+    Evidence Level: 1B
+

@@ -1,0 +1,24 @@
+{
+  "request_id": "b4832c36",
+  "recommendation_type": "imaging_analysis",
+  "recommendation_data": {
+    "case_id": "BC-001",
+    "analysis_type": "imaging_analysis",
+    "result": {
+      "modality": "CT Chest with Contrast",
+      "findings": [
+        "3.2 cm irregular mass in upper outer quadrant of right breast",
+        "Spiculated margins suggesting malignancy",
+        "Enlarged right axillary lymph nodes (largest 1.8 cm)",
+        "No evidence of distant metastasis in chest"
+      ],
+      "ai_analysis": "1.  Key imaging features for staging\n    *   **Size of primary tumor:** 3.2 cm\n    *   **Spiculated margins:** Suggests infiltration into surrounding tissue.\n    *   **Axillary lymph node involvement:** Enlarged axillary lymph nodes, with the largest node measuring 1.8 cm.\n\n2.  Evidence of local invasion or metastasis:\n    *   **Local invasion:** Spiculated margins, suggesting infiltration into surrounding breast tissue.\n    *   **Lymph node metastasis:** Enlarged axillary lymph nodes indicate potential regional spread.\n\n3.  Recommended additional imaging if needed:\n    *   **Mammography:** To assess the primary tumor and evaluate for prior screening.\n    *   **MRI of the breast:** To further characterize the primary tumor and evaluate for invasion into the chest wall or skin.\n    *   **Sentinel lymph node biopsy (SLNB):** To determine the presence and extent of axillary lymph node involvement.\n    *   **Bone scan or PET/CT scan:** To rule out distant metastasis, especially if the clinical risk factors are high.\n    *   **Biopsy of the suspicious mass:** To confirm the diagnosis and determine the specific type of breast cancer.\n\nIn summary, the CT chest findings are concerning for breast cancer with lymph node involvement. Further investigation with mammography, MRI, SLNB, and potentially bone scan or PET/CT is recommended to establish a definitive",
+      "impression": "Suspicious for invasive breast carcinoma with lymph node involvement"
+    }
+  },
+  "status": "approved",
+  "created_at": "2026-02-15T12:57:32.097357",
+  "clinician_id": "AUTO_SYSTEM",
+  "approval_notes": "Auto-approved for demo purposes",
+  "approved_at": "2026-02-15T12:57:32.109369"
+}

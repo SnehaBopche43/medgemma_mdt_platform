@@ -1,0 +1,25 @@
+{
+  "request_id": "0fc3d85e",
+  "recommendation_type": "imaging_analysis",
+  "recommendation_data": {
+    "case_id": "LC-002",
+    "analysis_type": "imaging_analysis",
+    "result": {
+      "modality": "CT Chest with Contrast",
+      "findings": [
+        "4.5 cm spiculated mass in right upper lobe",
+        "Mass abuts the pleural surface with possible chest wall invasion",
+        "Enlarged right hilar lymph nodes (largest 2.3 cm)",
+        "Mediastinal lymphadenopathy, subcarinal node 1.8 cm",
+        "No distant metastasis identified in chest, liver, or adrenals"
+      ],
+      "ai_analysis": "1. Key imaging features for staging:\n    *   **Size of the primary tumor:** The 4.5 cm mass is a significant size, indicating a potentially advanced stage.\n    *   **Spiculated appearance:** Spiculated masses are highly suspicious for malignancy.\n    *   **Location of the mass:** The right upper lobe location is common for lung cancer.\n    *   **Hilar lymph node enlargement:** Enlarged mediastinal and hilar lymph nodes suggest regional lymph node involvement. The size of the lymph nodes (2.3 cm, 1.8 cm) is important for staging.\n    *   **Possible chest wall invasion:** This is a crucial finding for local invasion and impacts staging.\n    *   **Absence of distant metastasis:** The absence of metastasis in the chest, liver, and adrenals is reassuring but does not rule out metastasis elsewhere.\n\n2.  Evidence of local invasion or metastasis:\n    *   **Local Invasion:** The mass abutting the pleural surface with possible chest wall invasion strongly indicates local invasion. This is a critical factor in determining the stage of the cancer.\n    *   **Metastasis:** The absence of distant metastasis in the chest, liver, and adrenals is positive. However, metastasis can still occur in other areas such as the brain, bones, or other organs, so the patient would need to be monitored.\n\n3.  Recommended additional imaging if needed:\n    *",
+      "impression": "Suspicious for primary lung malignancy with regional lymph node involvement, clinical Stage IIIA"
+    }
+  },
+  "status": "approved",
+  "created_at": "2026-02-15T12:36:13.604494",
+  "clinician_id": "AUTO_SYSTEM",
+  "approval_notes": "Auto-approved for demo purposes",
+  "approved_at": "2026-02-15T12:36:13.616508"
+}

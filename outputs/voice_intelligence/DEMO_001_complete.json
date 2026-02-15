@@ -1,0 +1,9 @@
+{
+  "case_id": "DEMO_001",
+  "timestamp": "2026-02-15T16:56:01.039735",
+  "transcription": {
+    "redacted": "\nGood morning. This is the MDT meeting for breast cancer case.\nPatient is 58-year-old female with stage IIB invasive ductal carcinoma of left breast.\nMammography showed 3.2 cm irregular mass. Biopsy confirmed ER positive, PR positive, HER2 negative.\nRecommend neoadjuvant chemotherapy with AC-T regimen: doxorubicin, cyclophosphamide, then paclitaxel.\nFollowed by surgery, radiation therapy, and adjuvant endocrine therapy with tamoxifen.\nPatient is agreeable to treatment plan.\n",
+    "word_count": 65,
+    "phi_redacted": 0
+  }
+}

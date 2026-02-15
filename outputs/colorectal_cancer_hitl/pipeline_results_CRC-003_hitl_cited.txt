@@ -1,0 +1,170 @@
+================================================================================
+COLORECTAL CANCER MDT PIPELINE RESULTS WITH CITATIONS
+================================================================================
+
+Case ID: CRC-003
+Cancer Type: Colorectal Cancer
+
+--------------------------------------------------------------------------------
+IMAGING ANALYSIS
+--------------------------------------------------------------------------------
+1.  **Key imaging features for staging:**
+    *   **Colorectal Mass:** Size (5 cm) and location (sigmoid colon).
+    *   **Pericolic Lymphadenopathy:** Enlarged lymph nodes are a key indicator of regional spread, and size is important to assess the extent of the disease.
+    *   **Liver Metastases:** Found in the right lobe, with the largest lesion being 2.8 cm.
+    *   **Bowel Wall Thickening and Luminal Narrowing:** Suggests local invasion.
+
+2.  **Evidence of local invasion or metastasis:**
+
+    *   **Evidence of Local Invasion:** Bowel wall thickening and luminal narrowing in the sigmoid colon.
+    *   **Evidence of Metastasis:** Multiple enlarged pericolic lymph nodes (likely regional lymph node involvement) and liver metastases.
+
+3.  **Recommended additional imaging if needed:**
+
+    *   **MRI Abdomen/Pelvis with Contrast:** If the CT findings are equivocal, MRI can provide more detailed assessment of the liver metastases.
+    *   **PET/CT Scan:** A PET/CT scan could be helpful to further assess the extent of the disease, including assessing for distant metastases or metabolic activity in the liver lesions. This would provide a more comprehensive assessment of the staging. This is especially important if the patient is to proceed to surgery.
+
+    *   **Consideration of Endoscopic Ultrasound (EUS):**
+
+--------------------------------------------------------------------------------
+SPECIALIST RECOMMENDATIONS WITH CITATIONS
+--------------------------------------------------------------------------------
+**1. Treatment Strategy:**
+
+Given the Stage IV nature of the colorectal cancer, the treatment strategy should focus on systemic therapy to control the disease and potentially achieve long-term remission. The specific approach will depend on the patient's overall health, performance status, comorbidities, and the results of the pathology report.
+
+*   **Recommended systemic therapy approach:**
+    *   **First-line systemic therapy:** The standard first-line treatment for metastatic colorectal cancer is typically a combination of chemotherapy and immunotherapy.
+        *   **Chemotherapy:** A common regimen is FOLFOX (5-Fluorouracil, Leucovorin, Oxaliplatin) or FOLFIRI (5-Fluorouracil, Leucovorin, Irinotecan). The choice depends on the patient's tolerance and specific tumor characteristics.
+        *   **Immunotherapy:** Pembrolizumab (Keytruda) is often used in combination with chemotherapy, especially if the tumor has high PD-L1 expression.
+    *   **Alternative first-line regimens:** Other options may include combinations of chemotherapy and immunotherapy based on the latest guidelines and clinical trial data.
+
+*   **Specific chemotherapy regimen if indicated:**
+    *   Based on the pathology report, the choice of chemotherapy regimen (FOLFOX vs. FOLFIRI) will be determined.
+    *   The dose of chemotherapy will be adjusted based on the patient's performance status and renal function.
+
+*   **Hormonal therapy recommendations:**
+    *   Hormonal therapy (e.g., LHRH agonists, CDK4/6 inhibitors) is generally considered for patients with hormone receptor-positive (HR+) colorectal cancer. The presence of ER and PR will determine the need for hormonal therapy.
+
+*   **Targeted therapy considerations:**
+    *   The presence of HER2 overexpression will determine the need for targeted therapy (e.g., Trastuzumab, Pertuzumab).
+
+================================================================================
+REFERENCES
+================================================================================
+
+[1] National Comprehensive Cancer Network. NCCN Clinical Practice Guidelines in Oncology: Colon Cancer. Version 1.2025.
+    URL: https://www.nccn.org/guidelines/category_1
+    Evidence Level: 1A
+
+
+
+--------------------------------------------------------------------------------
+MDT BRIEF
+--------------------------------------------------------------------------------
+# MDT Case Brief
+
+**Date:** 2026-02-15  
+**Patient ID:** CRC-003  
+**Cancer Type:** Colorectal Cancer
+
+---
+
+## Patient Demographics
+
+- Age: 58
+- Sex: Female
+- Medical History: Type 2 diabetes, obesity (BMI 32), no prior cancer history
+
+---
+
+## Clinical Summary
+
+**Stage:** Stage IV (Unknown, Unknown, Unknown)
+
+**Pathology:**
+- Diagnosis: Unknown
+- Grade: Moderately differentiated (Grade 2)
+- Receptors: {}
+
+---
+
+## Imaging Analysis
+
+1.  **Key imaging features for staging:**
+    *   **Colorectal Mass:** Size (5 cm) and location (sigmoid colon).
+    *   **Pericolic Lymphadenopathy:** Enlarged lymph nodes are a key indicator of regional spread, and size is important to assess the extent of the disease.
+    *   **Liver Metastases:** Found in the right lobe, with the largest lesion being 2.8 cm.
+    *   **Bowel Wall Thickening and Luminal Narrowing:** Suggests local invasion.
+
+2.  **Evidence of local invasion or metastasis:**
+
+    *   **Evidence of Local Invasion:** Bowel wall thickening and luminal narrowing in the sigmoid colon.
+    *   **Evidence of Metastasis:** Multiple enlarged pericolic lymph nodes (likely regional lymph node involvement) and liver metastases.
+
+3.  **Recommended additional imaging if needed:**
+
+    *   **MRI Abdomen/Pelvis with Contrast:** If the CT findings are equivocal, MRI can provide more detailed assessment of the liver metastases.
+    *   **PET/CT Scan:** A PET/CT scan could be helpful to further assess the extent of the disease, including assessing for distant metastases or metabolic activity in the liver lesions. This would provide a more comprehensive assessment of the staging. This is especially important if the patient is to proceed to surgery.
+
+    *   **Consideration of Endoscopic Ultrasound (EUS):**
+
+---
+
+## Medical Oncology Recommendations
+
+**1. Treatment Strategy:**
+
+Given the Stage IV nature of the colorectal cancer, the treatment strategy should focus on systemic therapy to control the disease and potentially achieve long-term remission. The specific approach will depend on the patient's overall health, performance status, comorbidities, and the results of the pathology report.
+
+*   **Recommended systemic therapy approach:**
+    *   **First-line systemic therapy:** The standard first-line treatment for metastatic colorectal cancer is typically a combination of chemotherapy and immunotherapy.
+        *   **Chemotherapy:** A common regimen is FOLFOX (5-Fluorouracil, Leucovorin, Oxaliplatin) or FOLFIRI (5-Fluorouracil, Leucovorin, Irinotecan). The choice depends on the patient's tolerance and specific tumor characteristics.
+        *   **Immunotherapy:** Pembrolizumab (Keytruda) is often used in combination with chemotherapy, especially if the tumor has high PD-L1 expression.
+    *   **Alternative first-line regimens:** Other options may include combinations of chemotherapy and immunotherapy based on the latest guidelines and clinical trial data.
+
+*   **Specific chemotherapy regimen if indicated:**
+    *   Based on the pathology report, the choice of chemotherapy regimen (FOLFOX vs. FOLFIRI) will be determined.
+    *   The dose of chemotherapy will be adjusted based on the patient's performance status and renal function.
+
+*   **Hormonal therapy recommendations:**
+    *   Hormonal therapy (e.g., LHRH agonists, CDK4/6 inhibitors) is generally considered for patients with hormone receptor-positive (HR+) colorectal cancer. The presence of ER and PR will determine the need for hormonal therapy.
+
+*   **Targeted therapy considerations:**
+    *   The presence of HER2 overexpression will determine the need for targeted therapy (e.g., Trastuzumab, Pertuzumab).
+
+---
+
+## MDT Discussion Points
+
+1. **Treatment Intent:** Curative vs Palliative
+2. **Sequencing:** Neoadjuvant vs Adjuvant approach
+3. **Clinical Trial Eligibility:** Consider available trials
+4. **Supportive Care:** Psychosocial and symptom management needs
+
+---
+
+## Consensus Recommendation
+
+**Recommended Approach:**
+- Multidisciplinary treatment plan based on stage and biomarkers
+- Regular monitoring and response assessment
+- Patient-centered care with shared decision making
+
+---
+
+**Generated:** 2026-02-15 10:59:09
+
+
+================================================================================
+HITL APPROVAL STATUS
+================================================================================
+
+imaging_analysis: APPROVED
+Request ID: 72c7d831
+
+specialist_recommendations: APPROVED
+Request ID: 0afa51e4
+
+mdt_brief: APPROVED
+Request ID: 3d6ccd32

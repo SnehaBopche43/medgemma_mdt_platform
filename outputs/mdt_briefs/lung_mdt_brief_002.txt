@@ -1,0 +1,45 @@
+============================================================
+LUNG CANCER MDT CASE BRIEF
+============================================================
+
+Case ID: LC-002
+Patient: 67-year-old Male with Stage IIIA Adenocarcinoma
+Stage: Stage IIIA
+Histology: Adenocarcinoma
+
+------------------------------------------------------------
+MDT BRIEF
+------------------------------------------------------------
+
+1.  Case Summary:
+    A 67-year-old male presents with a 4.5 cm spiculated adenocarcinoma in the right upper lobe. He has evidence of lymph node involvement in the right hilar and subcarinal regions, with the largest node measuring 2.3 cm and 1.8 cm respectively. There is abutment of the mass to the pleural surface, and possible chest wall invasion. No distant metastasis is identified on chest, liver, or adrenal imaging. The patient is a Stage IIIA Adenocarcinoma.
+
+2.  Key Clinical and Pathological Features:
+    *   Age: 67 years
+    *   Tumor Size: 4.5 cm
+    *   Tumor Location: Right upper lobe
+    *   Growth Pattern: Spiculated
+    *   Lymph Node Involvement: Right hilar (2.3 cm), Subcarinal (1.8 cm)
+    *   Local Invasion: Mass abuts pleural surface, possible chest wall invasion
+    *   Molecular Profile: Not provided (needs to be determined)
+    *   Pathologic Stage: Stage IIIA (T2N2M0)
+
+3.  Imaging Highlights:
+    *   Chest CT: 4.5 cm spiculated mass in the right upper lobe. Enlarged right hilar and subcarinal lymph nodes.
+    *   PET-CT: No distant metastasis identified.
+    *   Brain MRI: Recommended to rule out brain metastasis.
+    *   Consideration for adrenal and other non-chest imaging.
+
+4.  Molecular Profile and Treatment Implications:
+    *   **Importance of Molecular Profiling:** The molecular profile of the tumor (e.g., EGFR, ALK, ROS1, PD-L1 expression) is crucial for determining the appropriate targeted therapy or immunotherapy.
+    *   **EGFR Mutations:** If EGFR mutations are present, the patient would be eligible for EGFR tyrosine kinase inhibitors (TKIs).
+    *   **ALK Rearrangements:** If ALK rearrangements are present, the patient would be eligible for ALK inhibitors.
+    *   **ROS1 Rearrangements:** If ROS1 rearrangements are present, the patient would be eligible for ROS1 inhibitors.
+    *   **PD-L1 Expression:** PD-L1 expression status will guide decisions regarding immunotherapy.
+
+5.  Proposed Treatment Plan with Rationale:
+    *   **Neoadjuvant Chemotherapy followed by Resection:** This is the recommended approach for Stage IIIA adenocarcinoma, aiming for tumor downstaging, lymph node regression, and potentially curative resection.
+        *   **Chemotherapy:** Cisplatin/Pemetrexed (6-8 cycles). This regimen is a standard first-line treatment for non-squamous non-small cell lung cancer (NSCLC).
+        *   **Surgical Resection:**
+            *
+

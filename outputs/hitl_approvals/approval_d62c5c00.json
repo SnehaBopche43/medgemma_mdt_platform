@@ -1,0 +1,24 @@
+{
+  "request_id": "d62c5c00",
+  "recommendation_type": "imaging_analysis",
+  "recommendation_data": {
+    "case_id": "BC-001",
+    "analysis_type": "imaging_analysis",
+    "result": {
+      "modality": "CT Chest with Contrast",
+      "findings": [
+        "3.2 cm irregular mass in upper outer quadrant of right breast",
+        "Spiculated margins suggesting malignancy",
+        "Enlarged right axillary lymph nodes (largest 1.8 cm)",
+        "No evidence of distant metastasis in chest"
+      ],
+      "ai_analysis": "1. Key imaging features for staging:\n    *   **Mass Characteristics:** Size, shape, density, spiculation, and calcifications should be assessed and documented. These characteristics can help determine the type of breast cancer and its aggressiveness.\n    *   **Axillary Lymph Nodes:** Size, number, and location of lymph nodes are crucial. Enlarged nodes, particularly those >1 cm, suggest regional spread.\n    *   **Skin and Chest Wall Involvement:** The presence of edema, skin thickening, or skin nodules in the breast or chest wall indicates local invasion.\n    *   **Bones and Other Organs:** While not always included in a standard CT chest, if suspicion for metastasis is high, a dedicated bone scan or whole-body PET/CT may be considered.\n\n2.  Evidence of local invasion or metastasis:\n    *   **Mass Characteristics:** Spiculated margins, irregular borders, and infiltrative patterns are suggestive of local invasion.\n    *   **Axillary Lymph Nodes:** Enlarged lymph nodes (especially >1 cm) are a strong indicator of regional lymph node involvement.\n    *   **Skin and Chest Wall Involvement:** Edema, skin thickening, or skin nodules in the breast or chest wall signify local invasion.\n    *   **Bones and Other Organs:** While not explicitly seen on this CT, the presence of lesions in the bones or other organs would indicate distant metastasis.\n\n3.  Recommended additional imaging",
+      "impression": "Suspicious for invasive breast carcinoma with lymph node involvement"
+    }
+  },
+  "status": "approved",
+  "created_at": "2026-02-15T16:08:26.951401",
+  "clinician_id": "AUTO_SYSTEM",
+  "approval_notes": "Auto-approved for demo purposes",
+  "approved_at": "2026-02-15T16:08:26.960780"
+}

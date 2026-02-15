@@ -1,0 +1,27 @@
+{
+  "request_id": "52ad1976",
+  "timestamp": "2026-02-15T09:57:08.216833",
+  "recommendation_type": "imaging_analysis",
+  "case_id": "BC-001",
+  "ai_recommendation": {
+    "case_id": "BC-001",
+    "analysis_type": "imaging_analysis",
+    "result": {
+      "modality": "CT Chest with Contrast",
+      "findings": [
+        "3.2 cm irregular mass in upper outer quadrant of right breast",
+        "Spiculated margins suggesting malignancy",
+        "Enlarged right axillary lymph nodes (largest 1.8 cm)",
+        "No evidence of distant metastasis in chest"
+      ],
+      "ai_analysis": "1.  **Key imaging features for staging:**\n    *   **Size and location of the primary tumor:** This is a critical factor in determining the stage.\n    *   **Spiculated margins:** Suggests infiltration into surrounding tissues, indicating local invasion.\n    *   **Axillary lymph node involvement:** Enlarged lymph nodes are a hallmark of regional spread. The size of the nodes is important for staging.\n    *   **Presence of calcifications:** Calcifications can indicate benign lesions, but in the context of a suspicious mass, they may also suggest malignancy.\n    *   **Presence of skin changes:** Skin thickening or ulceration can be indicative of advanced disease.\n\n2.  **Evidence of local invasion or metastasis:**\n    *   **Spiculated margins:** Indicate local invasion into the surrounding breast tissue.\n    *   **Enlarged right axillary lymph nodes (largest 1.8 cm):** Suggests regional lymph node involvement.\n    *   **The CT chest with contrast does not show evidence of distant metastasis.**\n\n3.  **Recommended additional imaging if needed:**\n    *   **MRI Breast:** MRI can provide more detailed information about the tumor's characteristics, including its extent of invasion and the presence of micro-metastases, especially in the axilla. It is particularly useful when the size and characteristics of the mass are not clearly defined on CT.\n    *   **Mammogram:** A mamm",
+      "impression": "Suspicious for invasive breast carcinoma with lymph node involvement"
+    }
+  },
+  "status": "approved",
+  "clinician_decision": "approved",
+  "clinician_notes": "Auto-approved for demo purposes",
+  "edited_recommendation": null,
+  "decision_timestamp": "2026-02-15T09:57:08.224858",
+  "clinician_id": "AUTO_SYSTEM"
+}

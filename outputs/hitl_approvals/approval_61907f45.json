@@ -1,0 +1,14 @@
+{
+  "request_id": "61907f45",
+  "recommendation_type": "specialist_recommendations",
+  "recommendation_data": {
+    "case_id": "CRC-003",
+    "analysis_type": "specialist_recommendations",
+    "result": "1. Treatment Strategy:\n\nBased on the provided information, a Stage IV colorectal cancer diagnosis with moderately differentiated histology, unknown hormone receptor status, HER2 status, and Ki-67 proliferation index is challenging to define a specific treatment strategy. However, the following general approach should be considered:\n\n   - **Systemic Therapy:** Given the Stage IV diagnosis, systemic therapy (chemotherapy) is the cornerstone of treatment. The choice of chemotherapy regimen should be guided by the patient's overall health, performance status, and potential comorbidities.\n   - **Specific Chemotherapy Regimen:** The most common and effective chemotherapy regimens for Stage IV colorectal cancer include:\n      - **FOLFOX (5-Fluorouracil, Leucovorin, Oxaliplatin):** This is a standard regimen, particularly for patients without contraindications to oxaliplatin.\n      - **FOLFIRI (5-Fluorouracil, Leucovorin, Irinotecan):** This regimen is often used in patients with a history of prior fluoropyrimidine exposure or with specific molecular alterations.\n      - **CAPOX (Capecitabine, Oxaliplatin):** This is an oral fluoropyrimidine-based regimen that may be an alternative to FOLFOX.\n      - **Other Options:** Other regimens, such as FLOT (5-Fluorouracil, Leucovorin, Oxaliplatin, Docetaxel), may be considered based on the patient's characteristics and preferences.\n   - **Hormonal Therapy:** Given the unknown hormone receptor status, hormonal therapy is not indicated at this stage. However, if the cancer cells express estrogen or progesterone receptors, hormonal therapy (e.g., anti-estrogens, aromatase inhibitors) may be considered after chemotherapy.\n   - **Targeted Therapy:** Given the unknown HER2 status, targeted therapy is not indicated at this stage. However, if the cancer cells express HER2, targeted therapy (e\n\nREFERENCES:\n================================================================================\n================================================================================\n"
+  },
+  "status": "approved",
+  "created_at": "2026-02-15T13:11:25.146344",
+  "clinician_id": "AUTO_SYSTEM",
+  "approval_notes": "Auto-approved for demo purposes",
+  "approved_at": "2026-02-15T13:11:25.158098"
+}

@@ -1,0 +1,14 @@
+{
+  "request_id": "2edbe7a9",
+  "recommendation_type": "specialist_recommendations",
+  "recommendation_data": {
+    "case_id": "CRC-003",
+    "analysis_type": "specialist_recommendations",
+    "result": "1. Treatment Strategy:\n   - **Systemic Therapy:** Given the Stage IV nature of the colorectal cancer, systemic therapy is the cornerstone of treatment. The choice of therapy will depend on comprehensive molecular profiling (ER, PR, HER2, Ki-67).\n   - **Chemotherapy Regimen:**\n      - **If ER/PR negative and HER2 negative:** FOLFIRI (5-Fluorouracil, Leucovorin, Irinotecan) or CAPOX (Capecitabine, Oxaliplatin) are commonly used first-line regimens.\n      - **If ER/PR positive and HER2 negative:** Letrozole or Anastrozole (endocrine therapy) are usually initiated.\n      - **If ER/PR negative and HER2 positive:** Trastuzumab-based regimens (e.g., Trastuzumab, Docetaxel) are the standard.\n      - **If ER/PR positive and HER2 positive:** Trastuzumab-based regimens (e.g., Trastuzumab, Docetaxel) are the standard.\n      - **If ER/PR positive and HER2 negative:** Letrozole or Anastrozole (endocrine therapy) are usually initiated.\n   - **Hormonal Therapy:** As mentioned above, endocrine therapy (Letrozole, Anastrozole) is indicated if ER/PR positive.\n   - **Targeted Therapy:**\n      - **HER2-positive:** Trastuzumab, Pertuzumab, T-DM1 (Trastuzumab emtansine)\n      - **Other Targeted Therapies:** Depending on the specific molecular profile, other targeted therapies might be considered (e.g., anti-angiogenics, immune checkpoint inhibitors).\n\n2. Treatment Sequencing:\n   - **Neoadjuvant vs Adjuvant:** The need for neoadjuvant therapy (chemotherapy before surgery) depends on\n\nREFERENCES:\n================================================================================\n================================================================================\n"
+  },
+  "status": "approved",
+  "created_at": "2026-02-15T16:22:23.998776",
+  "clinician_id": "AUTO_SYSTEM",
+  "approval_notes": "Auto-approved for demo purposes",
+  "approved_at": "2026-02-15T16:22:24.008703"
+}

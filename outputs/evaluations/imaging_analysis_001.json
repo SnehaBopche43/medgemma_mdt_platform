@@ -1,0 +1,11 @@
+{
+  "modality": "CT Chest with Contrast",
+  "findings": [
+    "3.2 cm irregular mass in upper outer quadrant of right breast",
+    "Spiculated margins suggesting malignancy",
+    "Enlarged right axillary lymph nodes (largest 1.8 cm)",
+    "No evidence of distant metastasis in chest"
+  ],
+  "ai_analysis": "1. Key imaging features for staging:\n   *   **Mass size:** 3.2 cm mass is a significant finding.\n   *   **Spiculated margins:** These suggest infiltration of the surrounding tissues.\n   *   **Axillary lymph node enlargement:** 1.8 cm is a concerning size, indicating potential lymph node involvement.\n   *   **CT Chest:** While the report shows no evidence of distant metastasis in the chest, it does not rule it out. Chest CT is used to evaluate for metastasis in the lungs, bones, and other mediastinal structures.\n\n2. Evidence of local invasion or metastasis:\n   *   **Local invasion:** The spiculated margins and irregular mass shape strongly suggest local invasion of the breast tissue.\n   *   **Metastasis:** The enlarged axillary lymph nodes are evidence of potential regional lymph node metastasis. The size of the nodes (1.8 cm) is a significant finding. The CT chest is used to evaluate for distant metastasis.\n\n3. Recommended additional imaging if needed:\n   *   **MRI Breast:** MRI is often performed to further characterize the primary tumor, assess the extent of local invasion, and evaluate for potential metastasis in the breast tissue.\n   *   **PET/CT Scan:** A PET/CT scan can be helpful to assess for distant metastasis, especially in the chest, abdomen, and pelvis. This is particularly useful if there is a concern for distant spread based on",
+  "impression": "Suspicious for invasive breast carcinoma with lymph node involvement"
+}

@@ -1,0 +1,27 @@
+{
+  "request_id": "958893f8",
+  "timestamp": "2026-02-15T11:55:24.369399",
+  "recommendation_type": "imaging_analysis",
+  "case_id": "BC-001",
+  "ai_recommendation": {
+    "case_id": "BC-001",
+    "analysis_type": "imaging_analysis",
+    "result": {
+      "modality": "CT Chest with Contrast",
+      "findings": [
+        "3.2 cm irregular mass in upper outer quadrant of right breast",
+        "Spiculated margins suggesting malignancy",
+        "Enlarged right axillary lymph nodes (largest 1.8 cm)",
+        "No evidence of distant metastasis in chest"
+      ],
+      "ai_analysis": "1.  **Key Imaging Features for Staging:**\n    *   **Size of the primary tumor:** The 3.2 cm mass is a primary factor.\n    *   **Margins:** Spiculated margins are a concerning feature, indicating potential local invasion.\n    *   **Axillary Lymph Node Involvement:** Enlarged axillary lymph nodes (especially the largest one at 1.8 cm) are a significant indicator of lymph node metastasis.\n    *   **Presence of Calcifications:**\n        *   **Irregular Calcifications:** These can be associated with malignancy.\n        *   **Microcalcifications:** These are highly suspicious for malignancy, especially if clustered.\n    *   **Other Breast Tissue Changes:**\n        *   **Edema:** Can suggest inflammation or tumor involvement.\n        *   **Skin thickening:** Can be a sign of underlying malignancy.\n\n2.  **Evidence of Local Invasion or Metastasis:**\n    *   **Mass Size and Spiculated Margins:** The size of the mass (3.2 cm) and the spiculated margins are suggestive of local invasion.\n    *   **Axillary Lymph Node Involvement:** The enlarged axillary lymph nodes, particularly the largest one, strongly indicate lymph node metastasis.\n\n3.  **Recommended Additional Imaging if Needed:**\n    *   **Mammogram:** If the patient has not had a recent mammogram, a new one is indicated to further evaluate the breast",
+      "impression": "Suspicious for invasive breast carcinoma with lymph node involvement"
+    }
+  },
+  "status": "pending_review",
+  "clinician_decision": null,
+  "clinician_notes": null,
+  "edited_recommendation": null,
+  "decision_timestamp": null,
+  "clinician_id": null
+}

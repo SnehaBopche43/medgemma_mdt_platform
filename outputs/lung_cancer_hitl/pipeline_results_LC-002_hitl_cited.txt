@@ -1,0 +1,187 @@
+================================================================================
+LUNG CANCER MDT PIPELINE RESULTS WITH CITATIONS
+================================================================================
+
+Case ID: LC-002
+Cancer Type: Lung Cancer
+
+--------------------------------------------------------------------------------
+IMAGING ANALYSIS
+--------------------------------------------------------------------------------
+1.  **Key imaging features for staging:**
+
+    *   **Size of primary tumor:** 4.5 cm is a significant size and a factor in staging.
+    *   **Spiculation of the mass:** Indicates aggressive behavior and is concerning for malignancy.
+    *   **Abutment to the pleural surface and possible chest wall invasion:** Highly suggestive of local invasion and potential for regional spread.
+    *   **Hilar lymph nodes (2.3 cm):** Enlarged lymph nodes are a sign of regional lymph node involvement.
+    *   **Mediastinal lymphadenopathy (1.8 cm):** Indicates involvement of mediastinal lymph nodes, suggesting more advanced regional spread.
+    *   **Absence of distant metastasis in the chest, liver, or adrenals:** While reassuring, this does NOT rule out distant metastasis. Further imaging may be required.
+
+2.  **Evidence of local invasion or metastasis:**
+
+    *   **Local invasion:** The abutment of the mass to the pleural surface and possible chest wall invasion are strong indicators of local invasion.
+    *   **Regional lymph node metastasis:** Enlarged hilar lymph nodes and mediastinal lymphadenopathy strongly suggest regional lymph node involvement.
+
+3.  **Recommended additional imaging if needed:**
+
+    *   **PET/CT Scan:** A PET/CT scan is highly recommended to assess for distant metastasis, particularly to the lung periphery and other organs.
+    *
+
+--------------------------------------------------------------------------------
+SPECIALIST RECOMMENDATIONS WITH CITATIONS
+--------------------------------------------------------------------------------
+**1. Treatment Strategy:**
+
+Given the limited information, I would recommend an initial approach to identify the stage of the lung cancer and determine the appropriate treatment strategy.  The following steps are crucial:
+
+   *   **Staging:** Obtain a comprehensive staging workup, including:
+        *   CT scan of the chest, abdomen, and pelvis (with contrast)
+        *   PET-CT scan
+        *   Brain MRI (if neurological symptoms are present or if the patient has a high risk of brain metastases)
+        *   Bone scan (if there is suspicion of bone metastases or the patient has a high risk)
+        *   Mediastinal lymph node biopsy (if the PET-CT shows suspicious mediastinal nodes)
+        *   Pleural effusion analysis (if present)
+        *   Consider serum tumor markers (CEA, CYFRA 21-1, NSE)
+
+   *   **Based on staging, I would formulate a treatment strategy.  The general approach is as follows:**
+
+        *   **Non-Small Cell Lung Cancer (NSCLC) - Stage IV (Advanced):**
+            *   **Systemic Therapy:** The primary treatment is systemic therapy (chemotherapy, immunotherapy, or targeted therapy) to control the cancer and improve quality of life.
+            *   **First-line Treatment:** The choice of first-line therapy depends on the presence or absence of driver mutations, PD-L1 expression, and performance status.
+                *   **NSCLC with EGFR, ALK, ROS1, BRAF, or RET mutations:** Targeted therapy with an appropriate tyrosine kinase inhibitor (TKI) is the preferred first-line treatment.  Examples include EGFR TKIs (e.g., osimertinib, gefitinib, erlotinib), ALK TKIs (e.g., alectinib, brigatinib, lorlatinib), ROS1 TKIs (e.g., ent
+
+================================================================================
+REFERENCES
+================================================================================
+
+[1] National Comprehensive Cancer Network. NCCN Clinical Practice Guidelines in Oncology: Non-Small Cell Lung Cancer. Version 2.2025.
+    URL: https://www.nccn.org/guidelines/category_1
+    Evidence Level: 1A
+
+[2] Durvalumab after Chemoradiotherapy in Stage III Non-Small-Cell Lung Cancer. New England Journal of Medicine, 2017. PMID: 28885881
+    URL: https://pubmed.ncbi.nlm.nih.gov/28885881/
+    Key Finding: Durvalumab consolidation after chemoradiation significantly improved PFS and OS in stage III NSCLC
+    Evidence Level: 1A
+
+[3] Pembrolizumab plus Chemotherapy in Metastatic Non-Small-Cell Lung Cancer. New England Journal of Medicine, 2018. PMID: 29658856
+    URL: https://pubmed.ncbi.nlm.nih.gov/29658856/
+    Key Finding: Pembrolizumab + chemotherapy improved OS in metastatic nonsquamous NSCLC
+    Evidence Level: 1A
+
+[4] Sotorasib for KRAS G12C-Mutated Advanced Non-Small-Cell Lung Cancer. New England Journal of Medicine, 2021. PMID: 34096690
+    URL: https://pubmed.ncbi.nlm.nih.gov/34096690/
+    Key Finding: Sotorasib showed clinical benefit in KRAS G12C-mutated NSCLC
+    Evidence Level: 2A
+
+
+
+--------------------------------------------------------------------------------
+MDT BRIEF
+--------------------------------------------------------------------------------
+# MDT Case Brief
+
+**Date:** 2026-02-15  
+**Patient ID:** LC-002  
+**Cancer Type:** Lung Cancer (Non-Small Cell)
+
+---
+
+## Patient Demographics
+
+- Age: 67
+- Sex: Male
+- Medical History: COPD, hypertension, no prior cancer history
+
+---
+
+## Clinical Summary
+
+**Stage:** Unknown (Unknown, Unknown, Unknown)
+
+**Pathology:**
+- Diagnosis: Unknown
+- Grade: Moderately differentiated (Grade 2)
+- Receptors: {}
+
+---
+
+## Imaging Analysis
+
+1.  **Key imaging features for staging:**
+
+    *   **Size of primary tumor:** 4.5 cm is a significant size and a factor in staging.
+    *   **Spiculation of the mass:** Indicates aggressive behavior and is concerning for malignancy.
+    *   **Abutment to the pleural surface and possible chest wall invasion:** Highly suggestive of local invasion and potential for regional spread.
+    *   **Hilar lymph nodes (2.3 cm):** Enlarged lymph nodes are a sign of regional lymph node involvement.
+    *   **Mediastinal lymphadenopathy (1.8 cm):** Indicates involvement of mediastinal lymph nodes, suggesting more advanced regional spread.
+    *   **Absence of distant metastasis in the chest, liver, or adrenals:** While reassuring, this does NOT rule out distant metastasis. Further imaging may be required.
+
+2.  **Evidence of local invasion or metastasis:**
+
+    *   **Local invasion:** The abutment of the mass to the pleural surface and possible chest wall invasion are strong indicators of local invasion.
+    *   **Regional lymph node metastasis:** Enlarged hilar lymph nodes and mediastinal lymphadenopathy strongly suggest regional lymph node involvement.
+
+3.  **Recommended additional imaging if needed:**
+
+    *   **PET/CT Scan:** A PET/CT scan is highly recommended to assess for distant metastasis, particularly to the lung periphery and other organs.
+    *
+
+---
+
+## Medical Oncology Recommendations
+
+**1. Treatment Strategy:**
+
+Given the limited information, I would recommend an initial approach to identify the stage of the lung cancer and determine the appropriate treatment strategy.  The following steps are crucial:
+
+   *   **Staging:** Obtain a comprehensive staging workup, including:
+        *   CT scan of the chest, abdomen, and pelvis (with contrast)
+        *   PET-CT scan
+        *   Brain MRI (if neurological symptoms are present or if the patient has a high risk of brain metastases)
+        *   Bone scan (if there is suspicion of bone metastases or the patient has a high risk)
+        *   Mediastinal lymph node biopsy (if the PET-CT shows suspicious mediastinal nodes)
+        *   Pleural effusion analysis (if present)
+        *   Consider serum tumor markers (CEA, CYFRA 21-1, NSE)
+
+   *   **Based on staging, I would formulate a treatment strategy.  The general approach is as follows:**
+
+        *   **Non-Small Cell Lung Cancer (NSCLC) - Stage IV (Advanced):**
+            *   **Systemic Therapy:** The primary treatment is systemic therapy (chemotherapy, immunotherapy, or targeted therapy) to control the cancer and improve quality of life.
+            *   **First-line Treatment:** The choice of first-line therapy depends on the presence or absence of driver mutations, PD-L1 expression, and performance status.
+                *   **NSCLC with EGFR, ALK, ROS1, BRAF, or RET mutations:** Targeted therapy with an appropriate tyrosine kinase inhibitor (TKI) is the preferred first-line treatment.  Examples include EGFR TKIs (e.g., osimertinib, gefitinib, erlotinib), ALK TKIs (e.g., alectinib, brigatinib, lorlatinib), ROS1 TKIs (e.g., ent
+
+---
+
+## MDT Discussion Points
+
+1. **Treatment Intent:** Curative vs Palliative
+2. **Sequencing:** Neoadjuvant vs Adjuvant approach
+3. **Clinical Trial Eligibility:** Consider available trials
+4. **Supportive Care:** Psychosocial and symptom management needs
+
+---
+
+## Consensus Recommendation
+
+**Recommended Approach:**
+- Multidisciplinary treatment plan based on stage and biomarkers
+- Regular monitoring and response assessment
+- Patient-centered care with shared decision making
+
+---
+
+**Generated:** 2026-02-15 10:54:30
+
+
+================================================================================
+HITL APPROVAL STATUS
+================================================================================
+
+imaging_analysis: APPROVED
+Request ID: 30132332
+
+specialist_recommendations: APPROVED
+Request ID: 0ddbcc7d
+
+mdt_brief: APPROVED
+Request ID: 7648156a

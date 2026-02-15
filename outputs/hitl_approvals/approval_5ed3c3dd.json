@@ -1,0 +1,14 @@
+{
+  "request_id": "5ed3c3dd",
+  "recommendation_type": "specialist_recommendations",
+  "recommendation_data": {
+    "case_id": "LC-002",
+    "analysis_type": "specialist_recommendations",
+    "result": "1.  Treatment Strategy:\n\n    *   Based on the limited information, the treatment strategy should be based on the stage of the lung cancer. However, given the lack of information, I will provide general recommendations for non-small cell lung cancer (NSCLC) with a Grade 2 moderately differentiated tumor.\n    *   **Initial Approach:** We should start with a standard first-line chemotherapy regimen for NSCLC, assuming the patient is fit enough for it.\n    *   **Chemotherapy Regimen:** The standard chemotherapy regimen is typically platinum-based, usually with pemetrexed (if the patient is a non-smoker) or gemcitabine.\n        *   *Platinum-based chemotherapy*: Cisplatin or Carboplatin, plus Pemetrexed (if non-smoker) or Gemcitabine.\n        *   *Alternative*: If the patient is not a good candidate for platinum-based chemotherapy due to comorbidities, a platinum-free regimen can be considered, such as Docetaxel, Paclitaxel, or Gemcitabine.\n    *   **Hormonal Therapy:** The ER/PR status is unknown, so hormonal therapy is not indicated at this time.\n    *   **Targeted Therapy:** The HER2 status is unknown, so targeted therapy is not indicated at this time.\n    *   **Immunotherapy:** Immunotherapy is generally recommended as a maintenance therapy for patients with an excellent response (> 3 months) to platinum-based chemotherapy. This decision will be made after completion of the initial chemotherapy.\n\n2.  Treatment Sequencing:\n\n    *   **Neoadjuvant vs Adjuvant:** The optimal approach depends on the stage of the cancer.\n        *   *Stage I-II:* Neoadjuvant chemotherapy followed by surgery and adjuvant chemotherapy may be considered.\n        *   *Stage III:* Neoadjuvant chemotherapy followed by radiation therapy is typically recommended.\n\nREFERENCES:\n================================================================================\n\n[1] NCCN Clinical Practice Guidelines in Oncology: Non-Small Cell Lung Cancer\n    National Comprehensive Cancer Network\n    URL: https://www.nccn.org/guidelines/category_1\n    Evidence Level: 1A\n\n[2] Pembrolizumab versus Chemotherapy for PD-L1-Positive Non-Small-Cell Lung Cancer\n    New England Journal of Medicine, 2016\n    PMID: 27718847\n    Evidence Level: 1A\n\n[3] Osimertinib in Untreated EGFR-Mutated Advanced Non-Small-Cell Lung Cancer\n    New England Journal of Medicine, 2018\n    PMID: 29151359\n    Evidence Level: 1A\n================================================================================\n"
+  },
+  "status": "approved",
+  "created_at": "2026-02-15T16:14:04.917975",
+  "clinician_id": "AUTO_SYSTEM",
+  "approval_notes": "Auto-approved for demo purposes",
+  "approved_at": "2026-02-15T16:14:04.931991"
+}

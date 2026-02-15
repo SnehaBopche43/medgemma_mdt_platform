@@ -1,0 +1,13 @@
+{
+  "modality": "CT Abdomen/Pelvis with Contrast + Colonoscopy",
+  "findings": [
+    "Circumferential mass in sigmoid colon, 5 cm in length",
+    "Bowel wall thickening with luminal narrowing",
+    "Multiple enlarged pericolic lymph nodes (largest 1.5 cm)",
+    "Liver: 3 hypodense lesions in right lobe (largest 2.8 cm), suspicious for metastases",
+    "No peritoneal carcinomatosis or ascites",
+    "Lungs clear, no pulmonary metastases"
+  ],
+  "ai_analysis": "1. Primary tumor characteristics:\n   *   **Location:** Sigmoid colon\n   *   **Size:** 5 cm length\n   *   **Extent of invasion:** Circumferential, likely involving the bowel wall and potentially extending into the mesentery.\n\n2. Regional lymph node assessment:\n   *   Multiple enlarged pericolic lymph nodes, largest measuring 1.5 cm. This indicates regional lymph node involvement.\n\n3. Distant metastases evaluation:\n   *   **Liver:** 3 hypodense lesions in the right lobe, suspicious for metastases. Further investigation is necessary to confirm metastasis.\n   *   **Lung:** No evidence of pulmonary metastases.\n   *   **Peritoneum:** No evidence of peritoneal carcinomatosis.\n\n4. Vascular involvement and resectability assessment:\n   *   No information provided regarding vascular involvement.\n   *   Given the presence of liver metastases, the tumor is likely not resectable.\n   *   The sigmoid mass may be amenable to surgical resection if the liver metastases can be treated.\n\n5. TNM staging assessment based on imaging:\n   *   **T:** T4 (Tumor invades the bowel wall or extends into adjacent structures)\n   *   **N:** N2 (Regional lymph node involvement)\n   *   **M:** M1 (Distant Metastasis)\n   *   **Stage:** Stage IV (Metastatic Colorectal Cancer)\n\n6. Recommended additional imaging if needed:\n   *   **MRI liver:** To further characterize the liver lesions and assess for vascular involvement.\n   *   **Chest CT:** To rule out pulmonary metastases.\n   *   **PET-CT:** To evaluate for occult metastases and assess the metabolic activity of the primary tumor and liver lesions.\n   *   **Consider further staging investigations based on the patient's presentation and clinical context.**\n\nFinal Report:\n\nThe CT abdomen/",
+  "impression": "Sigmoid colon mass with regional lymphadenopathy and liver metastases, clinical Stage IV"
+}

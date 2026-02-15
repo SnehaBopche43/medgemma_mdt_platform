@@ -1,0 +1,26 @@
+{
+  "request_id": "67938040",
+  "recommendation_type": "imaging_analysis",
+  "recommendation_data": {
+    "case_id": "CRC-003",
+    "analysis_type": "imaging_analysis",
+    "result": {
+      "modality": "CT Abdomen/Pelvis with Contrast + Colonoscopy",
+      "findings": [
+        "Circumferential mass in sigmoid colon, 5 cm in length",
+        "Bowel wall thickening with luminal narrowing",
+        "Multiple enlarged pericolic lymph nodes (largest 1.5 cm)",
+        "Liver: 3 hypodense lesions in right lobe (largest 2.8 cm), suspicious for metastases",
+        "No peritoneal carcinomatosis or ascites",
+        "Lungs clear, no pulmonary metastases"
+      ],
+      "ai_analysis": "1.  **Key imaging features for staging:**\n\n    *   **Sigmoid Colon Mass:** Size (5cm) and location are important for surgical planning (if applicable). The presence of ulceration or irregular borders is also relevant.\n    *   **Bowel Wall Thickening:** Indicates inflammation and likely involvement of the bowel wall.\n    *   **Pericolic Lymph Node Enlargement:** Suggests regional spread of the disease. Size and number are crucial for grading.\n    *   **Liver Metastases:** Presence, number, and size of lesions are critical for staging and treatment planning. The location of the lesions within the liver (segmental) is also important.\n    *   **Absence of Peritoneal Carcinomatosis/Ascites:** While not directly staging, the absence of these findings is reassuring, suggesting that the disease is localized.\n\n2.  **Evidence of local invasion or metastasis:**\n\n    *   **Local Invasion:** Bowel wall thickening with luminal narrowing strongly suggests local invasion of the colon.\n    *   **Metastasis:** The presence of liver metastases confirms distant metastasis.\n\n3.  **Recommended additional imaging if needed:**\n\n    *   **PET/CT Scan:** This is the most appropriate next step to better characterize the extent of the disease, especially to detect potential occult metastases in other organs (e.g., lungs, bones, brain) that may not be apparent on CT alone. This will help",
+      "impression": "Sigmoid colon mass with regional lymphadenopathy and liver metastases, clinical Stage IV"
+    }
+  },
+  "status": "approved",
+  "created_at": "2026-02-15T12:13:09.974867",
+  "clinician_id": "AUTO_SYSTEM",
+  "approval_notes": "Auto-approved for demo purposes",
+  "approved_at": "2026-02-15T12:13:09.991737"
+}

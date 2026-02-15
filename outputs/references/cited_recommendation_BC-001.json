@@ -1,0 +1,26 @@
+{
+  "recommendation_with_citations": "\nTREATMENT RECOMMENDATION:\n\nFor this 52-year-old woman with Stage IIB (T2N1M0) ER+/PR+/HER2- invasive ductal carcinoma:\n\n1. NEOADJUVANT CHEMOTHERAPY:\n   - AC-T regimen (Doxorubicin/Cyclophosphamide followed by Paclitaxel)\n   - 4 cycles AC followed by 12 weeks Paclitaxel\n   \n2. SURGERY:\n   - Breast-conserving surgery or mastectomy based on tumor response\n   - Sentinel lymph node biopsy or axillary dissection\n   \n3. ADJUVANT HORMONAL THERAPY:\n   - Tamoxifen or Aromatase Inhibitor for 5-10 years\n   - Consider CDK4/6 inhibitor (Abemaciclib) given high-risk features\n   \n4. RADIATION THERAPY:\n   - Post-surgical radiation to breast/chest wall and regional nodes\n\n\n================================================================================\nREFERENCES\n================================================================================\n\n[1] National Comprehensive Cancer Network. NCCN Clinical Practice Guidelines in Oncology: Breast Cancer. Version 1.2025.\n    URL: https://www.nccn.org/guidelines/category_1\n    Evidence Level: 1A\n\n[2] Trastuzumab Emtansine for Residual Invasive HER2-Positive Breast Cancer. New England Journal of Medicine, 2019. PMID: 30345905\n    URL: https://pubmed.ncbi.nlm.nih.gov/30345905/\n    Key Finding: T-DM1 improved invasive disease-free survival in HER2+ breast cancer with residual disease after neoadjuvant therapy\n    Evidence Level: 1B\n\n[3] Abemaciclib Combined With Endocrine Therapy for HR+/HER2- Early Breast Cancer. Journal of Clinical Oncology, 2021. PMID: 34097453\n    URL: https://pubmed.ncbi.nlm.nih.gov/34097453/\n    Key Finding: Abemaciclib + endocrine therapy improved invasive disease-free survival in high-risk HR+/HER2- early breast cancer\n    Evidence Level: 1B\n\n",
+  "references": [
+    {
+      "type": "guideline",
+      "citation": "National Comprehensive Cancer Network. NCCN Clinical Practice Guidelines in Oncology: Breast Cancer. Version 1.2025.",
+      "url": "https://www.nccn.org/guidelines/category_1",
+      "evidence_level": "1A"
+    },
+    {
+      "type": "clinical_trial",
+      "citation": "Trastuzumab Emtansine for Residual Invasive HER2-Positive Breast Cancer. New England Journal of Medicine, 2019. PMID: 30345905",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30345905/",
+      "key_finding": "T-DM1 improved invasive disease-free survival in HER2+ breast cancer with residual disease after neoadjuvant therapy",
+      "evidence_level": "1B"
+    },
+    {
+      "type": "clinical_trial",
+      "citation": "Abemaciclib Combined With Endocrine Therapy for HR+/HER2- Early Breast Cancer. Journal of Clinical Oncology, 2021. PMID: 34097453",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34097453/",
+      "key_finding": "Abemaciclib + endocrine therapy improved invasive disease-free survival in high-risk HR+/HER2- early breast cancer",
+      "evidence_level": "1B"
+    }
+  ],
+  "reference_count": 3
+}

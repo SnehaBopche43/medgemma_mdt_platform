@@ -1,0 +1,58 @@
+{
+  "request_id": "30132332",
+  "timestamp": "2026-02-15T10:52:05.983409",
+  "recommendation_type": "lung_cancer_imaging_analysis",
+  "case_id": "LC-002",
+  "ai_recommendation": {
+    "case_id": "LC-002",
+    "cancer_type": "lung_cancer",
+    "analysis_type": "imaging_analysis",
+    "result": {
+      "modality": "CT Chest with Contrast",
+      "findings": [
+        "4.5 cm spiculated mass in right upper lobe",
+        "Mass abuts the pleural surface with possible chest wall invasion",
+        "Enlarged right hilar lymph nodes (largest 2.3 cm)",
+        "Mediastinal lymphadenopathy, subcarinal node 1.8 cm",
+        "No distant metastasis identified in chest, liver, or adrenals"
+      ],
+      "ai_analysis": "1.  **Key imaging features for staging:**\n\n    *   **Size of primary tumor:** 4.5 cm is a significant size and a factor in staging.\n    *   **Spiculation of the mass:** Indicates aggressive behavior and is concerning for malignancy.\n    *   **Abutment to the pleural surface and possible chest wall invasion:** Highly suggestive of local invasion and potential for regional spread.\n    *   **Hilar lymph nodes (2.3 cm):** Enlarged lymph nodes are a sign of regional lymph node involvement.\n    *   **Mediastinal lymphadenopathy (1.8 cm):** Indicates involvement of mediastinal lymph nodes, suggesting more advanced regional spread.\n    *   **Absence of distant metastasis in the chest, liver, or adrenals:** While reassuring, this does NOT rule out distant metastasis. Further imaging may be required.\n\n2.  **Evidence of local invasion or metastasis:**\n\n    *   **Local invasion:** The abutment of the mass to the pleural surface and possible chest wall invasion are strong indicators of local invasion.\n    *   **Regional lymph node metastasis:** Enlarged hilar lymph nodes and mediastinal lymphadenopathy strongly suggest regional lymph node involvement.\n\n3.  **Recommended additional imaging if needed:**\n\n    *   **PET/CT Scan:** A PET/CT scan is highly recommended to assess for distant metastasis, particularly to the lung periphery and other organs.\n    *",
+      "impression": "Suspicious for primary lung malignancy with regional lymph node involvement, clinical Stage IIIA"
+    },
+    "references": [
+      {
+        "type": "guideline",
+        "citation": "National Comprehensive Cancer Network. NCCN Clinical Practice Guidelines in Oncology: Non-Small Cell Lung Cancer. Version 2.2025.",
+        "url": "https://www.nccn.org/guidelines/category_1",
+        "evidence_level": "1A"
+      },
+      {
+        "type": "clinical_trial",
+        "citation": "Durvalumab after Chemoradiotherapy in Stage III Non-Small-Cell Lung Cancer. New England Journal of Medicine, 2017. PMID: 28885881",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28885881/",
+        "key_finding": "Durvalumab consolidation after chemoradiation significantly improved PFS and OS in stage III NSCLC",
+        "evidence_level": "1A"
+      },
+      {
+        "type": "clinical_trial",
+        "citation": "Pembrolizumab plus Chemotherapy in Metastatic Non-Small-Cell Lung Cancer. New England Journal of Medicine, 2018. PMID: 29658856",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29658856/",
+        "key_finding": "Pembrolizumab + chemotherapy improved OS in metastatic nonsquamous NSCLC",
+        "evidence_level": "1A"
+      },
+      {
+        "type": "clinical_trial",
+        "citation": "Sotorasib for KRAS G12C-Mutated Advanced Non-Small-Cell Lung Cancer. New England Journal of Medicine, 2021. PMID: 34096690",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34096690/",
+        "key_finding": "Sotorasib showed clinical benefit in KRAS G12C-mutated NSCLC",
+        "evidence_level": "2A"
+      }
+    ]
+  },
+  "status": "approved",
+  "clinician_decision": "approved",
+  "clinician_notes": "Auto-approved for demo purposes",
+  "edited_recommendation": null,
+  "decision_timestamp": "2026-02-15T10:52:05.991128",
+  "clinician_id": "AUTO_SYSTEM"
+}

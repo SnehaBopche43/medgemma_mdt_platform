@@ -1,0 +1,26 @@
+{
+  "request_id": "379b1d4c",
+  "recommendation_type": "imaging_analysis",
+  "recommendation_data": {
+    "case_id": "CRC-003",
+    "analysis_type": "imaging_analysis",
+    "result": {
+      "modality": "CT Abdomen/Pelvis with Contrast + Colonoscopy",
+      "findings": [
+        "Circumferential mass in sigmoid colon, 5 cm in length",
+        "Bowel wall thickening with luminal narrowing",
+        "Multiple enlarged pericolic lymph nodes (largest 1.5 cm)",
+        "Liver: 3 hypodense lesions in right lobe (largest 2.8 cm), suspicious for metastases",
+        "No peritoneal carcinomatosis or ascites",
+        "Lungs clear, no pulmonary metastases"
+      ],
+      "ai_analysis": "1.  **Key imaging features for staging:**\n\n    *   **Sigmoid Colon Mass:** This is the primary lesion and provides information about the primary tumor's size, location, and appearance.\n    *   **Pericolic Lymph Nodes:** Enlarged lymph nodes indicate regional spread of the cancer, which is a critical factor in staging.\n    *   **Liver Lesions:** Hypodense lesions in the liver suggest metastases. The size of the liver lesions is important to estimate the extent of the disease.\n\n2.  **Evidence of local invasion or metastasis:**\n\n    *   **Local Invasion:** Bowel wall thickening and luminal narrowing suggest local invasion of the colon by the tumor.\n    *   **Metastasis:** Liver lesions are highly suggestive of metastasis. The presence of multiple lesions raises concern for more widespread disease.\n\n3.  **Recommended additional imaging if needed:**\n\n    *   **MRI Abdomen/Pelvis with Contrast:** MRI is generally superior to CT for evaluating soft tissue and can provide more detailed information about the extent of the colon mass, lymph node involvement, and liver lesions. It can also help differentiate between benign and malignant lesions.\n    *   **PET/CT Scan:** PET/CT can help detect distant metastases that may not be visible on CT alone. It can also provide information about the metabolic activity of the primary tumor and metastases, which can be useful for treatment planning.\n    *   **Consideration of",
+      "impression": "Sigmoid colon mass with regional lymphadenopathy and liver metastases, clinical Stage IV"
+    }
+  },
+  "status": "approved",
+  "created_at": "2026-02-15T12:40:17.487553",
+  "clinician_id": "AUTO_SYSTEM",
+  "approval_notes": "Auto-approved for demo purposes",
+  "approved_at": "2026-02-15T12:40:17.503316"
+}

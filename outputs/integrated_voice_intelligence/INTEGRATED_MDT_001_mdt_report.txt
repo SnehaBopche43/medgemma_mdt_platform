@@ -1,0 +1,46 @@
+================================================================================
+MDT MEETING REPORT
+MedASR + MedGemma Voice Intelligence
+================================================================================
+
+Case ID: INTEGRATED_MDT_001
+Cancer Type: breast
+Date: 2026-02-15T17:03:16.488299
+Audio File: data/audio/mdt_meeting.wav
+
+================================================================================
+TRANSCRIPTION (PHI REDACTED)
+================================================================================
+
+Word Count: 65
+PHI Items Redacted: 0
+
+
+Good morning. This is the MDT meeting for breast cancer case.
+Patient is 58-year-old female with stage IIB invasive ductal carcinoma of left breast.
+Mammography showed 3.2 cm irregular mass. Biopsy confirmed ER positive, PR positive, HER2 negative.
+Recommend neoadjuvant chemotherapy with AC-T regimen: doxorubicin, cyclophosphamide, then paclitaxel.
+Followed by surgery, radiation therapy, and adjuvant endocrine therapy with tamoxifen.
+Patient is agreeable to treatment plan.
+
+
+================================================================================
+CLINICAL ANALYSIS (MedGemma)
+================================================================================
+
+DIAGNOSIS:
+Stage IIB invasive ductal carcinoma of left breast
+
+STAGING:
+T2 N1 M0, Clinical Stage IIB
+
+TREATMENT PLAN:
+Neoadjuvant chemotherapy (AC-T regimen), followed by surgery, radiation, and adjuvant endocrine therapy
+
+RECOMMENDATIONS:
+Proceed with neoadjuvant chemotherapy, consider breast-conserving surgery if good response
+
+ACTION ITEMS:
+Schedule chemotherapy, arrange pre-treatment workup, surgical consultation after chemo completion
+
+================================================================================

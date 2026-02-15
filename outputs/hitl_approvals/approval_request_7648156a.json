@@ -1,0 +1,29 @@
+{
+  "request_id": "7648156a",
+  "timestamp": "2026-02-15T10:54:30.514966",
+  "recommendation_type": "lung_cancer_mdt_brief",
+  "case_id": "LC-002",
+  "ai_recommendation": {
+    "case_id": "LC-002",
+    "cancer_type": "lung_cancer",
+    "analysis_type": "mdt_brief",
+    "result": {
+      "case_id": "LC-002",
+      "cancer_type": "Lung Cancer (Non-Small Cell)",
+      "brief_content": "# MDT Case Brief\n\n**Date:** 2026-02-15  \n**Patient ID:** LC-002  \n**Cancer Type:** Lung Cancer (Non-Small Cell)\n\n---\n\n## Patient Demographics\n\n- Age: 67\n- Sex: Male\n- Medical History: COPD, hypertension, no prior cancer history\n\n---\n\n## Clinical Summary\n\n**Stage:** Unknown (Unknown, Unknown, Unknown)\n\n**Pathology:**\n- Diagnosis: Unknown\n- Grade: Moderately differentiated (Grade 2)\n- Receptors: {}\n\n---\n\n## Imaging Analysis\n\n1.  **Key imaging features for staging:**\n\n    *   **Size of primary tumor:** 4.5 cm is a significant size and a factor in staging.\n    *   **Spiculation of the mass:** Indicates aggressive behavior and is concerning for malignancy.\n    *   **Abutment to the pleural surface and possible chest wall invasion:** Highly suggestive of local invasion and potential for regional spread.\n    *   **Hilar lymph nodes (2.3 cm):** Enlarged lymph nodes are a sign of regional lymph node involvement.\n    *   **Mediastinal lymphadenopathy (1.8 cm):** Indicates involvement of mediastinal lymph nodes, suggesting more advanced regional spread.\n    *   **Absence of distant metastasis in the chest, liver, or adrenals:** While reassuring, this does NOT rule out distant metastasis. Further imaging may be required.\n\n2.  **Evidence of local invasion or metastasis:**\n\n    *   **Local invasion:** The abutment of the mass to the pleural surface and possible chest wall invasion are strong indicators of local invasion.\n    *   **Regional lymph node metastasis:** Enlarged hilar lymph nodes and mediastinal lymphadenopathy strongly suggest regional lymph node involvement.\n\n3.  **Recommended additional imaging if needed:**\n\n    *   **PET/CT Scan:** A PET/CT scan is highly recommended to assess for distant metastasis, particularly to the lung periphery and other organs.\n    *\n\n---\n\n## Medical Oncology Recommendations\n\n**1. Treatment Strategy:**\n\nGiven the limited information, I would recommend an initial approach to identify the stage of the lung cancer and determine the appropriate treatment strategy.  The following steps are crucial:\n\n   *   **Staging:** Obtain a comprehensive staging workup, including:\n        *   CT scan of the chest, abdomen, and pelvis (with contrast)\n        *   PET-CT scan\n        *   Brain MRI (if neurological symptoms are present or if the patient has a high risk of brain metastases)\n        *   Bone scan (if there is suspicion of bone metastases or the patient has a high risk)\n        *   Mediastinal lymph node biopsy (if the PET-CT shows suspicious mediastinal nodes)\n        *   Pleural effusion analysis (if present)\n        *   Consider serum tumor markers (CEA, CYFRA 21-1, NSE)\n\n   *   **Based on staging, I would formulate a treatment strategy.  The general approach is as follows:**\n\n        *   **Non-Small Cell Lung Cancer (NSCLC) - Stage IV (Advanced):**\n            *   **Systemic Therapy:** The primary treatment is systemic therapy (chemotherapy, immunotherapy, or targeted therapy) to control the cancer and improve quality of life.\n            *   **First-line Treatment:** The choice of first-line therapy depends on the presence or absence of driver mutations, PD-L1 expression, and performance status.\n                *   **NSCLC with EGFR, ALK, ROS1, BRAF, or RET mutations:** Targeted therapy with an appropriate tyrosine kinase inhibitor (TKI) is the preferred first-line treatment.  Examples include EGFR TKIs (e.g., osimertinib, gefitinib, erlotinib), ALK TKIs (e.g., alectinib, brigatinib, lorlatinib), ROS1 TKIs (e.g., ent\n\n---\n\n## MDT Discussion Points\n\n1. **Treatment Intent:** Curative vs Palliative\n2. **Sequencing:** Neoadjuvant vs Adjuvant approach\n3. **Clinical Trial Eligibility:** Consider available trials\n4. **Supportive Care:** Psychosocial and symptom management needs\n\n---\n\n## Consensus Recommendation\n\n**Recommended Approach:**\n- Multidisciplinary treatment plan based on stage and biomarkers\n- Regular monitoring and response assessment\n- Patient-centered care with shared decision making\n\n---\n\n**Generated:** 2026-02-15 10:54:30\n",
+      "executive_summary": "Lung Cancer (Non-Small Cell) - Stage Unknown",
+      "key_discussion_points": [
+        "Treatment sequencing",
+        "Clinical trial eligibility",
+        "Supportive care needs"
+      ],
+      "consensus_recommendation": "Multidisciplinary treatment plan recommended"
+    }
+  },
+  "status": "approved",
+  "clinician_decision": "approved",
+  "clinician_notes": "Auto-approved for demo purposes",
+  "edited_recommendation": null,
+  "decision_timestamp": "2026-02-15T10:54:30.518715",
+  "clinician_id": "AUTO_SYSTEM"
+}

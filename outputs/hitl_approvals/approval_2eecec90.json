@@ -1,0 +1,24 @@
+{
+  "request_id": "2eecec90",
+  "recommendation_type": "imaging_analysis",
+  "recommendation_data": {
+    "case_id": "BC-001",
+    "analysis_type": "imaging_analysis",
+    "result": {
+      "modality": "CT Chest with Contrast",
+      "findings": [
+        "3.2 cm irregular mass in upper outer quadrant of right breast",
+        "Spiculated margins suggesting malignancy",
+        "Enlarged right axillary lymph nodes (largest 1.8 cm)",
+        "No evidence of distant metastasis in chest"
+      ],
+      "ai_analysis": "The CT chest with contrast reveals a 3.2 cm irregular mass in the right breast with spiculated margins, suggestive of malignancy. Furthermore, there are enlarged right axillary lymph nodes, with the largest measuring 1.8 cm. There is no evidence of distant metastasis in the chest.\n\n1.  Key imaging features for staging:\n    *   Size and location of the primary tumor (3.2 cm right breast)\n    *   Axillary lymph node involvement (largest 1.8 cm)\n    *   Presence or absence of distant metastasis (no evidence in chest)\n    *   Axillary lymph node (ALN) status:\n        *   Sentinel lymph node biopsy (SLNB) - to assess for micrometastases\n        *   Axillary lymph node dissection (ALND) - considered if SLNB is positive or if there are high-risk features\n    *   Chest wall invasion\n    *   Mediastinal lymph node involvement\n    *   Pleural effusion or pneumothorax\n\n2.  Evidence of local invasion or metastasis:\n    *   The 3.2 cm mass with spiculated margins strongly suggests local invasion.\n    *   The enlarged right axillary lymph nodes (1.8 cm) indicate lymph node metastasis.\n    *   No evidence of distant metastasis in the chest. Further imaging may be needed to rule out distant metastasis.\n\n3.  Recommended additional imaging if needed:",
+      "impression": "Suspicious for invasive breast carcinoma with lymph node involvement"
+    }
+  },
+  "status": "approved",
+  "created_at": "2026-02-15T12:32:38.032755",
+  "clinician_id": "AUTO_SYSTEM",
+  "approval_notes": "Auto-approved for demo purposes",
+  "approved_at": "2026-02-15T12:32:38.044509"
+}

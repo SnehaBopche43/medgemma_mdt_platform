@@ -1,0 +1,27 @@
+{
+  "request_id": "3c2efb4b",
+  "timestamp": "2026-02-15T09:47:23.937739",
+  "recommendation_type": "imaging_analysis",
+  "case_id": "BC-001",
+  "ai_recommendation": {
+    "case_id": "BC-001",
+    "analysis_type": "imaging_analysis",
+    "result": {
+      "modality": "CT Chest with Contrast",
+      "findings": [
+        "3.2 cm irregular mass in upper outer quadrant of right breast",
+        "Spiculated margins suggesting malignancy",
+        "Enlarged right axillary lymph nodes (largest 1.8 cm)",
+        "No evidence of distant metastasis in chest"
+      ],
+      "ai_analysis": "1.  **Key imaging features for staging:**\n\n    *   **Size and location of the primary tumor:** The 3.2 cm mass in the right upper outer quadrant is a significant finding.\n    *   **Spiculated margins:** This is a suggestive sign of malignancy.\n    *   **Enlarged right axillary lymph nodes:** The enlarged nodes, with the largest measuring 1.8 cm, indicate regional lymph node involvement. The number and size of the nodes are important for staging.\n    *   **Breast density:** While not explicitly stated, breast density can influence the assessment of the mass.\n    *   **Presence of skin changes:**  Any skin changes (e.g., ulceration, edema, peau d'orange) would further support the suspicion of malignancy.\n\n2.  **Evidence of local invasion or metastasis:**\n\n    *   **Spiculated margins:** Suggestive of local invasion.\n    *   **Enlarged axillary lymph nodes:** Direct evidence of lymph node involvement, which is a key factor in staging.\n\n3.  **Recommended additional imaging if needed:**\n\n    *   **Mammography:** A baseline mammogram is essential.\n    *   **Ultrasound:** Ultrasound can provide further characterization of the mass, particularly if the mammogram is not definitive. It can also assess for lymph node involvement.\n    *   **MRI:** MRI is highly sensitive for detecting breast cancer and",
+      "impression": "Suspicious for invasive breast carcinoma with lymph node involvement"
+    }
+  },
+  "status": "approved",
+  "clinician_decision": "approved",
+  "clinician_notes": "Auto-approved for demo purposes",
+  "edited_recommendation": null,
+  "decision_timestamp": "2026-02-15T09:47:23.947491",
+  "clinician_id": "AUTO_SYSTEM"
+}

@@ -1,0 +1,18 @@
+{
+  "request_id": "182b4191",
+  "timestamp": "2026-02-15T08:20:53.803174",
+  "recommendation_type": "imaging_followup",
+  "case_id": "LC-002",
+  "ai_recommendation": {
+    "case_id": "LC-002",
+    "recommendation_type": "imaging_followup",
+    "imaging_recommendations": "CT chest every 6 months for 2 years",
+    "confidence_score": 0.92
+  },
+  "status": "approved_with_edits",
+  "clinician_decision": "edited",
+  "clinician_notes": "Patient has high-risk features requiring more frequent surveillance initially",
+  "edited_recommendation": "CT chest every 3 months for first year, then every 6 months for second year",
+  "decision_timestamp": "2026-02-15T08:20:53.803174",
+  "clinician_id": "DR_JONES"
+}
