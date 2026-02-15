@@ -1,0 +1,152 @@
+{
+  "case_id": "BC-001-LONG",
+  "patient_id": "BC-001",
+  "cancer_type": "Breast Cancer",
+  "patient_info": {
+    "age": 52,
+    "gender": "Female",
+    "menopausal_status": "Postmenopausal",
+    "family_history": "Mother had breast cancer at age 58",
+    "performance_status": "0"
+  },
+  "timepoints": [
+    {
+      "timepoint_id": "baseline",
+      "date": "2025-11-01",
+      "description": "Initial diagnosis",
+      "imaging": {
+        "modality": "Mammography + Ultrasound + MRI Breast",
+        "findings": [
+          "3.2 cm irregular mass in left breast upper outer quadrant",
+          "Spiculated margins with architectural distortion",
+          "2 suspicious axillary lymph nodes (largest 1.5 cm)",
+          "No distant metastasis on staging CT"
+        ],
+        "impression": "BI-RADS 5: Highly suggestive of malignancy with regional lymph node involvement"
+      },
+      "pathology": {
+        "biopsy_site": "Left breast mass + axillary lymph node",
+        "histology": "Invasive ductal carcinoma",
+        "grade": "Grade 2 (moderately differentiated)",
+        "tumor_size": "3.2 cm",
+        "lymph_nodes": "2 of 2 sampled nodes positive"
+      },
+      "molecular_testing": {
+        "er_status": "Positive (90%)",
+        "pr_status": "Positive (70%)",
+        "her2_status": "Negative (IHC 1+)",
+        "ki67": "25%"
+      },
+      "staging": {
+        "tnm": "T2N1M0",
+        "stage": "Stage IIA",
+        "ajcc_version": "8th edition"
+      },
+      "treatment_plan": {
+        "intent": "Curative",
+        "approach": "Neoadjuvant chemotherapy followed by surgery",
+        "regimen": "AC-T (Adriamycin/Cyclophosphamide x 4 cycles, then Paclitaxel x 12 weeks)",
+        "planned_surgery": "Lumpectomy + sentinel lymph node biopsy",
+        "planned_radiation": "Yes, adjuvant radiation therapy",
+        "planned_endocrine": "Yes, 5-10 years tamoxifen or aromatase inhibitor"
+      }
+    },
+    {
+      "timepoint_id": "3month_followup",
+      "date": "2026-02-01",
+      "description": "Post-neoadjuvant chemotherapy assessment",
+      "imaging": {
+        "modality": "MRI Breast",
+        "findings": [
+          "Residual mass in left breast measuring 1.5 cm (decreased from 3.2 cm)",
+          "Significant reduction in enhancement and size (53% reduction)",
+          "Previously enlarged axillary lymph nodes now normal size",
+          "No new lesions identified"
+        ],
+        "impression": "Excellent partial response to neoadjuvant chemotherapy"
+      },
+      "clinical_assessment": {
+        "tumor_response": "Partial response (PR) by RECIST criteria",
+        "size_change": "3.2 cm → 1.5 cm (-53%)",
+        "lymph_nodes": "Clinically negative",
+        "toxicity": "Grade 2 neuropathy, manageable",
+        "performance_status": "1"
+      },
+      "treatment_received": {
+        "chemotherapy_completed": "AC x 4 cycles + Paclitaxel x 12 weeks",
+        "completion_date": "2026-01-25",
+        "complications": "Grade 2 peripheral neuropathy, no dose reductions"
+      },
+      "next_steps": {
+        "planned_surgery": "Lumpectomy + sentinel lymph node biopsy in 2-3 weeks",
+        "surgical_date": "2026-03-15"
+      }
+    },
+    {
+      "timepoint_id": "6month_followup",
+      "date": "2026-05-01",
+      "description": "Post-surgical pathology and treatment completion",
+      "surgical_pathology": {
+        "procedure": "Left breast lumpectomy + sentinel lymph node biopsy",
+        "surgery_date": "2026-03-15",
+        "residual_tumor_size": "0.5 cm",
+        "pathologic_response": "Near-complete pathologic response (>90% tumor reduction)",
+        "lymph_nodes_examined": "3 sentinel nodes",
+        "lymph_nodes_positive": "0 of 3",
+        "margins": "Clear, closest margin 5 mm",
+        "final_stage": "ypT1aN0M0 (Stage IA post-treatment)"
+      },
+      "imaging": {
+        "modality": "Post-surgical MRI",
+        "findings": [
+          "Post-surgical changes in left breast",
+          "No residual enhancement suspicious for tumor",
+          "Surgical clips in place",
+          "No axillary lymphadenopathy"
+        ],
+        "impression": "No evidence of residual disease"
+      },
+      "current_treatment": {
+        "radiation_therapy": "Completed 25 fractions to left breast (May 2026)",
+        "endocrine_therapy": "Started tamoxifen 20mg daily (April 2026)",
+        "surveillance_plan": "Clinical exam every 3-6 months, annual mammography"
+      },
+      "clinical_status": {
+        "disease_status": "No evidence of disease (NED)",
+        "performance_status": "0",
+        "toxicity": "Minimal - hot flashes from tamoxifen",
+        "quality_of_life": "Excellent"
+      },
+      "prognosis": {
+        "pathologic_complete_response": "No (but near-complete response)",
+        "5year_survival_estimate": ">90%",
+        "10year_survival_estimate": ">85%",
+        "recurrence_risk": "Low (post-treatment Stage IA)"
+      }
+    }
+  ],
+  "overall_summary": {
+    "treatment_timeline": [
+      "Nov 2025: Diagnosis - Stage IIA breast cancer (T2N1M0)",
+      "Nov 2025 - Jan 2026: Neoadjuvant chemotherapy (AC-T regimen)",
+      "Feb 2026: Excellent partial response (53% tumor reduction)",
+      "Mar 2026: Lumpectomy + sentinel lymph node biopsy",
+      "Apr-May 2026: Radiation therapy completed",
+      "May 2026: Started adjuvant endocrine therapy (tamoxifen)",
+      "Current: No evidence of disease, excellent prognosis"
+    ],
+    "key_outcomes": {
+      "tumor_response": "Excellent response to chemotherapy (53% reduction)",
+      "surgical_outcome": "Clear margins, node-negative",
+      "pathologic_response": "Near-complete pathologic response (>90% reduction)",
+      "downstaging": "Stage IIA → Stage IA post-treatment",
+      "prognosis": "Excellent, >90% 5-year survival"
+    },
+    "longitudinal_insights": {
+      "treatment_effectiveness": "Neoadjuvant chemotherapy highly effective",
+      "surgical_impact": "Successful breast conservation",
+      "disease_trajectory": "Excellent response with downstaging",
+      "quality_of_life": "Maintained throughout treatment"
+    }
+  }
+}

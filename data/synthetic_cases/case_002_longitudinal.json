@@ -1,0 +1,143 @@
+{
+  "case_id": "LC-002-LONG",
+  "patient_id": "LC-002",
+  "cancer_type": "Lung Cancer (Non-Small Cell)",
+  "patient_info": {
+    "age": 67,
+    "gender": "Male",
+    "smoking_history": "Former smoker, 40 pack-years, quit 5 years ago",
+    "medical_history": "COPD, hypertension, no prior cancer history",
+    "performance_status": "1"
+  },
+  "timepoints": [
+    {
+      "timepoint_id": "baseline",
+      "date": "2025-11-01",
+      "description": "Initial diagnosis",
+      "imaging": {
+        "modality": "CT Chest with Contrast",
+        "findings": [
+          "4.5 cm spiculated mass in right upper lobe",
+          "Mass abuts the pleural surface with possible chest wall invasion",
+          "Enlarged right hilar lymph nodes (largest 2.3 cm)",
+          "Mediastinal lymphadenopathy, subcarinal node 1.8 cm",
+          "No distant metastasis identified"
+        ],
+        "impression": "Suspicious for primary lung malignancy with regional lymph node involvement, clinical Stage IIIA"
+      },
+      "pathology": {
+        "biopsy_site": "CT-guided lung biopsy",
+        "histology": "Adenocarcinoma",
+        "grade": "Moderately differentiated (Grade 2)",
+        "tumor_size": "4.5 cm"
+      },
+      "molecular_testing": {
+        "pdl1_expression": "60% (high expression)",
+        "driver_mutations": ["KRAS G12C mutation detected"],
+        "additional_markers": {
+          "EGFR": "Negative (wild-type)",
+          "ALK": "Negative",
+          "ROS1": "Negative"
+        }
+      },
+      "staging": {
+        "tnm": "T3N2M0",
+        "stage": "Stage IIIA",
+        "ajcc_version": "8th edition"
+      },
+      "treatment_plan": {
+        "intent": "Curative",
+        "approach": "Concurrent chemoradiation followed by immunotherapy consolidation",
+        "regimen": "Carboplatin/Paclitaxel + radiation 60 Gy, then Durvalumab consolidation",
+        "planned_duration": "6 months chemoradiation + 12 months immunotherapy"
+      }
+    },
+    {
+      "timepoint_id": "3month_followup",
+      "date": "2026-02-01",
+      "description": "Post-chemoradiation assessment",
+      "imaging": {
+        "modality": "CT Chest with Contrast + PET-CT",
+        "findings": [
+          "Primary tumor decreased to 2.8 cm (38% reduction)",
+          "Post-radiation changes in right upper lobe",
+          "Mediastinal lymph nodes significantly decreased (largest now 1.0 cm)",
+          "PET: Decreased FDG uptake in primary tumor (SUV 3.2, down from 8.5)",
+          "No new lesions or metastases"
+        ],
+        "impression": "Partial response to chemoradiation, no evidence of progression"
+      },
+      "clinical_assessment": {
+        "tumor_response": "Partial response (PR) by RECIST criteria",
+        "size_change": "4.5 cm → 2.8 cm (-38%)",
+        "metabolic_response": "Significant decrease in FDG uptake",
+        "toxicity": "Grade 2 esophagitis (resolved), Grade 1 pneumonitis",
+        "performance_status": "1"
+      },
+      "treatment_received": {
+        "chemoradiation_completed": "Carboplatin/Paclitaxel x 6 weeks + 60 Gy radiation",
+        "completion_date": "2026-01-15",
+        "complications": "Grade 2 esophagitis, manageable with supportive care"
+      },
+      "next_steps": {
+        "planned_treatment": "Start Durvalumab immunotherapy consolidation",
+        "start_date": "2026-02-15",
+        "duration": "12 months"
+      }
+    },
+    {
+      "timepoint_id": "6month_followup",
+      "date": "2026-05-01",
+      "description": "During immunotherapy consolidation",
+      "imaging": {
+        "modality": "CT Chest with Contrast",
+        "findings": [
+          "Stable residual mass 2.5 cm in right upper lobe",
+          "Post-treatment fibrotic changes",
+          "Mediastinal lymph nodes stable, no pathologic enlargement",
+          "No new lesions or distant metastases"
+        ],
+        "impression": "Stable disease, continued response to treatment"
+      },
+      "clinical_assessment": {
+        "disease_status": "Stable disease (SD)",
+        "size_change": "2.8 cm → 2.5 cm (stable/minimal change)",
+        "performance_status": "0",
+        "toxicity": "Grade 1 fatigue, no immune-related adverse events",
+        "quality_of_life": "Good"
+      },
+      "current_treatment": {
+        "immunotherapy": "Durvalumab 10mg/kg IV every 2 weeks (3 months completed)",
+        "planned_duration": "Continue for total 12 months",
+        "surveillance_plan": "CT chest every 3 months, PET-CT at 12 months"
+      },
+      "prognosis": {
+        "disease_control": "Excellent local control, no progression",
+        "3year_survival_estimate": "60-70%",
+        "5year_survival_estimate": "40-50%",
+        "progression_risk": "Low risk of local recurrence, moderate risk of distant metastasis"
+      }
+    }
+  ],
+  "overall_summary": {
+    "treatment_timeline": [
+      "Nov 2025: Diagnosis - Stage IIIA NSCLC (T3N2M0)",
+      "Nov 2025 - Jan 2026: Concurrent chemoradiation",
+      "Feb 2026: Partial response (38% tumor reduction)",
+      "Feb 2026 - Present: Durvalumab immunotherapy consolidation",
+      "May 2026: Stable disease, excellent disease control"
+    ],
+    "key_outcomes": {
+      "tumor_response": "Partial response to chemoradiation (38% reduction)",
+      "disease_control": "Stable disease on immunotherapy",
+      "downstaging": "Stage IIIA → excellent local control",
+      "prognosis": "Good, 60-70% 3-year survival"
+    },
+    "longitudinal_insights": {
+      "treatment_effectiveness": "Chemoradiation highly effective for local control",
+      "immunotherapy_benefit": "Maintaining disease stability",
+      "disease_trajectory": "Favorable response with no progression",
+      "quality_of_life": "Well-maintained throughout treatment"
+    }
+  }
+}

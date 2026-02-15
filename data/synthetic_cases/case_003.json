@@ -1,0 +1,57 @@
+{
+  "case_id": "CRC-003",
+  "cancer_type": "Colorectal Cancer",
+  "patient_info": {
+    "age": 58,
+    "gender": "Female",
+    "family_history": "Father had colon cancer at age 65",
+    "medical_history": "Type 2 diabetes, obesity (BMI 32), no prior cancer history",
+    "performance_status": "0"
+  },
+  "imaging": {
+    "modality": "CT Abdomen/Pelvis with Contrast + Colonoscopy",
+    "findings": [
+      "Circumferential mass in sigmoid colon, 5 cm in length",
+      "Bowel wall thickening with luminal narrowing",
+      "Multiple enlarged pericolic lymph nodes (largest 1.5 cm)",
+      "Liver: 3 hypodense lesions in right lobe (largest 2.8 cm), suspicious for metastases",
+      "No peritoneal carcinomatosis or ascites",
+      "Lungs clear, no pulmonary metastases"
+    ],
+    "impression": "Sigmoid colon mass with regional lymphadenopathy and liver metastases, clinical Stage IV"
+  },
+  "pathology": {
+    "biopsy_site": "Colonoscopy biopsy",
+    "histology": "Adenocarcinoma",
+    "grade": "Moderately differentiated (Grade 2)",
+    "tumor_size": "5 cm",
+    "lymphovascular_invasion": "Present",
+    "perineural_invasion": "Present"
+  },
+  "molecular_testing": {
+    "msi_status": "Microsatellite stable (MSS)",
+    "driver_mutations": ["KRAS wild-type", "BRAF wild-type"],
+    "additional_markers": {
+      "RAS": "Wild-type (KRAS and NRAS)",
+      "BRAF": "Wild-type",
+      "HER2": "Negative",
+      "MMR_proteins": "Intact (MLH1, MSH2, MSH6, PMS2)"
+    }
+  },
+  "diagnosis": {
+    "primary_site": "Sigmoid colon",
+    "histology": "Adenocarcinoma",
+    "stage": "Stage IV"
+  },
+  "staging": {
+    "tnm": "T3N1M1a",
+    "stage": "Stage IV",
+    "ajcc_version": "8th edition",
+    "details": {
+      "T": "T3 - Tumor invades through muscularis propria into subserosa",
+      "N": "N1 - 1-3 regional lymph nodes involved",
+      "M": "M1a - Metastasis to one organ (liver)"
+    }
+  },
+  "cea_level": "45.2 ng/mL (elevated)"
+}

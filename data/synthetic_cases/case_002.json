@@ -1,0 +1,53 @@
+{
+  "case_id": "LC-002",
+  "cancer_type": "Lung Cancer (Non-Small Cell)",
+  "patient_info": {
+    "age": 67,
+    "gender": "Male",
+    "smoking_history": "Former smoker, 40 pack-years, quit 5 years ago",
+    "medical_history": "COPD, hypertension, no prior cancer history",
+    "performance_status": "1"
+  },
+  "imaging": {
+    "modality": "CT Chest with Contrast",
+    "findings": [
+      "4.5 cm spiculated mass in right upper lobe",
+      "Mass abuts the pleural surface with possible chest wall invasion",
+      "Enlarged right hilar lymph nodes (largest 2.3 cm)",
+      "Mediastinal lymphadenopathy, subcarinal node 1.8 cm",
+      "No distant metastasis identified in chest, liver, or adrenals"
+    ],
+    "impression": "Suspicious for primary lung malignancy with regional lymph node involvement, clinical Stage IIIA"
+  },
+  "pathology": {
+    "biopsy_site": "CT-guided lung biopsy",
+    "histology": "Adenocarcinoma",
+    "grade": "Moderately differentiated (Grade 2)",
+    "tumor_size": "4.5 cm",
+    "lymphovascular_invasion": "Present",
+    "perineural_invasion": "Not identified"
+  },
+  "molecular_testing": {
+    "pdl1_expression": "60% (high expression)",
+    "driver_mutations": ["KRAS G12C mutation detected"],
+    "additional_markers": {
+      "EGFR": "Negative (wild-type)",
+      "ALK": "Negative",
+      "ROS1": "Negative"
+    }
+  },
+    "diagnosis": {
+    "primary_site": "Right upper lobe",
+    "histology": "Adenocarcinoma",
+    "stage": "Stage IIIA"
+  },
+  "staging": {
+
+    "ajcc_version": "8th edition",
+    "details": {
+      "T": "T3 - Tumor >4cm, invading chest wall",
+      "N": "N2 - Ipsilateral mediastinal lymph nodes",
+      "M": "M0 - No distant metastasis"
+    }
+  }
+}
