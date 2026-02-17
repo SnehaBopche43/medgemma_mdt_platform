@@ -1,0 +1,36 @@
+{
+  "patient_info": {
+    "patient_id": "PT001",
+    "first_name": "Sarah",
+    "last_name": "Johnson",
+    "date_of_birth": "1965-03-15",
+    "gender": "Female",
+    "contact_phone": "+1-555-0123",
+    "contact_email": "sarah.j@email.com"
+  },
+  "cancer_case": {
+    "cancer_type": "breast",
+    "diagnosis_date": "2026-01-15",
+    "tumor_size": "2.3 cm",
+    "histology": "Invasive Ductal Carcinoma",
+    "grade": "Grade 2",
+    "lymph_node_status": "1/12 nodes positive",
+    "hormone_receptor_status": {
+      "ER": "Positive (95%)",
+      "PR": "Positive (80%)",
+      "HER2": "Negative"
+    },
+    "ki67": "18%",
+    "stage": "Stage IIA (T2N1M0)",
+    "biomarkers": {
+      "ER": "Positive",
+      "PR": "Positive",
+      "HER2": "Negative",
+      "Ki-67": "18%"
+    },
+    "clinical_notes": "Patient presents with palpable mass in upper outer quadrant of left breast. Core biopsy confirms invasive ductal carcinoma. Sentinel lymph node biopsy shows micrometastasis in 1 of 12 nodes. No distant metastases on staging CT. Patient is postmenopausal. Good performance status (ECOG 0). Family history: mother had breast cancer at age 58."
+  },
+  "expected_treatment": "Lumpectomy with sentinel lymph node biopsy, followed by adjuvant chemotherapy (AC-T regimen), radiation therapy, and endocrine therapy (Aromatase Inhibitor for 5-10 years)",
+  "expected_stage": "Stage IIA",
+  "trial_eligibility": "Eligible for adjuvant endocrine therapy trials, genomic testing trials (Oncotype DX)"
+}

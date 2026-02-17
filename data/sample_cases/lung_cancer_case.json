@@ -1,0 +1,32 @@
+{
+  "patient_info": {
+    "patient_id": "PT002",
+    "first_name": "Michael",
+    "last_name": "Chen",
+    "date_of_birth": "1958-07-22",
+    "gender": "Male",
+    "contact_phone": "+1-555-0456",
+    "contact_email": "m.chen@email.com"
+  },
+  "cancer_case": {
+    "cancer_type": "lung",
+    "diagnosis_date": "2026-02-01",
+    "tumor_size": "3.5 cm",
+    "histology": "Adenocarcinoma",
+    "lymph_node_status": "Mediastinal lymph nodes positive (N2)",
+    "metastasis_status": "M0 (no distant metastases)",
+    "smoking_history": "Former smoker, 30 pack-years, quit 5 years ago",
+    "stage": "Stage IIIA (T2N2M0)",
+    "biomarkers": {
+      "EGFR": "Exon 19 deletion (Positive)",
+      "ALK": "Negative",
+      "ROS1": "Negative",
+      "PD-L1": "60%",
+      "KRAS": "Wild-type"
+    },
+    "clinical_notes": "Patient presents with persistent cough and hemoptysis. CT chest shows 3.5cm mass in right upper lobe with mediastinal lymphadenopathy. PET-CT confirms N2 disease. Brain MRI negative for metastases. EBUS-TBNA confirms adenocarcinoma in mediastinal nodes. Molecular testing reveals EGFR exon 19 deletion. Performance status ECOG 1. No significant comorbidities."
+  },
+  "expected_treatment": "First-line EGFR TKI (Osimertinib) given EGFR mutation, with consideration for local therapy (surgery or radiation) after response assessment",
+  "expected_stage": "Stage IIIA",
+  "trial_eligibility": "Eligible for EGFR TKI trials, neoadjuvant immunotherapy trials, combination therapy trials"
+}

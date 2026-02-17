@@ -1,21 +1,45 @@
-# Core MedGemma Dependencies
+# MedGemma MDT Platform - Python Dependencies
+
+# Core Framework
+streamlit>=1.30.0
+python-dotenv>=1.0.0
+
+# AI/ML Models
 google-generativeai>=0.3.0
-pillow>=10.0.0
-pandas>=2.0.0
-python-dateutil>=2.8.2
-
-# MedASR Voice Intelligence
-transformers>=5.0.0
+transformers>=4.35.0
 torch>=2.0.0
-librosa>=0.11.0
-soundfile>=0.13.0
+accelerate>=0.24.0
 
-# Web Interface (optional)
-streamlit>=1.28.0
-fastapi>=0.104.0
-uvicorn>=0.24.0
+# Database
+sqlalchemy>=2.0.0
+alembic>=1.12.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# API and Web
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+aiohttp>=3.9.0
+
+# Audio Processing
+librosa>=0.10.0
+soundfile>=0.12.0
+pydub>=0.25.0
+
+# Visualization
+plotly>=5.18.0
+matplotlib>=3.7.0
+
+# NLP and Text Processing
+spacy>=3.7.0
+nltk>=3.8.0
 
 # Utilities
-python-dotenv>=1.0.0
-tqdm>=4.66.0
-pyyaml>=6.0
+pyyaml>=6.0.0
+python-dateutil>=2.8.0
+pytz>=2023.3
+
+# Security and Compliance
+cryptography>=41.0.0

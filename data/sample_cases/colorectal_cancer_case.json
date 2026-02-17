@@ -1,0 +1,33 @@
+{
+  "patient_info": {
+    "patient_id": "PT003",
+    "first_name": "Maria",
+    "last_name": "Rodriguez",
+    "date_of_birth": "1972-11-08",
+    "gender": "Female",
+    "contact_phone": "+1-555-0789",
+    "contact_email": "maria.r@email.com"
+  },
+  "cancer_case": {
+    "cancer_type": "colorectal",
+    "diagnosis_date": "2026-01-20",
+    "tumor_location": "Rectum (8cm from anal verge)",
+    "tumor_size": "4.2 cm",
+    "histology": "Moderately differentiated adenocarcinoma",
+    "lymph_node_status": "3/15 nodes positive",
+    "metastasis_status": "M0 (no distant metastases)",
+    "cea_level": "12.5 ng/mL",
+    "stage": "Stage IIIB (T3N1bM0)",
+    "biomarkers": {
+      "KRAS": "Wild-type",
+      "NRAS": "Wild-type",
+      "BRAF": "Wild-type",
+      "MSI": "MSS (Microsatellite Stable)",
+      "MMR": "pMMR (proficient)"
+    },
+    "clinical_notes": "Patient presents with rectal bleeding and change in bowel habits. Colonoscopy reveals 4.2cm rectal mass 8cm from anal verge. Biopsy confirms moderately differentiated adenocarcinoma. MRI pelvis shows T3 tumor with mesorectal lymph node involvement. CT chest/abdomen/pelvis negative for distant metastases. CEA elevated at 12.5. Molecular testing shows MSS, pMMR, KRAS/NRAS/BRAF wild-type. Performance status ECOG 0."
+  },
+  "expected_treatment": "Neoadjuvant chemoradiation (FOLFOX + radiation), followed by total mesorectal excision (TME), then adjuvant chemotherapy (FOLFOX for 6 months)",
+  "expected_stage": "Stage IIIB",
+  "trial_eligibility": "Eligible for neoadjuvant therapy intensification trials, total neoadjuvant therapy trials, watch-and-wait strategy trials if complete response"
+}
