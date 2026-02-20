@@ -36,7 +36,7 @@ class Config:
     MEDASR_WER_TARGET = 4.6  # Word Error Rate target
     
     # MedGemma Settings
-    MEDGEMMA_MODEL = "gemini-2.0-flash-exp"
+    MEDGEMMA_MODEL = "gemini-1.5-pro-latest"
     MEDGEMMA_TEMPERATURE = 0.1
     MEDGEMMA_MAX_TOKENS = 8000
     

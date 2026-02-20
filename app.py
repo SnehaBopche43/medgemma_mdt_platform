@@ -8,7 +8,7 @@ from datetime import datetime
 from config import Config
 from src.database.db_manager import DatabaseManager
 from src.cancer_pipelines.cancer_selector import CancerSelector
-from src.agents.orchestrator import AgentOrchestrator
+from src.integration_adapter import IntegrationAdapter
 
 # Page configuration
 st.set_page_config(
@@ -24,7 +24,7 @@ if 'db_manager' not in st.session_state:
 if 'cancer_selector' not in st.session_state:
     st.session_state.cancer_selector = CancerSelector()
 if 'orchestrator' not in st.session_state:
-    st.session_state.orchestrator = AgentOrchestrator()
+    st.session_state.orchestrator = IntegrationAdapter()
 if 'current_case' not in st.session_state:
     st.session_state.current_case = None
 if 'analysis_results' not in st.session_state:

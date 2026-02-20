@@ -32,7 +32,7 @@ class MedASRMedGemmaIntegration:
         print("2️⃣  Loading MedGemma Clinical Analysis...")
         try:
             # Try to import your existing validation/QA system
-            from unified_validation_qa_system import UnifiedValidationQASystem as MedGemmaQA
+            from unified_validation_qa_system import MedGemmaQA
             self.medgemma = MedGemmaQA()
             print("✅ MedGemma QA system loaded\n")
         except ImportError:
