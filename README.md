@@ -2,6 +2,7 @@ MedGemma MDT Platform:
 Accelerating Cancer Care with Intelligent MDT Case Preparation
 
 
+
 🎯 Overview
 The MedGemma MDT Platform is an AI-powered clinical decision support system designed to automate Multidisciplinary Team (MDT) case preparation for cancer patients. Built by a radiologist for clinicians, this platform reduces case preparation time from 2-4 hours to just a few minutes while maintaining production-grade accuracy and consistency.
 
@@ -361,7 +362,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Sneha Bopche
 Radiologist | AI Enthusiast | Solo Developer
 
-•	🏥 Clinical Background: Practicing radiologist with expertise in longitudinal imaging analysis
+•	🏥 Clinical Background: Practicing radiologist with expertise in AI in Healthcare 
 •	💡 Vision: Leveraging AI to solve pressing problems in medicine
 •	🎯 Mission: Building production-grade clinical tools that save lives
 
@@ -387,8 +388,8 @@ This platform is a clinical decision support tool and should not replace profess
 
 
 
-<div align="center">  
-Built with ❤️ by a radiologist who believes AI can transform cancer care
+Built with great passion by a radiologist who believes AI can transform cancer care
 
 ⭐ Star this repo if you find it useful! ⭐
+
 
