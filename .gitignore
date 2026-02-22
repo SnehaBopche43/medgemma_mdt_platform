@@ -1,8 +1,30 @@
+# ============================================================================
+# MedGemma MDT Platform - Git Ignore File
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# Environment Variables & Secrets
+# ----------------------------------------------------------------------------
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets/
+credentials/
+
+# ----------------------------------------------------------------------------
 # Python
+# ----------------------------------------------------------------------------
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# C extensions
 *.so
+
+# Distribution / packaging
 .Python
 build/
 develop-eggs/
@@ -16,74 +38,234 @@ parts/
 sdist/
 var/
 wheels/
+pip-wheel-metadata/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
 
-# Virtual Environment
-venv/
-env/
-ENV/
-.venv
+# PyInstaller
+*.manifest
+*.spec
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Environment variables
-.env
-.env.local
-
-# API Keys and Secrets
-*.key
-*.pem
-secrets.json
-config.json
-
-# Model files (large files)
-*.pt
-*.pth
-*.h5
-*.pkl
-*.joblib
-models/
-checkpoints/
-
-# Data files (if large)
-data/raw/
-data/processed/
-*.csv
-*.xlsx
-*.db
-*.sqlite
-
-# Output files
-outputs/
-logs/
-*.log
-
-# OS
-Thumbs.db
-.DS_Store
-
-# Test coverage
+# Unit test / coverage reports
 htmlcov/
+.tox/
+.nox/
 .coverage
 .coverage.*
 .cache
 nosetests.xml
 coverage.xml
 *.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
 
-# Temporary files
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ----------------------------------------------------------------------------
+# Backup & Copy Files (IMPORTANT!)
+# ----------------------------------------------------------------------------
+*_backup.*
+*_copy.*
+*_old.*
+*_BACKUP_*
+*_CORRECTED.*
+*_FINAL.*
+*.bak
 *.tmp
-*.temp
-tmp/
+*~
+*.swp
+*.swo
+*_v1.*
+*_v2.*
+*_v3.*
+# Files with (1), (2), etc.
+* (1).*
+* (2).*
+* (3).*
+
+# ----------------------------------------------------------------------------
+# IDEs & Editors
+# ----------------------------------------------------------------------------
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# ----------------------------------------------------------------------------
+# Operating Systems
+# ----------------------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+.nfs*
+
+# ----------------------------------------------------------------------------
+# Project-Specific
+# ----------------------------------------------------------------------------
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+data/*.db
+
+# Log files
+logs/
+*.log
+*.log.*
+
+# Output files
+mdt_outputs/
+outputs/
+exports/
+*.pdf
+*.docx
+*.xlsx
+
+# Uploaded files
+uploads/
 temp/
+tmp/
+
+# Cache
+.cache/
+cache/
+
+# Models (if large)
+models/*.bin
+models/*.h5
+models/*.pt
+models/*.pth
+
+# ----------------------------------------------------------------------------
+# Documentation (Generated)
+# ----------------------------------------------------------------------------
+docs/_build/
+docs/.doctrees/
+
+# ----------------------------------------------------------------------------
+# Testing
+# ----------------------------------------------------------------------------
+.pytest_cache/
+.coverage
+htmlcov/
+test-results/
+
+# ----------------------------------------------------------------------------
+# Streamlit
+# ----------------------------------------------------------------------------
+.streamlit/secrets.toml
+
+# ----------------------------------------------------------------------------
+# Misc
+# ----------------------------------------------------------------------------
+*.zip
+*.tar.gz
+*.rar
+.vscode-upload.json
+sftp-config.json
