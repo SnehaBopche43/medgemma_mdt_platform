@@ -1,6 +1,7 @@
 """
 MedGemma MDT Platform - Main Streamlit Dashboard
 Comprehensive MDT case preparation with voice/manual/patient selection modes
+NOW SUPPORTS 8 CANCER TYPES!
 """
 import streamlit as st
 import os
@@ -29,6 +30,8 @@ if 'current_case' not in st.session_state:
     st.session_state.current_case = None
 if 'analysis_results' not in st.session_state:
     st.session_state.analysis_results = None
+if 'edit_mode' not in st.session_state:
+    st.session_state.edit_mode = False
 
 
 def main():
@@ -218,6 +221,130 @@ def manual_entry_mode():
             case_data['msi_status'] = st.selectbox("MSI Status", ["MSI-H", "MSS", "Unknown"], key="msi")
             case_data['cea_level'] = st.number_input("CEA Level (ng/mL)", 0.0, 1000.0, key="cea")
     
+    # ========== NEW CANCER TYPES START HERE ==========
+    
+    elif cancer_type == "prostate":
+        col1, col2 = st.columns(2)
+        with col1:
+            case_data['psa_level'] = st.number_input("PSA Level (ng/mL)", 0.0, 500.0, key="psa")
+            case_data['gleason_score'] = st.selectbox("Gleason Score",
+                ["6 (3+3)", "7 (3+4)", "7 (4+3)", "8 (4+4)", "9 (4+5)", "9 (5+4)", "10 (5+5)"],
+                key="gleason")
+            case_data['clinical_stage'] = st.selectbox("Clinical T Stage",
+                ["T1a", "T1b", "T1c", "T2a", "T2b", "T2c", "T3a", "T3b", "T4"],
+                key="prostate_t_stage")
+        with col2:
+            case_data['lymph_node_status'] = st.selectbox("Lymph Node Status",
+                ["N0", "N1", "Unknown"],
+                key="prostate_lymph_nodes")
+            case_data['metastasis_status'] = st.selectbox("Metastasis Status",
+                ["M0", "M1a", "M1b", "M1c", "Unknown"],
+                key="prostate_mets")
+            case_data['genomic_testing'] = st.selectbox("Genomic Testing",
+                ["Not Done", "Oncotype DX", "Decipher", "Prolaris", "Other"],
+                key="prostate_genomic")
+            case_data['brca_status'] = st.selectbox("BRCA1/2 Status",
+                ["Not Tested", "Negative", "BRCA1 Positive", "BRCA2 Positive"],
+                key="prostate_brca")
+    
+    elif cancer_type == "ovarian":
+        col1, col2 = st.columns(2)
+        with col1:
+            case_data['histology'] = st.selectbox("Histology",
+                ["High-Grade Serous", "Low-Grade Serous", "Endometrioid", "Clear Cell", "Mucinous", "Other"],
+                key="ovarian_histology")
+            case_data['figo_stage'] = st.selectbox("FIGO Stage",
+                ["IA", "IB", "IC1", "IC2", "IC3", "IIA", "IIB", "IIIA1", "IIIA2", "IIIB", "IIIC", "IVA", "IVB"],
+                key="figo_stage")
+            case_data['ca125_level'] = st.number_input("CA-125 Level (U/mL)", 0.0, 10000.0, key="ca125")
+        with col2:
+            case_data['residual_disease'] = st.selectbox("Residual Disease After Surgery",
+                ["No Residual", "<1 cm", "1-2 cm", ">2 cm", "Not Applicable"],
+                key="residual_disease")
+            case_data['brca_status'] = st.selectbox("BRCA1/2 Status",
+                ["Not Tested", "Negative", "BRCA1 Positive", "BRCA2 Positive"],
+                key="ovarian_brca")
+            case_data['hrd_status'] = st.selectbox("HRD Status",
+                ["Not Tested", "HRD Positive", "HRD Negative"],
+                key="hrd")
+            case_data['platinum_sensitivity'] = st.selectbox("Platinum Sensitivity",
+                ["Not Applicable", "Sensitive", "Resistant", "Refractory"],
+                key="platinum")
+    
+    elif cancer_type == "cervical":
+        col1, col2 = st.columns(2)
+        with col1:
+            case_data['histology'] = st.selectbox("Histology",
+                ["Squamous Cell Carcinoma", "Adenocarcinoma", "Adenosquamous", "Other"],
+                key="cervical_histology")
+            case_data['figo_stage'] = st.selectbox("FIGO Stage (2018)",
+                ["IA1", "IA2", "IB1", "IB2", "IB3", "IIA1", "IIA2", "IIB", "IIIA", "IIIB", "IIIC1", "IIIC2", "IVA", "IVB"],
+                key="cervical_figo")
+            case_data['tumor_size'] = st.text_input("Tumor Size (cm)", key="cervical_tumor_size")
+        with col2:
+            case_data['hpv_status'] = st.selectbox("HPV Status",
+                ["Positive", "Negative", "Unknown"],
+                key="hpv")
+            case_data['lymph_node_status'] = st.selectbox("Lymph Node Involvement",
+                ["Negative", "Pelvic Nodes", "Para-aortic Nodes", "Both", "Unknown"],
+                key="cervical_lymph_nodes")
+            case_data['parametrial_involvement'] = st.selectbox("Parametrial Involvement",
+                ["No", "Yes", "Unknown"],
+                key="parametrial")
+            case_data['pdl1_expression'] = st.number_input("PD-L1 CPS Score", 0, 100, key="cervical_pdl1")
+    
+    elif cancer_type == "uterine":
+        col1, col2 = st.columns(2)
+        with col1:
+            case_data['histology'] = st.selectbox("Histology",
+                ["Endometrioid", "Serous", "Clear Cell", "Carcinosarcoma", "Mixed", "Other"],
+                key="uterine_histology")
+            case_data['figo_stage'] = st.selectbox("FIGO Stage (2023)",
+                ["IA", "IB", "II", "IIIA", "IIIB", "IIIC1", "IIIC2", "IVA", "IVB"],
+                key="uterine_figo")
+            case_data['grade'] = st.selectbox("Grade",
+                ["Grade 1", "Grade 2", "Grade 3"],
+                key="uterine_grade")
+        with col2:
+            case_data['molecular_classification'] = st.selectbox("Molecular Classification (ProMisE)",
+                ["Not Done", "POLE Mutated", "MMR Deficient", "p53 Abnormal", "NSMP"],
+                key="molecular_class")
+            case_data['msi_status'] = st.selectbox("MSI/MMR Status",
+                ["Not Tested", "MSI-H/dMMR", "MSS/pMMR"],
+                key="uterine_msi")
+            case_data['myometrial_invasion'] = st.selectbox("Myometrial Invasion",
+                ["<50%", "≥50%", "Unknown"],
+                key="myometrial")
+            case_data['lymphovascular_invasion'] = st.selectbox("Lymphovascular Invasion",
+                ["Absent", "Present", "Unknown"],
+                key="lvsi")
+    
+    elif cancer_type == "esophageal":
+        col1, col2 = st.columns(2)
+        with col1:
+            case_data['histology'] = st.selectbox("Histology",
+                ["Adenocarcinoma", "Squamous Cell Carcinoma", "Other"],
+                key="esoph_histology")
+            case_data['tumor_location'] = st.selectbox("Tumor Location",
+                ["Upper Third", "Middle Third", "Lower Third", "GE Junction"],
+                key="esoph_location")
+            case_data['clinical_stage'] = st.selectbox("Clinical T Stage",
+                ["T1a", "T1b", "T2", "T3", "T4a", "T4b"],
+                key="esoph_t_stage")
+        with col2:
+            case_data['lymph_node_status'] = st.selectbox("Lymph Node Status",
+                ["N0", "N1", "N2", "N3", "Unknown"],
+                key="esoph_lymph_nodes")
+            case_data['metastasis_status'] = st.selectbox("Metastasis Status",
+                ["M0", "M1", "Unknown"],
+                key="esoph_mets")
+            case_data['her2_status'] = st.selectbox("HER2 Status (Adenocarcinoma)",
+                ["Not Tested", "Positive", "Negative"],
+                key="esoph_her2")
+            case_data['pdl1_cps'] = st.number_input("PD-L1 CPS Score", 0, 100, key="esoph_pdl1")
+    
+    # ========== NEW CANCER TYPES END HERE ==========
+    
     st.markdown("---")
     
     # Additional Clinical Notes
@@ -257,191 +384,259 @@ def patient_selection_mode():
         patients = st.session_state.db_manager.get_all_patients()
     
     if patients:
-        st.success(f"Found {len(patients)} patient(s)")
+        # Display patients in a table
+        st.subheader(f"Found {len(patients)} patient(s)")
         
-        # Display patients in table
-        patient_data = []
-        for p in patients:
-            patient_data.append({
-                'Patient ID': p.patient_id,
-                'Name': f"{p.first_name} {p.last_name}",
-                'DOB': p.date_of_birth,
-                'Gender': p.gender
-            })
-        
-        selected_patient = st.selectbox(
-            "Select Patient",
-            range(len(patients)),
-            format_func=lambda i: f"{patients[i].patient_id} - {patients[i].first_name} {patients[i].last_name}"
-        )
-        
-        if selected_patient is not None:
-            patient = patients[selected_patient]
-            
-            # Display patient details
-            st.subheader("Patient Details")
-            col1, col2, col3 = st.columns(3)
-            with col1:
-                st.metric("Patient ID", patient.patient_id)
-                st.metric("Name", f"{patient.first_name} {patient.last_name}")
-            with col2:
-                st.metric("DOB", patient.date_of_birth)
-                st.metric("Gender", patient.gender)
-            with col3:
-                st.metric("Contact", patient.contact_phone or "N/A")
-            
-            # Get patient cases
-            cases = st.session_state.db_manager.get_patient_cases(patient.patient_id)
-            
-            if cases:
-                st.subheader(f"Cancer Cases ({len(cases)})")
-                for case in cases:
-                    with st.expander(f"{case.cancer_type.title()} Cancer - {case.diagnosis_date}"):
-                        st.write(f"**Stage:** {case.stage}")
-                        st.write(f"**Histology:** {case.histology}")
-                        st.write(f"**Status:** {case.status}")
-                        
-                        if st.button(f"Analyze This Case", key=f"analyze_{case.id}"):
-                            # Load case data and analyze
-                            case_data = {
-                                'patient_id': patient.patient_id,
-                                'cancer_type': case.cancer_type,
-                                'stage': case.stage,
-                                'histology': case.histology,
-                                'biomarkers': case.biomarkers
-                            }
-                            
-                            with st.spinner("Running analysis..."):
-                                results = st.session_state.orchestrator.analyze_case(case_data, case.cancer_type)
-                                st.session_state.analysis_results = results
-                                display_analysis_results(results)
-            else:
-                st.info("No cancer cases found for this patient")
-                if st.button("➕ Add New Case"):
-                    st.session_state.selected_patient = patient
-                    st.rerun()
+        for patient in patients:
+            with st.expander(f"👤 {patient['first_name']} {patient['last_name']} - {patient['patient_id']}"):
+                col1, col2, col3 = st.columns(3)
+                with col1:
+                    st.markdown(f"**Patient ID:** {patient['patient_id']}")
+                    st.markdown(f"**Name:** {patient['first_name']} {patient['last_name']}")
+                with col2:
+                    st.markdown(f"**DOB:** {patient.get('dob', 'N/A')}")
+                    st.markdown(f"**Gender:** {patient.get('gender', 'N/A')}")
+                with col3:
+                    st.markdown(f"**Cancer Type:** {patient.get('cancer_type', 'N/A').title()}")
+                    st.markdown(f"**Diagnosis Date:** {patient.get('diagnosis_date', 'N/A')}")
+                
+                if st.button(f"Select Patient {patient['patient_id']}", key=f"select_{patient['patient_id']}"):
+                    st.session_state.current_case = patient
+                    st.success(f"Selected patient: {patient['first_name']} {patient['last_name']}")
+                    
+                    # Run analysis for selected patient
+                    with st.spinner("Running multi-agent analysis..."):
+                        results = st.session_state.orchestrator.analyze_case(
+                            patient,
+                            patient.get('cancer_type', 'breast')
+                        )
+                        st.session_state.analysis_results = results
+                        display_analysis_results(results)
     else:
-        st.info("No patients found. Add a new patient using Manual Entry mode.")
+        st.info("No patients found. Add patients using Manual Entry mode.")
 
 
 def cancer_type_info_mode():
-    """Cancer type information and pipeline details"""
+    """Display cancer type information"""
     st.header("🔬 Cancer Type Information")
-    st.markdown("View cancer-specific pipelines and requirements")
+    st.markdown("View supported cancer types and their clinical parameters")
     
     cancer_type = st.selectbox(
         "Select Cancer Type",
         Config.CANCER_TYPES,
-        format_func=lambda x: x.title()
+        format_func=lambda x: x.title(),
+        key="info_cancer_type"
     )
     
     pipeline = st.session_state.cancer_selector.get_pipeline(cancer_type)
     
-    if pipeline:
-        st.subheader(f"{cancer_type.title()} Cancer Pipeline")
-        
-        col1, col2 = st.columns(2)
-        
-        with col1:
-            st.markdown("### Required Clinical Fields")
+    st.subheader(f"{cancer_type.title()} Cancer")
+    
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        st.markdown("### Required Clinical Fields")
+        if hasattr(pipeline, 'required_fields'):
             for field in pipeline.required_fields:
                 st.markdown(f"- {field.replace('_', ' ').title()}")
-        
-        with col2:
-            st.markdown("### Key Biomarkers")
+        else:
+            st.info("Field information not available")
+    
+    with col2:
+        st.markdown("### Key Biomarkers")
+        if hasattr(pipeline, 'biomarkers'):
             for biomarker in pipeline.biomarkers:
                 st.markdown(f"- {biomarker}")
-        
-        st.markdown("---")
-        st.markdown(f"### Staging System")
-        st.info(f"**{pipeline.staging_system}**")
-        
-        # Mock treatment options
-        st.markdown("### Treatment Modalities")
-        mock_stage = "Stage II"
-        mock_biomarkers = {}
-        treatments = pipeline.get_treatment_options(mock_stage, mock_biomarkers)
-        for treatment in treatments:
-            st.markdown(f"- {treatment}")
+        else:
+            st.info("Biomarker information not available")
+    
+    st.markdown("---")
+    st.markdown("### Staging System")
+    if hasattr(pipeline, 'staging_system'):
+        st.info(pipeline.staging_system)
+    else:
+        st.info("Staging information not available")
 
 
 def display_analysis_results(results):
-    """Display comprehensive analysis results"""
+    """Display multi-agent analysis results"""
     st.markdown("---")
     st.header("📊 Multi-Agent Analysis Results")
     
-    # Tabs for different agents
-    tab1, tab2, tab3, tab4, tab5 = st.tabs([
-        "📋 Summary", 
-        "🎯 Staging", 
-        "💊 Treatment Plan", 
+    # Edit mode toggle
+    col1, col2 = st.columns([6, 1])
+    with col2:
+        if st.button("✏️ Edit Results" if not st.session_state.edit_mode else "💾 Save Changes"):
+            st.session_state.edit_mode = not st.session_state.edit_mode
+            st.rerun()
+    
+    # Create tabs for different analysis components
+    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
+        "📄 Summary",
+        "🎯 Staging",
+        "💊 Treatment Plan",
         "🔬 Clinical Trials",
-        "📄 Case Brief"
+        "📚 References",
+        "📋 Case Brief"
     ])
     
     with tab1:
         st.subheader("Clinical Summary")
-        if 'clinical_summary' in results['agents']:
-            summary = results['agents']['clinical_summary']
-            st.markdown(summary.get('summary', 'No summary available'))
+        if 'agents' in results and 'clinical_summary' in results['agents']:
+            summary_data = results['agents']['clinical_summary']
             
-            if summary.get('missing_data'):
-                st.warning("⚠️ Missing Information:")
-                for item in summary['missing_data']:
-                    st.markdown(f"- {item}")
+            if st.session_state.edit_mode:
+                edited_summary = st.text_area(
+                    "Edit Summary",
+                    summary_data.get('summary', ''),
+                    height=200,
+                    key="edit_summary"
+                )
+                summary_data['summary'] = edited_summary
+            else:
+                st.markdown(summary_data.get('summary', 'No summary available'))
+            
+            st.markdown("---")
+            st.markdown("**Key Findings:**")
+            findings = summary_data.get('key_findings', [])
+            if findings:
+                for finding in findings:
+                    st.markdown(f"- {finding}")
+            else:
+                st.info("No key findings identified")
+        else:
+            st.info("Clinical summary not available")
     
     with tab2:
         st.subheader("Cancer Staging (AJCC 8th Edition)")
-        if 'staging' in results['agents']:
-            staging = results['agents']['staging']
+        if 'agents' in results and 'staging' in results['agents']:
+            staging_data = results['agents']['staging']
+            
             col1, col2, col3, col4 = st.columns(4)
             with col1:
-                st.metric("Stage", staging.get('stage', 'Unknown'))
+                st.metric("Stage", staging_data.get('stage', 'Unknown'))
             with col2:
-                st.metric("T Stage", staging.get('tnm', {}).get('T', 'Unknown'))
+                st.metric("T Stage", staging_data.get('tnm', {}).get('T', 'Unknown'))
             with col3:
-                st.metric("N Stage", staging.get('tnm', {}).get('N', 'Unknown'))
+                st.metric("N Stage", staging_data.get('tnm', {}).get('N', 'Unknown'))
             with col4:
-                st.metric("M Stage", staging.get('tnm', {}).get('M', 'Unknown'))
+                st.metric("M Stage", staging_data.get('tnm', {}).get('M', 'Unknown'))
             
+            st.markdown("---")
             st.markdown("**Rationale:**")
-            st.info(staging.get('rationale', 'No rationale provided'))
+            
+            if st.session_state.edit_mode:
+                edited_rationale = st.text_area(
+                    "Edit Staging Rationale",
+                    staging_data.get('rationale', ''),
+                    height=150,
+                    key="edit_staging_rationale"
+                )
+                staging_data['rationale'] = edited_rationale
+            else:
+                st.markdown(staging_data.get('rationale', 'No rationale provided'))
+        else:
+            st.info("Staging information not available")
     
     with tab3:
-        st.subheader("Treatment Recommendations")
-        if 'treatment' in results['agents']:
-            treatment = results['agents']['treatment']
-            st.markdown("**Primary Recommendation:**")
-            st.success(treatment.get('primary_recommendation', 'No recommendation available'))
+        st.subheader("Treatment Plan")
+        if 'agents' in results and 'treatment' in results['agents']:
+            treatment_data = results['agents']['treatment']
             
-            st.markdown("**Alternative Options:**")
-            for alt in treatment.get('alternatives', []):
-                st.markdown(f"- {alt}")
+            st.markdown("### Primary Recommendation")
+            if st.session_state.edit_mode:
+                edited_primary = st.text_area(
+                    "Edit Primary Recommendation",
+                    treatment_data.get('primary_recommendation', ''),
+                    height=100,
+                    key="edit_primary_treatment"
+                )
+                treatment_data['primary_recommendation'] = edited_primary
+            else:
+                st.markdown(treatment_data.get('primary_recommendation', 'No recommendation available'))
             
+            st.markdown("---")
+            st.markdown("### Alternative Treatments")
+            alternatives = treatment_data.get('alternatives', [])
+            if alternatives:
+                for i, alt in enumerate(alternatives, 1):
+                    st.markdown(f"{i}. {alt}")
+            else:
+                st.info("No alternative treatments identified")
+            
+            st.markdown("---")
             st.markdown("**Rationale:**")
-            with st.expander("View detailed rationale"):
-                st.markdown(treatment.get('rationale', 'No rationale provided'))
+            if st.session_state.edit_mode:
+                edited_treatment_rationale = st.text_area(
+                    "Edit Treatment Rationale",
+                    treatment_data.get('rationale', ''),
+                    height=150,
+                    key="edit_treatment_rationale"
+                )
+                treatment_data['rationale'] = edited_treatment_rationale
+            else:
+                st.markdown(treatment_data.get('rationale', 'No rationale provided'))
+        else:
+            st.info("Treatment plan not available")
     
     with tab4:
         st.subheader("Clinical Trial Matches")
-        if 'trial_matching' in results['agents']:
-            trials = results['agents']['trial_matching']
-            for trial in trials.get('top_matches', []):
-                with st.expander(f"🔬 {trial['trial_id']} - Score: {trial['eligibility_score']:.0%}"):
-                    st.markdown(f"**Title:** {trial['title']}")
-                    st.markdown(f"**Location:** {trial['location']}")
-                    st.markdown(f"**Eligibility Score:** {trial['eligibility_score']:.0%}")
+        if 'trial_matching' in results.get('agents', {}):
+            trial_data = results['agents']['trial_matching']
+            trials = trial_data.get('matching_trials', [])
+            
+            if trials:
+                for trial in trials:
+                    with st.expander(f"🔬 {trial.get('trial_id', 'N/A')} - {trial.get('title', 'Untitled')} (Eligibility: {trial.get('eligibility_score', 0):.0%})"):
+                        col1, col2 = st.columns(2)
+                        with col1:
+                            st.markdown(f"**Phase:** {trial.get('phase', 'N/A')}")
+                            st.markdown(f"**Status:** {trial.get('status', 'N/A')}")
+                        with col2:
+                            st.markdown(f"**Location:** {trial.get('location', 'N/A')}")
+                            st.markdown(f"**Eligibility Score:** {trial.get('eligibility_score', 0):.0%}")
+                        
+                        if st.session_state.edit_mode:
+                            st.markdown("---")
+                            st.markdown("*Trial details can be edited in the database*")
+            else:
+                st.info("No matching clinical trials found for this case.")
+        else:
+            st.info("Clinical trial matching data not available.")
     
     with tab5:
+        st.subheader("📚 References")
+        if 'synthesis' in results and 'references' in results['synthesis']:
+            references = results['synthesis']['references']
+            
+            if st.session_state.edit_mode:
+                st.markdown("**Edit References (one per line):**")
+                references_text = '\n'.join(references)
+                edited_references = st.text_area(
+                    "References",
+                    references_text,
+                    height=200,
+                    key="edit_references"
+                )
+                results['synthesis']['references'] = [ref.strip() for ref in edited_references.split('\n') if ref.strip()]
+            else:
+                if references:
+                    for i, ref in enumerate(references, 1):
+                        st.markdown(f"{i}. {ref}")
+                else:
+                    st.info("No references available")
+        else:
+            st.info("References not available")
+    
+    with tab6:
         st.subheader("MDT Case Brief")
         if 'synthesis' in results:
             synthesis = results['synthesis']
             
             # Generate case brief
-            brief = f"""
-# MDT Case Brief
+            brief = f"""# MDT Case Brief
 
-**Cancer Type:** {results['cancer_type'].title()}
+**Cancer Type:** {results.get('cancer_type', 'N/A').title()}
 **Date:** {datetime.now().strftime('%Y-%m-%d')}
 
 ## Clinical Summary
@@ -450,6 +645,12 @@ def display_analysis_results(results):
 ## Staging
 **Stage:** {synthesis.get('stage', 'Unknown')}
 
+Here's the reasoning:
+
+The key information pointing to {synthesis.get('stage', 'Unknown')} is:
+
+{synthesis.get('summary', 'Clinical analysis provided above')}
+
 ## Recommended Treatment
 {synthesis.get('recommended_treatment', 'N/A')}
 
@@ -457,16 +658,23 @@ def display_analysis_results(results):
 {chr(10).join(['- ' + alt for alt in synthesis.get('alternative_treatments', [])])}
 
 ## Clinical Trials
-{chr(10).join(['- ' + trial['trial_id'] + ': ' + trial['title'] for trial in synthesis.get('clinical_trials', [])])}
+{chr(10).join(['- ' + trial.get('trial_id', 'N/A') + ': ' + trial.get('title', 'N/A') for trial in synthesis.get('clinical_trials', [])])}
 
 ## Missing Information
 {chr(10).join(['- ' + item for item in synthesis.get('missing_information', [])]) or 'None'}
+
+## References
+{chr(10).join([f'{i}. {ref}' for i, ref in enumerate(synthesis.get('references', []), 1)])}
 
 ## Confidence Level
 {synthesis.get('confidence_level', 0):.0%}
 """
             
-            st.markdown(brief)
+            if st.session_state.edit_mode:
+                edited_brief = st.text_area("Edit Case Brief", brief, height=600, key="edit_brief")
+                brief = edited_brief
+            else:
+                st.markdown(brief)
             
             # Download button
             st.download_button(
