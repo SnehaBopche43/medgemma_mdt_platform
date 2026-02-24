@@ -34,8 +34,8 @@ An intelligent, multi-agent AI system that:
 *   ✍️ **Manual Entry**: Structured forms for precise clinical parameter input
 *   🗄️ **Database Integration**: Connect to existing patient databases for seamless data retrieval
 
-### 2. Sophisticated Multi-Agent Architecture
-Our platform employs 7 specialized AI agents working collaboratively:
+### 2. Multi-Agent Architecture
+Our platform employs 8 specialized AI agents working collaboratively:
 
 | Agent | Function |
 | :--- | :--- |
@@ -44,8 +44,9 @@ Our platform employs 7 specialized AI agents working collaboratively:
 | **Clinical Synthesis Agent** | Powered by MedGemma to generate diagnosis, treatment recommendations, and rationale |
 | **Longitudinal Analysis Agent** | Tracks patient data over time, analyzing disease trajectory and biomarker trends |
 | **Referencing Agent** | Cross-references with 24+ clinical trials and NCCN/Cancer.org guidelines |
-| **Image Analysis Agent** | Analyzes medical images (mammograms, CT scans) for key radiological findings |
+| **Image Analysis Agent** | Analyzes medical images (mammograms, CT scans) for key radiological findings (in development for select cancer types) |
 | **Validation Agent** | Performs 5-point quality check and triggers retry if standards not met |
+| **QA & Review Agent** | Final quality assurance and human-in-the-loop review coordination |
 
 ### 3. Comprehensive Cancer Coverage
 Supports 8 major cancer types (>80% of new diagnoses):
@@ -84,7 +85,7 @@ This provides a dynamic view of the patient's journey, essential for radiologist
 *   **Automated PHI Redaction**: 8 categories of Protected Health Information automatically removed
 *   **Multi-Layered Validation**: Quality checks at every step
 *   **Audit Trail**: Complete logging for compliance verification
-*   **HIPAA-Ready Architecture**: Built with regulatory compliance as a foundational principle
+*   **HIPAA-Ready Architecture**: Designed with regulatory compliance as a foundational principle
 
 ## 🏗️ Technical Architecture
 
@@ -101,10 +102,13 @@ This provides a dynamic view of the patient's journey, essential for radiologist
 INPUT LAYER (Voice, Manual Entry, DB)
            |
            ▼
-MULTI-AGENT PROCESSING (7 Agents)
+MULTI-AGENT PROCESSING (8 Agents)
            |
            ▼
 OUTPUT LAYER (MDT Brief, Trials, References)
+           |
+           ▼
+HUMAN-IN-THE-LOOP (Clinician Review & Edit)
 ```
 
 ## 📦 Installation
@@ -118,8 +122,8 @@ OUTPUT LAYER (MDT Brief, Trials, References)
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/medgemma-mdt-platform.git
-cd medgemma-mdt-platform
+git clone https://github.com/SnehaBopche43/medgemma_mdt_platform.git
+cd medgemma_mdt_platform
 ```
 
 **2. Install dependencies**
@@ -178,8 +182,32 @@ Open your browser and navigate to `http://localhost:8501`
 
 ## 🧪 Testing & Validation
 
-The platform has undergone rigorous testing to ensure reliability and accuracy. Our validation process includes consistency checks across multiple runs and verification against established clinical guidelines. The deterministic staging calculator guarantees 100% accuracy, providing a trustworthy foundation for clinical decision-making.
+The platform has undergone rigorous testing with synthetic clinical cases to ensure reliability and accuracy. Our validation process includes consistency checks across multiple runs and verification against established clinical guidelines. The deterministic staging calculator guarantees 100% accuracy, providing a trustworthy foundation for clinical decision-making. Further validation with real clinical data and clinician feedback will be important steps before deployment in live hospital environments.
+
+## 📊 Current Status
+
+This is a **production-ready prototype** that has been rigorously tested and is suitable for pilot deployment in clinical settings. It is not yet deployed in a live hospital environment but is designed to be deployable with appropriate institutional review and approval.
+
+## 🔮 Future Vision
+
+The platform's architecture provides a foundation for potential evolution toward predictive and precision medicine:
+
+*   **MCP Integration**: Planned enhancement for unified context sharing between agents
+*   **Federated Learning**: Potential for privacy-preserving multi-institutional training
+*   **Predictive Analytics**: Possible evolution toward treatment response prediction based on historical data
+
+## 🤝 Contributing
+
+We welcome contributions from the community! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## 📜 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## 📧 Contact
+
+For questions, feedback, or collaboration opportunities, please open an issue on GitHub or contact the developer at snehabopche@gmail.com
+
+---
+
+
