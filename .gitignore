@@ -269,3 +269,7 @@ test-results/
 *.rar
 .vscode-upload.json
 sftp-config.json
+
+.env
+__pycache__/
+*.pyc
